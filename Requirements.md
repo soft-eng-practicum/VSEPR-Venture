@@ -1,4 +1,4 @@
-##- = REQUIREMENTS OVERVIEW = -
+##REQUIREMENTS OVERVIEW
 
 **From client:**
 - Correctly implement VSEPR into the game.
