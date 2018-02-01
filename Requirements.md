@@ -21,3 +21,7 @@
 - User must be able to interact with the VSEPR gates, which display a VSEPR model. (HIGH)
 - User must be able to move their collected elements into the slots of the VSEPR model to match the given formula. (HIGH)
 - Optional: Create bonus features. (Credits, cosmetics) (MEDIUM)
+
+**Non-Functional**
+- Game must be able to run at a constant 60 FPS on current/modern machines
+- Game should be completed by the due date of Monday April 23rd, 2018
