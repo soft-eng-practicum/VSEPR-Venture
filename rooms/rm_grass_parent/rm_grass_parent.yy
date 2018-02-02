@@ -2,7 +2,7 @@
 {
     "name": "rm_grass_parent",
     "id": "e2c9b4f2-77a8-479f-822d-f6f45319bd95",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -225,7 +225,7 @@
         "id": "82887740-d57d-431a-9db2-955d3a7068fd",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"
