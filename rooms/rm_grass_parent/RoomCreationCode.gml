@@ -13,7 +13,6 @@ if(global.MonitorW >= 3200 && global.MonitorH >= 1800)
 	//global.Xoffset = (global.MonitorW-1920)/2;
 	//global.Yoffset = (global.MonitorH-1440)/2;
 	
-	global.Xoffset = global.MonitorW/2;
-	global.Yoffset = global.MonitorH/2;
+	window_set_position(global.MonitorW/3, global.MonitorH/3);
 }
 
