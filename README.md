@@ -13,7 +13,9 @@
 ***
 
 **Members:**
-1. *Viktor Gutsu*
-   1.1 blah blah
-2. *Sasa Mitrovic*
-3. *Jason Yu*
+* *Viktor Gutsu*
+   1. soemthing
+* *Sasa Mitrovic*
+   1. soemthing
+* *Jason Yu*
+   1. soemthing
