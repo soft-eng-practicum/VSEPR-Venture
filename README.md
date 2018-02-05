@@ -1,17 +1,18 @@
-#TEAM ENIGMA PROJECT README
+# TEAM ENIGMA PROJECT README
 
-Team Name: Enigma
-Project Name: Undecided
+**Team Name:** Enigma
+**Project Name:** Undecided :grey_question:	
 
-Repository Location: https://github.com/soft-eng-practicum/enigma
+**Repository Location:** https://github.com/soft-eng-practicum/enigma
 
-Progress Tracking Tool: NA
+**Progress Tracking Tool:** NA
 
-Communication Tools: Discord, Slack
+**Communication Tools:** Discord, Slack
 
 ***
 
-Members:
-1. Viktor Gutsu
-2. Sasa Mitrovic
-3. Jason Yu
+**Members:**
+1. *Viktor Gutsu*
+  *blah blah
+2. *Sasa Mitrovic*
+3. *Jason Yu*
