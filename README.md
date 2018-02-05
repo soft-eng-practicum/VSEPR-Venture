@@ -14,8 +14,8 @@
 
 **Members:**
 * *Viktor Gutsu*
-   1. soemthing
+            1. soemthing
 * *Sasa Mitrovic*
-   1. soemthing
+            1. soemthing
 * *Jason Yu*
-   1. soemthing
+            1. soemthing
