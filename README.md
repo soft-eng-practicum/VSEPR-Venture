@@ -2,7 +2,7 @@
 
 **Team Name:** Enigma
 
-**Project Name:** Undecided :grey_question:	
+**Project Name:** :grey_question:	Undecided :grey_question:	
 
 **Repository Location:** https://github.com/soft-eng-practicum/enigma
 
