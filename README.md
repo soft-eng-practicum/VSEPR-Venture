@@ -20,6 +20,6 @@
 * ***Sasa***
   1. Documentation Lead
   2. Data Modeler
-* ***Jason***
+* ***Jason Yu***
   1. Testing Lead
   2. UI/UX Design
