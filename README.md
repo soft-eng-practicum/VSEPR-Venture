@@ -1,6 +1,7 @@
 # TEAM ENIGMA PROJECT README
 
 **Team Name:** Enigma
+
 **Project Name:** Undecided :grey_question:	
 
 **Repository Location:** https://github.com/soft-eng-practicum/enigma
@@ -13,6 +14,6 @@
 
 **Members:**
 1. *Viktor Gutsu*
-  *blah blah
+   1.1 blah blah
 2. *Sasa Mitrovic*
 3. *Jason Yu*
