@@ -17,7 +17,7 @@
   1. Team Manager
   2. Lead Programmer
   3. Client Liaison
-* ***Sasa***
+* ***Sasa Mitrovic***
   1. Documentation Lead
   2. Data Modeler
 * ***Jason Yu***
