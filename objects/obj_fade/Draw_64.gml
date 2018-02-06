@@ -21,5 +21,5 @@ else
 	}
 }
 
-draw_rectangle(0, 0, view_wport * 2, view_hport * 2, false);
+draw_rectangle(0, 0, view_wport * 4, view_hport * 4, false);
 draw_set_alpha(1);
