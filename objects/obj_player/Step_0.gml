@@ -2,9 +2,12 @@
 get_input();
 depth = -y;
 
-if( i!instance_exists(obj_fade)){
+if(!instance_exists(obj_fade))
+{
 	script_execute(state);
-}else {
-image_index = 0;	
+}
+else 
+{
+	image_index = 0;	
 }
 
