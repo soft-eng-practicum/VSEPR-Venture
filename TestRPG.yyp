@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "020cc9be-d7dc-492a-966b-bec4488bb69b",
+            "Value": {
+                "id": "66828244-0fbd-4467-a073-ea0a2388110c",
+                "resourcePath": "scripts\\fadeout\\fadeout.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "03bbb150-6623-49d9-bf8f-5cbaf5b35f94",
             "Value": {
                 "id": "0839bd73-d792-49e5-9651-aa5afeb3d8e5",
@@ -44,6 +52,14 @@
                 "id": "d11edca6-71e6-4ad4-babf-6a327186951b",
                 "resourcePath": "sprites\\spr_path_tiles\\spr_path_tiles.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "03f506f3-0727-46ac-8ac5-1b9d714f622f",
+            "Value": {
+                "id": "149fd578-6d02-4442-a53a-fb1f66a53168",
+                "resourcePath": "objects\\obj_warp\\obj_warp.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -132,6 +148,14 @@
                 "id": "414800f4-eeab-4cc4-8992-16df2a3a7faf",
                 "resourcePath": "views\\37dde495-e0fa-4fa9-8a58-6e4360a035a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "391e200a-2346-4cc7-a086-d952eb1316c7",
+            "Value": {
+                "id": "a9094104-0776-4018-89cc-d4e4da9d3f51",
+                "resourcePath": "objects\\obj_fade\\obj_fade.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,6 +367,14 @@
             }
         },
         {
+            "Key": "b3063ee3-f372-42d6-af37-90541511c91c",
+            "Value": {
+                "id": "a2f619ac-853d-4c14-9737-e37abfda04c4",
+                "resourcePath": "sprites\\spr_warp\\spr_warp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b77240b2-245e-48ff-a754-0b4b0fc41aac",
             "Value": {
                 "id": "14281feb-4207-44f1-8528-99ebe8663e8b",
@@ -474,7 +506,8 @@
     "script_order": [
         "b77240b2-245e-48ff-a754-0b4b0fc41aac",
         "79c10426-9765-463c-9069-a42c98e21e47",
-        "1cd163d9-4dad-4f10-9bb7-214e8bcb137a"
+        "1cd163d9-4dad-4f10-9bb7-214e8bcb137a",
+        "020cc9be-d7dc-492a-966b-bec4488bb69b"
     ],
     "tutorial": ""
 }
