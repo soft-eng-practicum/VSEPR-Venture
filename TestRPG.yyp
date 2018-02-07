@@ -199,14 +199,6 @@
             }
         },
         {
-            "Key": "439d30c4-dad9-42e8-a2b9-5c1ad4b164a0",
-            "Value": {
-                "id": "7525ab4c-c88d-4b15-b8c7-9227a933023f",
-                "resourcePath": "objects\\obj_water\\obj_water.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4d144225-d340-4759-9823-1ae9cdb0c96b",
             "Value": {
                 "id": "b6750b71-cd3b-4c80-9d8d-64d24b36af58",
@@ -412,6 +404,14 @@
                 "id": "14281feb-4207-44f1-8528-99ebe8663e8b",
                 "resourcePath": "scripts\\get_input\\get_input.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bba9802b-38fb-4e20-9708-5c9abdaa569d",
+            "Value": {
+                "id": "6a6223b4-5299-4015-a2de-2692085ff7ea",
+                "resourcePath": "objects\\obj_water\\obj_water.yy",
+                "resourceType": "GMObject"
             }
         },
         {
