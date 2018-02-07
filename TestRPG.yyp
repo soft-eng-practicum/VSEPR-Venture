@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "439d30c4-dad9-42e8-a2b9-5c1ad4b164a0",
+            "Value": {
+                "id": "7525ab4c-c88d-4b15-b8c7-9227a933023f",
+                "resourcePath": "objects\\obj_water\\obj_water.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4d144225-d340-4759-9823-1ae9cdb0c96b",
             "Value": {
                 "id": "b6750b71-cd3b-4c80-9d8d-64d24b36af58",
@@ -276,6 +284,14 @@
                 "id": "c06e7abe-2157-4e63-b495-08c6c2e58aaf",
                 "resourcePath": "views\\77e3415f-a744-4162-9f9d-f3423530f3ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7965d567-f305-448f-a438-f792de1c11fd",
+            "Value": {
+                "id": "9b1a4679-220a-4833-aa40-4342c26f9bd9",
+                "resourcePath": "sprites\\spr_water\\spr_water.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
