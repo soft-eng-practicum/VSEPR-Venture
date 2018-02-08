@@ -1,19 +1,10 @@
 {
-    "id": "266c9a60-05e5-4621-a1cc-3937c8a9f165",
+    "id": "bba9802b-38fb-4e20-9708-5c9abdaa569d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_test_ele_2",
+    "name": "obj_water",
     "eventList": [
-        {
-            "id": "13de6d20-e184-4c20-a69b-d942b540d2c9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "266c9a60-05e5-4621-a1cc-3937c8a9f165"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "27ae4da2-b37e-48d6-a4b3-a108084d13d1",
+    "spriteId": "7965d567-f305-448f-a438-f792de1c11fd",
     "visible": true
 }
