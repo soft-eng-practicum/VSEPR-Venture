@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "3dddeed9-49eb-49b5-9173-59a54c01d05a",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "77e3415f-a744-4162-9f9d-f3423530f3ef",
             "Value": {
                 "id": "c06e7abe-2157-4e63-b495-08c6c2e58aaf",
