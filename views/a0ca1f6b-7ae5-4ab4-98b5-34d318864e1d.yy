@@ -5,7 +5,8 @@
     "name": "a0ca1f6b-7ae5-4ab4-98b5-34d318864e1d",
     "children": [
         "8c734c37-d28a-4809-a89f-be720fd65136",
-        "27ae4da2-b37e-48d6-a4b3-a108084d13d1"
+        "27ae4da2-b37e-48d6-a4b3-a108084d13d1",
+        "16c0d457-03e8-4a3c-95ce-59b262f40593"
     ],
     "filterType": "GMSprite",
     "folderName": "Elements",
