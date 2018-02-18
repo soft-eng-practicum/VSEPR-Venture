@@ -2,7 +2,7 @@
 depth = 2;
 if(!instance_exists(obj_inventory_gui))
 {
-	inventoryDisplay = instance_create_depth(0, 0, depth - 1, obj_inventory_gui);
+	inventoryDisplay = instance_create_depth(0, 0, depth - 1000, obj_inventory_gui);
 	with(inventoryDisplay)
 	{
 		x = sprite_get_xoffset(sprite_index);
@@ -12,4 +12,7 @@ if(!instance_exists(obj_inventory_gui))
 else
 {
 	instance_destroy(obj_inventory_gui);	
+	repeat(2)
+		instance_destroy(obj_button);
+		instance_destroy(obj_order);
 }
