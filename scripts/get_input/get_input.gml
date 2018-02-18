@@ -1,4 +1,4 @@
-/// @Desc get_input()
+/// @Desc get_input() for player movement
 rKey = max(keyboard_check(vk_right), keyboard_check(ord("D")), 0);
 lKey = max(keyboard_check(vk_left), keyboard_check(ord("A")), 0);
 

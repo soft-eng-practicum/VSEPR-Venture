@@ -1,4 +1,4 @@
-/// @desc fadeout(room, fade-color, fade-speed, x, y)
+/// @desc fadeout feature for switching rooms. fadeout(room, fade-color, fade-speed, x, y)
 /// @arg room
 /// @arg fade-color
 /// @arg fade-speed

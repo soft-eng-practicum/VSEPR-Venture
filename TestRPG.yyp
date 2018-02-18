@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0ef2f8d5-1503-4347-8c3e-7d8d62370d89",
+            "Value": {
+                "id": "f2f63130-662a-4259-a902-519d6327a090",
+                "resourcePath": "objects\\obj_inventory_gui\\obj_inventory_gui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15fd36ed-e955-4b97-ba87-84e41bad3f82",
             "Value": {
                 "id": "682f10f9-02da-4ef1-ae25-04ae38877aa1",
@@ -140,6 +148,14 @@
                 "id": "0655b610-1b5c-47cf-9d58-6b56cf75907d",
                 "resourcePath": "views\\324a31e2-a107-4689-8145-96485630b111.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "33e75280-0508-4b93-8a49-f5d827189484",
+            "Value": {
+                "id": "72789a73-4e88-4786-88c5-4cabc18859d9",
+                "resourcePath": "scripts\\addItem\\addItem.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "69041712-d8b4-4ef1-bfa1-b91104ac5a29",
+            "Value": {
+                "id": "47e8c9cd-ad59-47a8-b9c1-f154a247f28a",
+                "resourcePath": "sprites\\sprFantasyInventory\\sprFantasyInventory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b912aee-9b3b-4a59-b601-5b67a23ef7bf",
             "Value": {
                 "id": "fe70753b-d9b1-47bf-a0f7-51a4fc18e6c0",
@@ -339,6 +363,14 @@
             "Value": {
                 "id": "c80e1b78-d887-4965-bd5c-f2f3e8f6fa37",
                 "resourcePath": "objects\\obj_wood_gate\\obj_wood_gate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "938df051-78a8-444f-936f-a30da9945902",
+            "Value": {
+                "id": "fc5f7720-cc5a-412f-b3ee-92de0b3260c2",
+                "resourcePath": "objects\\obj_inventory\\obj_inventory.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -431,6 +463,14 @@
             }
         },
         {
+            "Key": "bdfe41a1-e3df-40db-b38a-3b6f9e46307e",
+            "Value": {
+                "id": "8121de50-6c26-43ff-8a28-f26e3d4fa846",
+                "resourcePath": "objects\\obj_pickup\\obj_pickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c1708301-6f56-45a4-998e-9d84ec936b73",
             "Value": {
                 "id": "134f189b-c29a-481f-acdb-fede67ba02b0",
@@ -468,6 +508,14 @@
                 "id": "0c334096-ca0a-4ae4-a9b9-a9497f0f8a42",
                 "resourcePath": "rooms\\rm_grass_0\\rm_grass_0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "deedef85-3ead-4506-8fdb-0b3130b38abc",
+            "Value": {
+                "id": "a6d4e477-ed83-4925-8339-937a6d206e48",
+                "resourcePath": "fonts\\font_inventory\\font_inventory.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -563,7 +611,8 @@
         "b77240b2-245e-48ff-a754-0b4b0fc41aac",
         "79c10426-9765-463c-9069-a42c98e21e47",
         "1cd163d9-4dad-4f10-9bb7-214e8bcb137a",
-        "020cc9be-d7dc-492a-966b-bec4488bb69b"
+        "020cc9be-d7dc-492a-966b-bec4488bb69b",
+        "33e75280-0508-4b93-8a49-f5d827189484"
     ],
     "tutorial": ""
 }
