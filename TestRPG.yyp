@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0acaacb7-5235-4c9e-9284-7435c672c01b",
+            "Value": {
+                "id": "fd7fdbff-be2a-4d67-9393-9a9beeef7ce8",
+                "resourcePath": "objects\\obj_GateWood_SquarePyramidal\\obj_GateWood_SquarePyramidal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ca7c965-1cc3-4f63-9fef-e1991986ce7a",
             "Value": {
                 "id": "406c054a-6a89-494f-bf54-64af6cce56af",
@@ -87,6 +95,14 @@
             }
         },
         {
+            "Key": "10f25146-b536-4845-9e80-1cbb52820655",
+            "Value": {
+                "id": "51ddc29c-fc77-40c7-86eb-3c52e5d130e9",
+                "resourcePath": "sprites\\spr_GateWood_Octahedron\\spr_GateWood_Octahedron.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15fd36ed-e955-4b97-ba87-84e41bad3f82",
             "Value": {
                 "id": "682f10f9-02da-4ef1-ae25-04ae38877aa1",
@@ -99,6 +115,14 @@
             "Value": {
                 "id": "2777bd0b-2087-493e-a196-8b83eabd51b9",
                 "resourcePath": "sprites\\sprite20\\sprite20.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1834bd06-d585-4659-84a6-6c21966395ae",
+            "Value": {
+                "id": "3a82038b-2650-4185-94fa-b8c166dd58db",
+                "resourcePath": "sprites\\spr_GateWood_SquarePyramidal\\spr_GateWood_SquarePyramidal.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -135,6 +159,14 @@
             }
         },
         {
+            "Key": "214f981d-2e4c-4c6f-a95f-ef0ef14b42ac",
+            "Value": {
+                "id": "c5847f34-0f90-42ed-b9f9-4b7926ccce8a",
+                "resourcePath": "objects\\obj_GateWood_Octahedron\\obj_GateWood_Octahedron.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "266c9a60-05e5-4621-a1cc-3937c8a9f165",
             "Value": {
                 "id": "8b9e6491-f8af-496c-9669-899e0736a577",
@@ -156,6 +188,22 @@
                 "id": "06903362-d9e2-4a49-816b-c404190fb59d",
                 "resourcePath": "sprites\\sprItemBox\\sprItemBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "308fd78c-95ba-4dba-bd4e-dd3035ec577d",
+            "Value": {
+                "id": "80e44fdd-ed07-4c11-b46c-7429b7e93041",
+                "resourcePath": "sprites\\spr_GateWood_Seesaw\\spr_GateWood_Seesaw.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "311bc90a-3f54-451a-aa49-ce86f16fad38",
+            "Value": {
+                "id": "a1087dfc-ff6c-4389-9268-8f699cb2310c",
+                "resourcePath": "views\\311bc90a-3f54-451a-aa49-ce86f16fad38.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -223,6 +271,14 @@
             }
         },
         {
+            "Key": "39f507e2-3350-42b8-8446-1afd2037382d",
+            "Value": {
+                "id": "d21d1c8f-6536-4f1d-9fc0-c51a6a5982bf",
+                "resourcePath": "objects\\obj_GateWood_TriagonalPlanar\\obj_GateWood_TriagonalPlanar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a0fcf49-3405-4e05-9cf8-c2f106f8bab6",
             "Value": {
                 "id": "f6f0727e-341d-4c7c-bc38-f5c9e20e0ae8",
@@ -252,6 +308,14 @@
                 "id": "242e136f-95fb-44f8-aeb6-a33442e0d451",
                 "resourcePath": "sprites\\sprClickable\\sprClickable.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "467e1db8-637c-437d-a5a8-3b95c8164b51",
+            "Value": {
+                "id": "95e1653d-da71-432a-8a78-acab22b4e718",
+                "resourcePath": "objects\\obj_GateWood_Tetrahedron\\obj_GateWood_Tetrahedron.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -295,6 +359,14 @@
             }
         },
         {
+            "Key": "58f94a74-7611-4bd7-93fa-3418cc5a09e3",
+            "Value": {
+                "id": "ddaa124e-b342-4a72-a4ab-d7833bc27625",
+                "resourcePath": "sprites\\spr_GateWood_TriagonalBipyramidal\\spr_GateWood_TriagonalBipyramidal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e4c1c02-dd30-4bbe-8daa-2b33e9a4dd24",
             "Value": {
                 "id": "eecd25e6-e997-4851-aa3c-62805250f77a",
@@ -311,11 +383,11 @@
             }
         },
         {
-            "Key": "613846ad-36ff-4efa-8d7a-d21d05b29adf",
+            "Key": "66f37b0b-032d-4c9e-951c-b18e7e8b4bef",
             "Value": {
-                "id": "50702fc7-23c2-46ba-9b9e-ca5c03676611",
-                "resourcePath": "sprites\\spr_wood_gate\\spr_wood_gate.yy",
-                "resourceType": "GMSprite"
+                "id": "873d66aa-38b8-423e-a8db-18ef30f0449c",
+                "resourcePath": "objects\\obj_GateWood_TriagonalBipyramidal\\obj_GateWood_TriagonalBipyramidal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -339,6 +411,14 @@
             "Value": {
                 "id": "fe70753b-d9b1-47bf-a0f7-51a4fc18e6c0",
                 "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6befb037-2285-42e4-91f6-c866c565be65",
+            "Value": {
+                "id": "c68ed3df-346d-486b-99e7-5babb4d4d729",
+                "resourcePath": "objects\\obj_GateWood_TShaped\\obj_GateWood_TShaped.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -375,6 +455,22 @@
             }
         },
         {
+            "Key": "74851ed6-b2be-4536-a5b2-8282dfb6c8aa",
+            "Value": {
+                "id": "05939921-e30d-49cb-aa9d-b87500056edd",
+                "resourcePath": "sprites\\spr_GateWood_Bent\\spr_GateWood_Bent.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "748e0a68-9006-429d-a72f-00d350f63064",
+            "Value": {
+                "id": "6258ef0a-0c6e-450d-b495-88b5218fb14b",
+                "resourcePath": "sprites\\spr_GateWood_SquarePlanar\\spr_GateWood_SquarePlanar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "3dddeed9-49eb-49b5-9173-59a54c01d05a",
@@ -399,6 +495,14 @@
             }
         },
         {
+            "Key": "7dedd376-3dfa-4e73-9f66-34c231e16b16",
+            "Value": {
+                "id": "ed35c4cc-9aca-4f57-9aad-fe6c4174e1ef",
+                "resourcePath": "objects\\obj_GateWood_SquarePlanar\\obj_GateWood_SquarePlanar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7edb977e-5684-464e-96b0-c8b1a6b79e05",
             "Value": {
                 "id": "67a3f0e1-a598-4076-bf41-a3678887d785",
@@ -407,11 +511,27 @@
             }
         },
         {
+            "Key": "81e9d2b0-5539-4115-9c48-70fae8b9cad6",
+            "Value": {
+                "id": "5e46bfee-bdd4-4ed0-b6b4-9ae05151e1ae",
+                "resourcePath": "sprites\\spr_GateWood_TriagonalPlanar\\spr_GateWood_TriagonalPlanar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8205f1a3-6af6-4c37-8a49-8673788b4910",
             "Value": {
                 "id": "a286eada-de1a-4ee7-aaa9-1b8f7b09cb36",
                 "resourcePath": "objects\\obj_tree\\obj_tree.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "87aa7535-c8b8-47e3-a070-97acab273b81",
+            "Value": {
+                "id": "63b3be42-3d43-4241-8669-bee3d783ae81",
+                "resourcePath": "sprites\\spr_GateWood_Tetrahedron\\spr_GateWood_Tetrahedron.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -426,7 +546,7 @@
             "Key": "9238712c-1cde-42ea-98c3-e819bd5b7dd6",
             "Value": {
                 "id": "c80e1b78-d887-4965-bd5c-f2f3e8f6fa37",
-                "resourcePath": "objects\\obj_wood_gate\\obj_wood_gate.yy",
+                "resourcePath": "objects\\obj_GateWood_Bent\\obj_GateWood_Bent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -463,6 +583,14 @@
             }
         },
         {
+            "Key": "9c4436d9-822c-44a4-baf9-6dfa50b39e9e",
+            "Value": {
+                "id": "3be56e30-0657-4415-a6c0-f6893365e2bf",
+                "resourcePath": "views\\9c4436d9-822c-44a4-baf9-6dfa50b39e9e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a0afe5e6-53a8-443c-82ae-1a511a688dc0",
             "Value": {
                 "id": "dd646fff-355c-4761-896e-d4691e0a86ce",
@@ -484,6 +612,14 @@
                 "id": "c6cf8bfb-054f-4f2d-9d89-8d4db43c27b0",
                 "resourcePath": "sprites\\spr_player_down1\\spr_player_down1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a4556ee8-d53a-462b-ace4-0eb0b5ac76c7",
+            "Value": {
+                "id": "6c7c4a10-8ffa-46f7-824a-d9ea5d547692",
+                "resourcePath": "objects\\obj_GateWood_Linear\\obj_GateWood_Linear.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -511,6 +647,14 @@
             }
         },
         {
+            "Key": "aaac9db3-5568-4bfd-a00d-712720f3e8c6",
+            "Value": {
+                "id": "0b3d4ecb-37c9-47bc-a375-3b4c5b032486",
+                "resourcePath": "sprites\\spr_GateWood_TShaped\\spr_GateWood_TShaped.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab117892-baf4-4a78-a810-af64644b4e19",
             "Value": {
                 "id": "5d492746-8423-4eb2-8281-570a04e2987d",
@@ -531,6 +675,14 @@
             "Value": {
                 "id": "a2f619ac-853d-4c14-9737-e37abfda04c4",
                 "resourcePath": "sprites\\spr_warp\\spr_warp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b5b6c100-f1cb-489c-b523-584e5fe102f3",
+            "Value": {
+                "id": "29dd21c4-f7ea-4d87-b1f6-6079b87b1427",
+                "resourcePath": "sprites\\spr_GateWood_Pyramidal\\spr_GateWood_Pyramidal.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -567,6 +719,14 @@
             }
         },
         {
+            "Key": "c695894c-8d29-4b3f-b658-5ce281561d7a",
+            "Value": {
+                "id": "6318524b-e991-41cd-9ace-a13294698b86",
+                "resourcePath": "views\\c695894c-8d29-4b3f-b658-5ce281561d7a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc1bf52f-f000-4753-8cd8-c1f52b0c325e",
             "Value": {
                 "id": "5d2a5868-496f-4e75-acf6-25ac2e311882",
@@ -580,6 +740,14 @@
                 "id": "9b2a3774-e398-4b85-9ad0-9586941f5280",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d7c30314-7fe8-4973-9e27-bd0ed29dc669",
+            "Value": {
+                "id": "8f7cdc96-396e-4282-a7be-687cc028278f",
+                "resourcePath": "objects\\obj_GateWood_Seesaw\\obj_GateWood_Seesaw.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -631,6 +799,14 @@
             }
         },
         {
+            "Key": "f366c0ae-3042-4c77-929b-a0199ccba0b8",
+            "Value": {
+                "id": "2e78aa3a-d57c-4afd-861f-7a43a84ef880",
+                "resourcePath": "objects\\obj_GateWood_Pyramidal\\obj_GateWood_Pyramidal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f3abed3d-fb93-4353-af90-6f75edd5825e",
             "Value": {
                 "id": "a36242a8-92d7-4229-8b84-e7342d552d35",
@@ -676,6 +852,14 @@
                 "id": "08760c8c-7a56-48c3-8b42-cdfc59627915",
                 "resourcePath": "views\\f72e7c1a-eb0c-4626-95ca-547ee7b2e069.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f747c80b-eae5-467c-8067-cf8ce36d9654",
+            "Value": {
+                "id": "1259dd2b-bf0a-4bf2-a09b-380970bd94e1",
+                "resourcePath": "sprites\\spr_GateWood_Linear\\spr_GateWood_Linear.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
