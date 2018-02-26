@@ -15,7 +15,7 @@
 **Members:**
 * ***Viktor Gutsu***
   1. Team Manager
-  2. Lead Programmer
+  2. Lead Programmer/Code Architect
   3. Client Liaison
 * ***Sasa Mitrovic***
   1. Documentation Lead
