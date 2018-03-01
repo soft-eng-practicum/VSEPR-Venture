@@ -14,7 +14,8 @@
         "58f94a74-7611-4bd7-93fa-3418cc5a09e3",
         "81e9d2b0-5539-4115-9c48-70fae8b9cad6",
         "aaac9db3-5568-4bfd-a00d-712720f3e8c6",
-        "f747c80b-eae5-467c-8067-cf8ce36d9654"
+        "f747c80b-eae5-467c-8067-cf8ce36d9654",
+        "c2b6ca02-cf4a-4572-b433-0d102005b935"
     ],
     "filterType": "GMSprite",
     "folderName": "Wood",
