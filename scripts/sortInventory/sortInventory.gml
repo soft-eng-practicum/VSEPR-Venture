@@ -7,12 +7,12 @@
 gridToSort = argument0;
 sortBy = argument1;
 order = argument2;
-
+//This function sorts our grid by a specific column
 ds_grid_sort(gridToSort, sortBy, order);
-
+//Go back to the top of list
 itemSelected = 0;
 scrolledAmount = 0;
-
+//Return the opposite of how it was just sorted
 return !order;
 
 

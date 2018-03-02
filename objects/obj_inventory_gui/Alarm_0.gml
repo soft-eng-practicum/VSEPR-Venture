@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Various alarms for button presses
 
 useButton = instance_create_depth(bbox_right + 25, room_height - sprite_get_yoffset(sprItemBox) + 20, depth - 1, obj_button);
 useButton.myText = "Use";
