@@ -25,11 +25,11 @@ for (i = 0; i < ds_grid_height(gridToAddTo); ++i)
 };
 
 //Case 2 - It's not in the inventory
-
-if(ds_grid_get(gridToAddTo, 0, 0) != 0)
-	
+//Increase ds grid size y 1
+if(ds_grid_get(gridToAddTo, 0, 0) != 0)	// Required, since when creating the DS grid, it has a size of 1 already
 ds_grid_resize(gridToAddTo, playerInventoryWidth, ds_grid_height(gridToAddTo)+1);
-	
+
+//Adds it to the inventory if its unique
 newItemSpot = ds_grid_height(gridToAddTo) - 1;
 ds_grid_set(gridToAddTo, 0, newItemSpot, newItemName);
 ds_grid_set(gridToAddTo, 1, newItemSpot, newItemAmount);

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Checks if the inventory is empty
 
 if(ds_grid_get(myItems, 0, 0) != 0)
 {

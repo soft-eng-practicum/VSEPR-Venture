@@ -7,6 +7,7 @@ draw_text(bbox_left + textBorder, bbox_top + textBorder, "Image");
 draw_text(bbox_left + 45, bbox_top + textBorder, "Name");
 draw_text(bbox_left + 78, bbox_top + textBorder, "Amount");
 
+///Sets bounds for inventory
 itemLeftStart = bbox_left + 38;
 itemTopStart = bbox_top + 20;
 
