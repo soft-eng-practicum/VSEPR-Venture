@@ -16,4 +16,4 @@ else if(global.MonitorW >= 3200 && global.MonitorH >= 1800) //Larger window for 
 	window_set_position(global.MonitorW/5, global.MonitorH/8);
 }
 
-
+textbox("Welcome to the RPG tutorial test!", "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST");
