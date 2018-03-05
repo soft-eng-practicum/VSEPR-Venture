@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0c0d3ee6-7247-4f3d-bf97-3b269de0e017",
+            "Value": {
+                "id": "20bb0756-761e-4ec7-b772-4b8750915004",
+                "resourcePath": "objects\\obj_Nitrogen\\obj_Nitrogen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ca7c965-1cc3-4f63-9fef-e1991986ce7a",
             "Value": {
                 "id": "406c054a-6a89-494f-bf54-64af6cce56af",
@@ -103,19 +111,27 @@
             }
         },
         {
+            "Key": "11ca8f74-a285-46aa-b094-f1a30b7e4b65",
+            "Value": {
+                "id": "6a09a301-e8fa-4e37-8890-7d3f94e8eedb",
+                "resourcePath": "sprites\\spr_Argon\\spr_Argon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "14566947-4697-40b5-930a-968ade3e8789",
+            "Value": {
+                "id": "b0229584-3859-4fc5-a11f-6f00ad29e245",
+                "resourcePath": "objects\\obj_Aluminium\\obj_Aluminium.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15fd36ed-e955-4b97-ba87-84e41bad3f82",
             "Value": {
                 "id": "682f10f9-02da-4ef1-ae25-04ae38877aa1",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "16c0d457-03e8-4a3c-95ce-59b262f40593",
-            "Value": {
-                "id": "2777bd0b-2087-493e-a196-8b83eabd51b9",
-                "resourcePath": "sprites\\sprite20\\sprite20.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "1e8dd686-d640-4a52-94ac-93ed611036d4",
+            "Value": {
+                "id": "fc577d6b-f756-4b3a-bd28-d5ce19a21c5c",
+                "resourcePath": "objects\\obj_Carbon\\obj_Carbon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1efa7119-4eb3-4aba-896e-2f3c12eb3e3d",
             "Value": {
                 "id": "3558e5d8-3490-4aeb-b1cf-edb330e16c31",
@@ -159,10 +183,26 @@
             }
         },
         {
+            "Key": "1f36d3a2-3837-45d5-99d0-5502b8b8eb16",
+            "Value": {
+                "id": "822d4896-8e89-41d8-81ee-1fb212e9cd44",
+                "resourcePath": "sprites\\spr_Helium\\spr_Helium.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "214f981d-2e4c-4c6f-a95f-ef0ef14b42ac",
             "Value": {
                 "id": "c5847f34-0f90-42ed-b9f9-4b7926ccce8a",
                 "resourcePath": "objects\\obj_GateWood_Octahedron\\obj_GateWood_Octahedron.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "23c43960-3196-491a-a46e-461011163b1f",
+            "Value": {
+                "id": "a8589290-fb0c-44e6-b55c-283bb5bbf235",
+                "resourcePath": "objects\\obj_Oxygen\\obj_Oxygen.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -199,11 +239,43 @@
             }
         },
         {
+            "Key": "2de53d7b-547c-4144-a789-50091b218d53",
+            "Value": {
+                "id": "2606703d-4078-41bb-a8b0-e2bd0ca4997b",
+                "resourcePath": "objects\\obj_Chlorine\\obj_Chlorine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2e293600-8035-42aa-a988-ce16fd5c1ca9",
+            "Value": {
+                "id": "932948c7-67ef-4649-9fff-59a0ce1a4f0d",
+                "resourcePath": "sprites\\spr_Hydrogen\\spr_Hydrogen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e724732-84ae-4fad-8b22-81ec434ba93f",
+            "Value": {
+                "id": "21b6572b-8ec1-4167-90ca-e6851c457c6b",
+                "resourcePath": "sprites\\spr_Carbon\\spr_Carbon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "308fd78c-95ba-4dba-bd4e-dd3035ec577d",
             "Value": {
                 "id": "80e44fdd-ed07-4c11-b46c-7429b7e93041",
                 "resourcePath": "sprites\\spr_GateWood_Seesaw\\spr_GateWood_Seesaw.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "30ed3397-0c8a-440d-8eb7-5a8aa0ddede9",
+            "Value": {
+                "id": "778ce1c1-4042-4b82-9570-848e683cbccd",
+                "resourcePath": "objects\\obj_Hydrogen\\obj_Hydrogen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -263,6 +335,14 @@
             }
         },
         {
+            "Key": "36546abe-c6fe-4cf8-a8de-5eea0605cb10",
+            "Value": {
+                "id": "b6c4be2a-a2b5-44d2-8c1c-020c4be74316",
+                "resourcePath": "sprites\\spr_Neon\\spr_Neon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36962698-0667-4c72-a206-2ae791e82f6d",
             "Value": {
                 "id": "e3a93bab-ee0a-49ce-8598-e7965a8e2779",
@@ -276,6 +356,14 @@
                 "id": "414800f4-eeab-4cc4-8992-16df2a3a7faf",
                 "resourcePath": "views\\37dde495-e0fa-4fa9-8a58-6e4360a035a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "37f72b01-cad9-4222-87c1-518666bd217c",
+            "Value": {
+                "id": "82e4c05f-779c-479a-a53b-d104b796156e",
+                "resourcePath": "sprites\\spr_Beryllium\\spr_Beryllium.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,6 +391,14 @@
             }
         },
         {
+            "Key": "3bdf0b6c-8fbb-475c-b070-f9cfeb3b6a37",
+            "Value": {
+                "id": "a46b4f54-ab3d-4d6c-a770-9e6144b27be3",
+                "resourcePath": "objects\\obj_Sulfur\\obj_Sulfur.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "40486ca5-6f2b-4706-bfab-b3401886ef65",
             "Value": {
                 "id": "2ea2f753-ddea-4fab-803c-0ee0e1bf1717",
@@ -316,6 +412,22 @@
                 "id": "fe1cd8b5-fe59-46a2-9d04-7e85b5ae321d",
                 "resourcePath": "sprites\\spr_player_right\\spr_player_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43854029-b42a-4049-907f-680c17302d12",
+            "Value": {
+                "id": "e9bebcf4-5b9f-4201-9d0f-055254fcc19e",
+                "resourcePath": "sprites\\spr_Chlorine\\spr_Chlorine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45203118-3d89-40a0-8232-7e0493c30f05",
+            "Value": {
+                "id": "1878276c-a552-4335-a87d-5e5ff27a3727",
+                "resourcePath": "objects\\obj_Boron\\obj_Boron.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -347,6 +459,22 @@
             "Value": {
                 "id": "085537a8-e53f-4fe8-b4b6-41f43eb36062",
                 "resourcePath": "objects\\obj_order\\obj_order.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4af37ae0-dae1-4da2-9ce5-412fc8123b0f",
+            "Value": {
+                "id": "66c7d00e-6d2b-41d6-a628-be75e2446692",
+                "resourcePath": "objects\\obj_Fluorine\\obj_Fluorine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b40865a-cf47-4e6f-ba35-fdfb080f1d3e",
+            "Value": {
+                "id": "2ff099cf-1a19-4762-832d-2646f4ff2a5d",
+                "resourcePath": "objects\\obj_Neon\\obj_Neon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -383,6 +511,14 @@
             }
         },
         {
+            "Key": "568b3861-bf6c-48e8-beae-c51a8a2800aa",
+            "Value": {
+                "id": "4983c4b7-f8cd-47e9-bb70-2232fe18219f",
+                "resourcePath": "sprites\\spr_Magnesium\\spr_Magnesium.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "573416f4-2a26-47d7-a520-faaadf452e99",
             "Value": {
                 "id": "d250989d-2a97-4d7b-bee1-848e5f9da640",
@@ -407,11 +543,27 @@
             }
         },
         {
+            "Key": "5ed87a86-8bdc-4bd6-91b4-6cce22040442",
+            "Value": {
+                "id": "543d745b-2e3f-4ce3-bf7e-4828ca6a5007",
+                "resourcePath": "sprites\\spr_Silicon\\spr_Silicon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6115c45e-4dea-4b3d-a3dc-ca602693cef1",
             "Value": {
                 "id": "8f54d07b-5130-4368-8dfe-74528540c8df",
                 "resourcePath": "tilesets\\ts_path\\ts_path.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "646b4051-65d1-4faa-8ae4-06d982c77cb3",
+            "Value": {
+                "id": "52fc103e-1a64-4d11-86c5-022394653968",
+                "resourcePath": "sprites\\spr_Phosphorus\\spr_Phosphorus.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +703,14 @@
             }
         },
         {
+            "Key": "8009d178-bc65-4b95-9011-cb72f3f57425",
+            "Value": {
+                "id": "93af0218-253f-4d7f-8d79-d3203547d3b8",
+                "resourcePath": "sprites\\spr_Sodium\\spr_Sodium.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81e9d2b0-5539-4115-9c48-70fae8b9cad6",
             "Value": {
                 "id": "5e46bfee-bdd4-4ed0-b6b4-9ae05151e1ae",
@@ -564,6 +724,14 @@
                 "id": "a286eada-de1a-4ee7-aaa9-1b8f7b09cb36",
                 "resourcePath": "objects\\obj_tree\\obj_tree.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "854629f2-5dc9-406b-8cfe-47d755eda729",
+            "Value": {
+                "id": "bc483960-f2ba-4a36-8b47-94258509cfb3",
+                "resourcePath": "sprites\\spr_Lithium\\spr_Lithium.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -588,6 +756,14 @@
                 "id": "c80e1b78-d887-4965-bd5c-f2f3e8f6fa37",
                 "resourcePath": "objects\\obj_GateWood_Bent\\obj_GateWood_Bent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "925be19d-13c7-49e1-a14a-e4468938035c",
+            "Value": {
+                "id": "7e12e103-e8c8-420b-8b68-d4fe262e040f",
+                "resourcePath": "sprites\\spr_Nitrogen\\spr_Nitrogen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -639,6 +815,14 @@
             }
         },
         {
+            "Key": "9dd00f77-05c9-49a3-a71c-7d226d345732",
+            "Value": {
+                "id": "9c72e0bc-8370-4948-8f2c-1a2c2e93441e",
+                "resourcePath": "objects\\obj_Sodium\\obj_Sodium.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0afe5e6-53a8-443c-82ae-1a511a688dc0",
             "Value": {
                 "id": "dd646fff-355c-4761-896e-d4691e0a86ce",
@@ -655,6 +839,14 @@
             }
         },
         {
+            "Key": "a123f0d7-f142-44d0-aa67-a7ae7c8b645a",
+            "Value": {
+                "id": "85c4c8ca-2e20-49ce-82d5-55250a55f6ba",
+                "resourcePath": "objects\\obj_Beryllium\\obj_Beryllium.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a29d8b37-f600-41a8-ba5a-aa36ea161053",
             "Value": {
                 "id": "c6cf8bfb-054f-4f2d-9d89-8d4db43c27b0",
@@ -667,6 +859,14 @@
             "Value": {
                 "id": "6c7c4a10-8ffa-46f7-824a-d9ea5d547692",
                 "resourcePath": "objects\\obj_GateWood_Linear\\obj_GateWood_Linear.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a4d9229c-3295-4d44-ba32-27b99fadb3ad",
+            "Value": {
+                "id": "591883bd-d59d-4bc0-b05e-20958f52d490",
+                "resourcePath": "objects\\obj_Silicon\\obj_Silicon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -751,11 +951,59 @@
             }
         },
         {
+            "Key": "b7e5ea41-f56d-444d-8f4a-7bba37f79195",
+            "Value": {
+                "id": "f0199759-bdca-4db4-8ced-fcae788e41a7",
+                "resourcePath": "objects\\obj_Helium\\obj_Helium.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b813537a-ed4a-4650-91b1-befe08aab099",
+            "Value": {
+                "id": "2e6cbb41-ceb4-4a7c-814a-e70b178dd3bf",
+                "resourcePath": "objects\\obj_Magnesium\\obj_Magnesium.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb23d7d4-497d-4155-a4bd-ed5e5921d76c",
+            "Value": {
+                "id": "69831613-4997-4ac9-9169-a8245ced26b9",
+                "resourcePath": "sprites\\spr_Sulfur\\spr_Sulfur.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc62f3cd-c636-4125-8516-e6bbb87a9556",
+            "Value": {
+                "id": "604595c9-0a3c-485d-92e1-007e950e4350",
+                "resourcePath": "sprites\\spr_Fluorine\\spr_Fluorine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bdbf04f3-43da-4262-96a6-cd2e3cfe3495",
+            "Value": {
+                "id": "67e95e8a-7923-4ba4-ac3f-ff5e1cee12d8",
+                "resourcePath": "sprites\\spr_shine\\spr_shine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bdfe41a1-e3df-40db-b38a-3b6f9e46307e",
             "Value": {
                 "id": "8121de50-6c26-43ff-8a28-f26e3d4fa846",
                 "resourcePath": "objects\\obj_pickup\\obj_pickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0941665-d600-459a-bcd1-5d1d2af6389f",
+            "Value": {
+                "id": "7293039a-93bc-494b-a4b8-4db52bb651d2",
+                "resourcePath": "sprites\\spr_Aluminium\\spr_Aluminium.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -772,14 +1020,6 @@
                 "id": "48403b4a-cd32-4bb9-894f-535b161e5772",
                 "resourcePath": "sprites\\spr_GateWood_UI\\spr_GateWood_UI.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c66072d1-bfa2-4170-817e-a1a5ac98c3de",
-            "Value": {
-                "id": "f511286c-208e-40af-afbd-02cd95d6537b",
-                "resourcePath": "objects\\object9\\object9.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -804,6 +1044,22 @@
                 "id": "9b2a3774-e398-4b85-9ad0-9586941f5280",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d515040f-0b16-4d37-8ecd-89f4de68df1e",
+            "Value": {
+                "id": "f82e057b-b28f-419d-9921-1c7362cce21a",
+                "resourcePath": "objects\\obj_Phosphorus\\obj_Phosphorus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d687bc69-ca3e-4bd5-bd6c-aab96765ec68",
+            "Value": {
+                "id": "fa46847a-d326-41d1-9f94-9bf3d0d17a49",
+                "resourcePath": "objects\\obj_Argon\\obj_Argon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -931,6 +1187,30 @@
             "Value": {
                 "id": "1259dd2b-bf0a-4bf2-a09b-380970bd94e1",
                 "resourcePath": "sprites\\spr_GateWood_Linear\\spr_GateWood_Linear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8c4d6ba-8a11-40c2-8249-e0e4ea4ee230",
+            "Value": {
+                "id": "b77edf60-ff7b-458a-9d40-0cf4f4b10897",
+                "resourcePath": "sprites\\spr_Boron\\spr_Boron.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fa078785-879a-4680-b2b0-00e724f38785",
+            "Value": {
+                "id": "446a907f-9668-4617-adc9-1a58dff34a79",
+                "resourcePath": "objects\\obj_Lithium\\obj_Lithium.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fe554b99-617a-4ab6-a600-42cf25107821",
+            "Value": {
+                "id": "d64522e3-6935-4400-9bd5-37053292c67e",
+                "resourcePath": "sprites\\spr_Oxygen\\spr_Oxygen.yy",
                 "resourceType": "GMSprite"
             }
         },
