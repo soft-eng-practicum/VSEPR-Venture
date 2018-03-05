@@ -391,22 +391,6 @@
             }
         },
         {
-            "Key": "5b7e0043-885d-4c00-921a-59abe518a706",
-            "Value": {
-                "id": "f80ff40c-8648-45fc-91ce-1c75763842f8",
-                "resourcePath": "sprites\\spr_sign\\spr_sign.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5c964372-6378-43f5-8a4f-315580192205",
-            "Value": {
-                "id": "e0fb0d7c-5183-4297-931b-9ae467a93c53",
-                "resourcePath": "objects\\obj_sign\\obj_sign.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5e4c1c02-dd30-4bbe-8daa-2b33e9a4dd24",
             "Value": {
                 "id": "eecd25e6-e997-4851-aa3c-62805250f77a",
