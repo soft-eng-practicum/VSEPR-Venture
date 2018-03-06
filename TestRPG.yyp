@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "d7c0e859-c60e-4dc9-ab8f-a718ba9b137d",
+            "Value": {
+                "id": "4a5a74e1-c5dd-4565-9987-b2b05edcda5f",
+                "resourcePath": "objects\\obj_shine\\obj_shine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d7c30314-7fe8-4973-9e27-bd0ed29dc669",
             "Value": {
                 "id": "8f7cdc96-396e-4282-a7be-687cc028278f",
