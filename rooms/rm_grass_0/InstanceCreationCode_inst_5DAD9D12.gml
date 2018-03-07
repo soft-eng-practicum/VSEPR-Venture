@@ -1,5 +1,5 @@
-myItemName = "Helium";
+myItemName = "Silicon";
 myItemAmount = 1;
-myItemDescription = "A Helium Atom";
-myItemSprite = spr_Helium;
+myItemDescription = "A Silicon Atom";
+myItemSprite = spr_Silicon;
 myItemScript = "";

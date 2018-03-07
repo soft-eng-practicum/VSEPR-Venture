@@ -3,6 +3,10 @@ draw_self();
 draw_set_colour(myColor);
 draw_set_font(font_inventory);
 
+draw_text(0, 0, floor((sprite_height - (textBorder * 3)) / 10));
+draw_text(0, 10, ds_grid_height(myItems));
+draw_text(0, 20, inventoryEndAt);
+
 draw_text(bbox_left + textBorder, bbox_top + textBorder, "Image");
 draw_text(bbox_left + 45, bbox_top + textBorder, "Name");
 draw_text(bbox_left + 78, bbox_top + textBorder, "Amount");
@@ -13,20 +17,21 @@ itemTopStart = bbox_top + 20;
 
 for(i = 0; i < inventoryEndAt; ++i)
 {
-	for(j = 0; j < playerInventoryWidth; ++j)
+	for(j = 0; j < ds_grid_width(myItems); ++j)
 	{
 		inventoryOnScreen = i;
-		if(j == 0)
+		if(j == 0) //Draw Name
 			draw_text(itemLeftStart, itemTopStart + (i * 10), ds_grid_get(myItems, 0, i + scrolledAmount));
-		if(j == 1)
-			draw_text(itemLeftStart+ 45, itemTopStart + (i * 10), ds_grid_get(myItems, 1, i + scrolledAmount));
-		if(j == 3)
+		else if(j == 1)//Draw Amount
+			draw_text(itemLeftStart+ 54, itemTopStart + (i * 10), ds_grid_get(myItems, 1, i + scrolledAmount));
+		else if(j == 3)//Draw Sprite
 			draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_left + 15, itemTopStart + (i * 10) + 6, .6, .6, 0, c_white, 1);
 	}
 	
 }
 	
-draw_rectangle(bbox_left + textBorder, itemTopStart + ((itemSelected - scrolledAmount)* 10), bbox_right - textBorder, itemTopStart + ((itemSelected - scrolledAmount) * 10) + 10, true);
+draw_rectangle(bbox_left + textBorder, itemTopStart + ((itemSelected - scrolledAmount)* 10),
+bbox_right - textBorder, itemTopStart + ((itemSelected - scrolledAmount) * 10) + 10, true);
 
 draw_sprite(sprItemBox, 0, bbox_right + sprite_get_xoffset(sprItemBox), room_height - sprite_get_yoffset(sprItemBox));
 

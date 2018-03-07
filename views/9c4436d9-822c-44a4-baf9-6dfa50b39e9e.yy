@@ -14,8 +14,7 @@
         "467e1db8-637c-437d-a5a8-3b95c8164b51",
         "66f37b0b-032d-4c9e-951c-b18e7e8b4bef",
         "39f507e2-3350-42b8-8446-1afd2037382d",
-        "6befb037-2285-42e4-91f6-c866c565be65",
-        "a9daed0b-c185-412d-8da1-13ab2c5ebab2"
+        "6befb037-2285-42e4-91f6-c866c565be65"
     ],
     "filterType": "GMObject",
     "folderName": "Wood",

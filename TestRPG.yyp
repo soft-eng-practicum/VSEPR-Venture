@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "18bf60e4-c1cb-4107-b867-723be79853e8",
+            "Value": {
+                "id": "d57fa860-823b-42f2-8dbb-e9a16495a9c5",
+                "resourcePath": "objects\\obj_GateUI\\obj_GateUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a435480-3063-4817-afc1-8a35ca6d9fd8",
             "Value": {
                 "id": "06c7eae5-fdf4-4f6f-b024-af41d4defc7f",
@@ -583,6 +591,14 @@
             }
         },
         {
+            "Key": "6828b8bc-028e-468e-bf32-0ad95b738864",
+            "Value": {
+                "id": "c5574daf-8afd-4074-b8c0-eccea7b349d7",
+                "resourcePath": "objects\\obj_ExitButton\\obj_ExitButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "69041712-d8b4-4ef1-bfa1-b91104ac5a29",
             "Value": {
                 "id": "47e8c9cd-ad59-47a8-b9c1-f154a247f28a",
@@ -751,6 +767,14 @@
             }
         },
         {
+            "Key": "8f548e8f-37a3-4127-a900-0f3e455742a5",
+            "Value": {
+                "id": "d3f9e060-8039-4bbc-b709-6566d74add7c",
+                "resourcePath": "sprites\\sprExitButton\\sprExitButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9238712c-1cde-42ea-98c3-e819bd5b7dd6",
             "Value": {
                 "id": "c80e1b78-d887-4965-bd5c-f2f3e8f6fa37",
@@ -892,14 +916,6 @@
                 "id": "e83cbd36-d6d4-4d49-a21c-5983da371c74",
                 "resourcePath": "sprites\\spr_player_left\\spr_player_left.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a9daed0b-c185-412d-8da1-13ab2c5ebab2",
-            "Value": {
-                "id": "120ebcf4-883a-4abf-820b-03d34eb7b40d",
-                "resourcePath": "objects\\obj_GateWood_UI\\obj_GateWood_UI.yy",
-                "resourceType": "GMObject"
             }
         },
         {

@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description Initialize
 textBorder = 8; //The border of the sprite, how much to draw text in
 
 myItems = playerInventory;//Shorter DS grid name
