@@ -9,6 +9,7 @@ if(!instance_exists(obj_inventory_gui))
 		y = room_height - sprite_get_yoffset(sprite_index);
 	}
 }
+
 //Clean up created things
 else
 {

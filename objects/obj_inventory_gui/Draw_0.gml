@@ -22,9 +22,15 @@ for(i = 0; i < inventoryEndAt; ++i)
 		inventoryOnScreen = i;
 		if(j == 0) //Draw Name
 			draw_text(itemLeftStart, itemTopStart + (i * 10), ds_grid_get(myItems, 0, i + scrolledAmount));
+<<<<<<< HEAD
 		else if(j == 1)//Draw Amount
 			draw_text(itemLeftStart+ 54, itemTopStart + (i * 10), ds_grid_get(myItems, 1, i + scrolledAmount));
 		else if(j == 3)//Draw Sprite
+=======
+		if(j == 1)
+			draw_text(itemLeftStart+ 54, itemTopStart + (i * 10), ds_grid_get(myItems, 1, i + scrolledAmount));
+		if(j == 3)
+>>>>>>> db6d51e3bb59d26b62af8fa0f65ff0d32350f649
 			draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_left + 15, itemTopStart + (i * 10) + 6, .6, .6, 0, c_white, 1);
 	}
 	

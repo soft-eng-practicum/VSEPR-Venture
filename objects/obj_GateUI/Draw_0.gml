@@ -12,7 +12,7 @@ for(i = 0; i < inventoryEndAt; ++i)
 		for(j = 0; j < ds_grid_width(myItems); ++j)
 		{
 			 if(j == 3)//Draw Sprite
-				draw_sprite_ext(ds_grid_get(myItems, k, i + scrolledAmount), 0, bbox_right - 80, itemTopStart + (i * 15) + 13, .7, .7, 0, c_white, 1);
+				draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 80, itemTopStart + (i * 15) + 13, .7, .7, 0, c_white, 1);
 		}
 	}
 	
@@ -21,7 +21,7 @@ for(i = 0; i < inventoryEndAt; ++i)
 		for(j = 0; j < ds_grid_width(myItems); ++j)
 		{
 			 if(j == 3)//Draw Sprite
-				draw_sprite_ext(ds_grid_get(myItems, h, i + scrolledAmount), 0, bbox_right - 40, itemTopStart + (i * 15) + 13, .7, .7, 0, c_white, 1);
+				draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 40, itemTopStart + (i * 15) + 13, .7, .7, 0, c_white, 1);
 		}
 		
 	}
