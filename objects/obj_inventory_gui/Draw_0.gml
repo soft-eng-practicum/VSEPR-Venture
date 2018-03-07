@@ -19,7 +19,7 @@ for(i = 0; i < inventoryEndAt; ++i)
 		if(j == 0)
 			draw_text(itemLeftStart, itemTopStart + (i * 10), ds_grid_get(myItems, 0, i + scrolledAmount));
 		if(j == 1)
-			draw_text(itemLeftStart+ 45, itemTopStart + (i * 10), ds_grid_get(myItems, 1, i + scrolledAmount));
+			draw_text(itemLeftStart+ 54, itemTopStart + (i * 10), ds_grid_get(myItems, 1, i + scrolledAmount));
 		if(j == 3)
 			draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_left + 15, itemTopStart + (i * 10) + 6, .6, .6, 0, c_white, 1);
 	}
