@@ -7,6 +7,8 @@
         "8c734c37-d28a-4809-a89f-be720fd65136",
         "27ae4da2-b37e-48d6-a4b3-a108084d13d1",
         "bdbf04f3-43da-4262-96a6-cd2e3cfe3495",
+        "e7aa5b0d-6113-4837-ab94-381917761861",
+        "5d5f377e-88f1-40d3-9de3-e46a89126db9",
         "c0941665-d600-459a-bcd1-5d1d2af6389f",
         "37f72b01-cad9-4222-87c1-518666bd217c",
         "f8c4d6ba-8a11-40c2-8249-e0e4ea4ee230",
@@ -24,7 +26,8 @@
         "2e293600-8035-42aa-a988-ce16fd5c1ca9",
         "36546abe-c6fe-4cf8-a8de-5eea0605cb10",
         "925be19d-13c7-49e1-a14a-e4468938035c",
-        "fe554b99-617a-4ab6-a600-42cf25107821"
+        "fe554b99-617a-4ab6-a600-42cf25107821",
+        "1cefce15-0693-423d-939b-6a97628cc2b0"
     ],
     "filterType": "GMSprite",
     "folderName": "Elements",
