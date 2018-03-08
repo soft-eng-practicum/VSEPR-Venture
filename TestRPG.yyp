@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0e67650d-397b-426d-bf99-f1d9d981cc9a",
+            "Value": {
+                "id": "2cc59daf-1731-4490-9a8a-a1996e0e17ac",
+                "resourcePath": "objects\\obj_shineGas\\obj_shineGas.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ef2f8d5-1503-4347-8c3e-7d8d62370d89",
             "Value": {
                 "id": "f2f63130-662a-4259-a902-519d6327a090",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "1861db47-c4fc-4bb8-9db2-2331e39fee9e",
+            "Value": {
+                "id": "c9c7589f-c887-43ce-a2a6-9ab8523632b7",
+                "resourcePath": "objects\\obj_shineLiquid\\obj_shineLiquid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18bf60e4-c1cb-4107-b867-723be79853e8",
             "Value": {
                 "id": "d57fa860-823b-42f2-8dbb-e9a16495a9c5",
@@ -172,6 +188,14 @@
                 "id": "42390b3f-44c3-405e-b753-c0624397c378",
                 "resourcePath": "scripts\\get_face\\get_face.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1cefce15-0693-423d-939b-6a97628cc2b0",
+            "Value": {
+                "id": "64a4cb80-eed8-4140-81a4-1bae9fdea5f2",
+                "resourcePath": "sprites\\spr_Bromine\\spr_Bromine.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -539,6 +563,14 @@
             "Value": {
                 "id": "ddaa124e-b342-4a72-a4ab-d7833bc27625",
                 "resourcePath": "sprites\\spr_GateWood_TriagonalBipyramidal\\spr_GateWood_TriagonalBipyramidal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d5f377e-88f1-40d3-9de3-e46a89126db9",
+            "Value": {
+                "id": "cf3594a6-3efe-4f79-9bbf-38a200edec13",
+                "resourcePath": "sprites\\spr_shineGas\\spr_shineGas.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1002,7 +1034,7 @@
             "Key": "bdbf04f3-43da-4262-96a6-cd2e3cfe3495",
             "Value": {
                 "id": "67e95e8a-7923-4ba4-ac3f-ff5e1cee12d8",
-                "resourcePath": "sprites\\spr_shine\\spr_shine.yy",
+                "resourcePath": "sprites\\spr_shineSolid\\spr_shineSolid.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1090,7 +1122,7 @@
             "Key": "d7c0e859-c60e-4dc9-ab8f-a718ba9b137d",
             "Value": {
                 "id": "4a5a74e1-c5dd-4565-9987-b2b05edcda5f",
-                "resourcePath": "objects\\obj_shine\\obj_shine.yy",
+                "resourcePath": "objects\\obj_shineSolid\\obj_shineSolid.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1132,6 +1164,14 @@
                 "id": "0d8d424d-0d15-44bd-bc6a-0be26e5180d4",
                 "resourcePath": "rooms\\rm_grass_parent\\rm_grass_parent.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e7aa5b0d-6113-4837-ab94-381917761861",
+            "Value": {
+                "id": "a18c0232-340c-4bad-903a-6be8f799c08d",
+                "resourcePath": "sprites\\spr_shineLiquid\\spr_shineLiquid.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
