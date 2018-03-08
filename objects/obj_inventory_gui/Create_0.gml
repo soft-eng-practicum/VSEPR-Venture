@@ -11,11 +11,9 @@ emptyMessage = "You have no molecules!";
 
 globalvar itemSelected, scrolledAmount, inventoryEndAt; //We'll need this in several functions & other objects
 itemSelected = 0;//The currently selected item from the list
-<<<<<<< HEAD
+
 inventoryOnScreen = 2;
-=======
-scrolledAmount = 0;//How far down the list we've looked
->>>>>>> db6d51e3bb59d26b62af8fa0f65ff0d32350f649
+
 inventoryEndAt = min(ds_grid_height(myItems), floor((sprite_height - (textBorder * 3)) / 10));//How many items to display in the list. 
 //Either the amount of items in the list, or the amount that will fit in the sprite.
 
