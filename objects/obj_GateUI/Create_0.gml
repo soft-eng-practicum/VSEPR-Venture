@@ -7,10 +7,9 @@ myColor = c_black;//Alter display color
 isEmpty = false;
 emptyMessage = "You have no molecules!";
 
-globalvar itemSelected, scrolledAmount, inventoryEndAt; //We'll need this in several functions & other objects
-itemSelected = 0;//The currently selected item from the list
-inventoryOnScreen = 2;
-inventoryEndAt = min(ds_grid_height(myItems), floor((sprite_height - (textBorder * 3)) / 10));//How many items to display in the list. 
+global.itemSelected = 0;//The currently selected item from the list
+global.inventoryOnScreen = 2;
+global.inventoryEndAt = min(ds_grid_height(myItems), floor((sprite_height - (textBorder * 3)) / 10));//How many items to display in the list. 
 //Either the amount of items in the list, or the amount that will fit in the sprite.
 
 if(ds_grid_get(myItems, 0, 0) == 0)
