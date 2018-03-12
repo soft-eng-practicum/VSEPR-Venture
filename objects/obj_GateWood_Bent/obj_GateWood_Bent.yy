@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_GateWood_Bent",
     "eventList": [
-        
+        {
+            "id": "39350e4e-4110-4cfb-94fb-d0a63ff8fb79",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9238712c-1cde-42ea-98c3-e819bd5b7dd6"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_GateWood_TriagonalPlanar",
     "eventList": [
-        
+        {
+            "id": "8d7ad1a5-2695-4011-8993-599e3a98b555",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "39f507e2-3350-42b8-8446-1afd2037382d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

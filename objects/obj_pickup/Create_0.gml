@@ -5,3 +5,5 @@ myItemAmount = undefined;
 myItemDescription = undefined;
 myItemSprite = undefined;
 myItemScript = undefined;
+
+depth = -y - 1;

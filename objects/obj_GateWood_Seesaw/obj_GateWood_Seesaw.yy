@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_GateWood_Seesaw",
     "eventList": [
-        
+        {
+            "id": "8e3e7791-5f9e-45f9-8be6-8552f70e9781",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d7c30314-7fe8-4973-9e27-bd0ed29dc669"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
