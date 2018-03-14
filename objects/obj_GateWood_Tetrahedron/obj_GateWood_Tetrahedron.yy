@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_GateWood_Tetrahedron",
     "eventList": [
-        
+        {
+            "id": "09b422c9-86a2-4484-a978-bc493c3f06ab",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "467e1db8-637c-437d-a5a8-3b95c8164b51"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

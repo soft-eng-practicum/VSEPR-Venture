@@ -8,3 +8,4 @@ myItemScript = undefined;
 myItemState = undefined;
 myItemStateIndex = 0;
 count = 0;
+depth = -y - 1;

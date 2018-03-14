@@ -1,6 +1,6 @@
 /// @description Initialize
 textBorder = 8; //The border of the sprite, how much to draw text in
-
+depth = -1000;
 myItems = playerInventory;//Shorter DS grid name
 myColor = c_black;//Alter display color
 //If the inventory is empty.

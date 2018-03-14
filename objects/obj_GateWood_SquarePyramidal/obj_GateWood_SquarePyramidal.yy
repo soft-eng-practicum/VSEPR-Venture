@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_GateWood_SquarePyramidal",
     "eventList": [
-        
+        {
+            "id": "2199beb4-04dc-4aa3-a8ac-86515d7e7f8a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0acaacb7-5235-4c9e-9284-7435c672c01b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

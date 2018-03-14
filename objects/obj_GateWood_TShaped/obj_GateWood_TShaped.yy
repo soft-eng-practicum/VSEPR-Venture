@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_GateWood_TShaped",
     "eventList": [
-        
+        {
+            "id": "6fe457fb-b87c-4477-a2d4-2e0113b9adf3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6befb037-2285-42e4-91f6-c866c565be65"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
