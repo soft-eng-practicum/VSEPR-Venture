@@ -19,7 +19,10 @@ for(i = 0; i < invLength; ++i)
 				 if(j == 3)//Draw Sprite
 				 {
 					draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 70, ypos1, 1.5, 1.5, 0, c_white, 1);
-					//instance_create_depth(bbox_right - 70, ypos1, -1005, obj_Aluminium);
+					if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
+					{
+						instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Aluminium")));
+					}
 				 }
 			}	
 		}
