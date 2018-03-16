@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "3b27e46b-135f-42d6-acf4-cfcb90894a13",
+            "Value": {
+                "id": "b6fd8eaa-3367-46ff-a338-b3697badcd80",
+                "resourcePath": "rooms\\rm_grass_5\\rm_grass_5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3bdf0b6c-8fbb-475c-b070-f9cfeb3b6a37",
             "Value": {
                 "id": "a46b4f54-ab3d-4d6c-a770-9e6144b27be3",
@@ -532,6 +540,14 @@
                 "id": "323db366-039c-4713-9520-357ddcb28651",
                 "resourcePath": "objects\\obj_gate\\obj_gate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5274e14d-7410-4961-a6f8-3070f2aad120",
+            "Value": {
+                "id": "9add9180-5370-4a6e-ab3c-ce7097e5fd8a",
+                "resourcePath": "rooms\\rm_grass_2\\rm_grass_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -855,6 +871,14 @@
             }
         },
         {
+            "Key": "94f9f430-ed8d-4883-b272-027845177157",
+            "Value": {
+                "id": "2525fa81-fe24-4cf0-b766-9c7715e8b63d",
+                "resourcePath": "rooms\\rm_grass_6\\rm_grass_6.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "97afd230-9348-41fc-ac8b-3f17b3974453",
             "Value": {
                 "id": "39e682d8-9896-41ab-b041-5c64c22a1de4",
@@ -996,6 +1020,14 @@
                 "id": "a2f619ac-853d-4c14-9737-e37abfda04c4",
                 "resourcePath": "sprites\\spr_warp\\spr_warp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3848982-2384-4f9b-a551-7a8bcd73f95d",
+            "Value": {
+                "id": "ce0391c5-61b4-4fb7-841d-cf5b5ef262e6",
+                "resourcePath": "rooms\\rm_grass_4\\rm_grass_4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1268,6 +1300,14 @@
                 "id": "1259dd2b-bf0a-4bf2-a09b-380970bd94e1",
                 "resourcePath": "sprites\\spr_GateWood_Linear\\spr_GateWood_Linear.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f870319c-f8db-4d1c-995c-b3d4b973a9aa",
+            "Value": {
+                "id": "7cb5ce62-e572-4cc8-bd77-fa1887cfadd8",
+                "resourcePath": "rooms\\rm_grass_3\\rm_grass_3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
