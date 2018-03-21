@@ -1,6 +1,6 @@
-myItemName = "Chlorine";
+myItemName = "Aluminium";
 myItemAmount = 1;
-myItemDescription = "A Chlorine Atom";
-myItemSprite = spr_Chlorine;
+myItemDescription = "An Aluminium Atom";
+myItemSprite = spr_Aluminium;
 myItemScript = "";
-myItemState = spr_shineGas;
+myItemState = spr_shineSolid;
