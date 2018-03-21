@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "069bb1e9-9606-44c7-b5e5-3ef1eeeb8611",
+            "Value": {
+                "id": "d71c3612-5edd-45c7-961f-d054ee3aea4e",
+                "resourcePath": "sprites\\spr_Overlay_Bent\\spr_Overlay_Bent.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "086e690f-bcc1-4aa2-9696-f4bdda02ee5d",
             "Value": {
                 "id": "4504580c-8db8-4945-9992-6a3f1d86ad19",
@@ -223,11 +231,27 @@
             }
         },
         {
+            "Key": "1ff68418-8d00-454a-a6ef-37e04b4264cb",
+            "Value": {
+                "id": "3a1e38be-9a8c-476e-992c-46907f378068",
+                "resourcePath": "sprites\\spr_Overlay_Tetrahedron\\spr_Overlay_Tetrahedron.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "214f981d-2e4c-4c6f-a95f-ef0ef14b42ac",
             "Value": {
                 "id": "c5847f34-0f90-42ed-b9f9-4b7926ccce8a",
                 "resourcePath": "objects\\obj_GateWood_Octahedron\\obj_GateWood_Octahedron.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "21f6c402-525e-49c7-bcf6-7c624496f497",
+            "Value": {
+                "id": "904afdf5-c117-4120-9984-db4d218556b8",
+                "resourcePath": "sprites\\spr_Overlay_Octahedron\\spr_Overlay_Octahedron.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -244,6 +268,14 @@
                 "id": "8b9e6491-f8af-496c-9669-899e0736a577",
                 "resourcePath": "objects\\obj_test_ele_2\\obj_test_ele_2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "267ba3c4-5e84-425e-932e-b953009a19be",
+            "Value": {
+                "id": "0a2509fb-8862-4933-a214-d1fca7077278",
+                "resourcePath": "sprites\\spr_Overlay_TShaped\\spr_Overlay_TShaped.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -559,6 +591,14 @@
             }
         },
         {
+            "Key": "53679633-e146-4ad3-925b-988ec988b996",
+            "Value": {
+                "id": "3c5b436b-fb8d-4c25-a846-fe77b50cffa9",
+                "resourcePath": "sprites\\spr_Overlay_SquarePlanar\\spr_Overlay_SquarePlanar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "550891e3-7c64-4bac-8572-7716bc27a01e",
             "Value": {
                 "id": "379935e6-2b0a-4589-b198-0b30498529e9",
@@ -692,6 +732,14 @@
                 "id": "2f8acbc3-f22c-424a-b9f9-ae6696397604",
                 "resourcePath": "views\\6f1d05bd-981c-45b0-8015-16f1ae890f0e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ffda526-5867-44ad-b84f-b64cf21d39a2",
+            "Value": {
+                "id": "99cdfc6d-908b-4e2e-b738-a8756d0387b2",
+                "resourcePath": "sprites\\spr_Overlay_TriagonalBipyramidal\\spr_Overlay_TriagonalBipyramidal.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -903,6 +951,14 @@
             }
         },
         {
+            "Key": "9cf58b41-311e-405b-88c2-1d2b508fae5f",
+            "Value": {
+                "id": "ea046d63-38e6-44fc-bbbc-cc808fcb5431",
+                "resourcePath": "sprites\\spr_Overlay_TriagonalPlanar\\spr_Overlay_TriagonalPlanar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9dd00f77-05c9-49a3-a71c-7d226d345732",
             "Value": {
                 "id": "9c72e0bc-8370-4948-8f2c-1a2c2e93441e",
@@ -963,6 +1019,14 @@
             "Value": {
                 "id": "45d549b0-fb52-45c1-ab5d-76fdb7acf5cd",
                 "resourcePath": "sprites\\spr_player_down\\spr_player_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5ff30ef-b946-42bb-8880-244c227215e5",
+            "Value": {
+                "id": "5acbf7af-a4d8-4ca5-8521-300353fb1d29",
+                "resourcePath": "sprites\\spr_Overlay_Pyramidal\\spr_Overlay_Pyramidal.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1028,6 +1092,14 @@
                 "id": "ce0391c5-61b4-4fb7-841d-cf5b5ef262e6",
                 "resourcePath": "rooms\\rm_grass_4\\rm_grass_4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b46c5a27-d285-42b0-9cb3-54e1de754e81",
+            "Value": {
+                "id": "665e4b51-bbb6-439e-b9c2-6637958dad56",
+                "resourcePath": "sprites\\spr_Overlay_Seesaq\\spr_Overlay_Seesaq.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1119,6 +1191,14 @@
             }
         },
         {
+            "Key": "c424f054-cbfd-467b-b28f-325d58f803d1",
+            "Value": {
+                "id": "aa755ade-dd2a-49bf-bc4d-25489e0daea8",
+                "resourcePath": "sprites\\spr_Overlay_Linear\\spr_Overlay_Linear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c695894c-8d29-4b3f-b658-5ce281561d7a",
             "Value": {
                 "id": "6318524b-e991-41cd-9ace-a13294698b86",
@@ -1188,6 +1268,14 @@
                 "id": "0c334096-ca0a-4ae4-a9b9-a9497f0f8a42",
                 "resourcePath": "rooms\\rm_grass_0\\rm_grass_0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d9c86efe-57ff-422e-a18a-224850c0c486",
+            "Value": {
+                "id": "159d988d-d3ae-46a6-b291-fac11fd30349",
+                "resourcePath": "sprites\\spr_Overlay_SquarePyramidal\\spr_Overlay_SquarePyramidal.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
