@@ -15,5 +15,3 @@ if ((mouse_check_button(mb_left)) and (mouse_x < x + halfW) and (mouse_x >= x - 
 }
 mouseXPrev = mouse_x;
 mouseYPrev = mouse_y;
-
-
