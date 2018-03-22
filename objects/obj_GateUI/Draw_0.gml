@@ -146,7 +146,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
 						{
-							for(var a = 0; a < "something"; a++) // GET amount of certain item in inventory
+							for(var a = 0; a < 5; a++) // GET amount of certain item in inventory
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Hydrogen")));
 							}
