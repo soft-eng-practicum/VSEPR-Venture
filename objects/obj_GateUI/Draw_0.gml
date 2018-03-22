@@ -4,9 +4,12 @@ draw_self();
 
 // Overlay testing
 
-draw_sprite(spr_Overlay_Linear, 0, bbox_right - 200, bbox_top + 200);
+draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
 
-
+// Implement multiple atoms? for loop
+// depend above on amount of items in inventory (get amount)
+// bigger atoms
+// idk
 
 
 invLength = inventoryEndAt;
@@ -143,7 +146,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Hydrogen")));
+							for(var a = 0; a < "something"; a++) // GET amount of certain item in inventory
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Hydrogen")));
+							}
 						}
 					}
 					

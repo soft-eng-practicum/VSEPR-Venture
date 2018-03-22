@@ -1,6 +1,6 @@
-myItemName = "Magnesium";
+myItemName = "Oxygen";
 myItemAmount = 1;
-myItemDescription = "A Magnesium Atom";
-myItemSprite = spr_Magnesium;
+myItemDescription = "An Oxygen Atom";
+myItemSprite = spr_Oxygen;
 myItemScript = "";
-myItemState = spr_shineSolid;
+myItemState = spr_shineGas;
