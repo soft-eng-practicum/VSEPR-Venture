@@ -6,7 +6,7 @@
 
 **Repository Location:** https://github.com/soft-eng-practicum/enigma
 
-**Progress Tracking Tool:** JIRA, http://itec-gunay.duckdns.org:8080/browse/SDPS-71
+**Progress Tracking Tool:** JIRA, http://itec-gunay.duckdns.org:8080/secure/RapidBoard.jspa?rapidView=26&projectKey=ENIGMA
 
 **Communication Tools:** Discord, Slack
 
