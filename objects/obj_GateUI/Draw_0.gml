@@ -2,6 +2,13 @@
 // You can write your code in this editor
 draw_self();
 
+// Overlay testing
+
+draw_sprite(spr_Overlay_Linear, 0, bbox_right - 200, bbox_top + 200);
+
+
+
+
 invLength = inventoryEndAt;
 invFirstHalf = ceil(inventoryEndAt / 2);
 

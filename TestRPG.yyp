@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "17f9ed56-02ba-4c82-94b6-63c24f748b8c",
+            "Value": {
+                "id": "eec08c95-3bb4-433b-b1b6-863a27cba904",
+                "resourcePath": "objects\\obj_Overlay_Linear\\obj_Overlay_Linear.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1834bd06-d585-4659-84a6-6c21966395ae",
             "Value": {
                 "id": "3a82038b-2650-4185-94fa-b8c166dd58db",
