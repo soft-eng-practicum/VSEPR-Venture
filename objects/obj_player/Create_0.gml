@@ -18,9 +18,3 @@ face = 0;
 #macro UPLEFT spr_player_upleft;
 #macro UP spr_player_up;
 #macro UPRIGHT spr_player_upright;
-
-// Drag and drop?
-halfW = sprite_get_width(sprite_index)/2;
-halfH = sprite_get_height(sprite_index)/2;
-mouseXPrev = mouse_x;
-mouseYPrev = mouse_y;

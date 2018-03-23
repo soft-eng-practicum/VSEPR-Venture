@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 instance_destroy();
 instance_destroy(obj_ExitButton);
 instance_destroy(obj_Aluminium);
@@ -20,4 +21,3 @@ instance_destroy(obj_Phosphorus);
 instance_destroy(obj_Silicon);
 instance_destroy(obj_Sulfur);
 instance_destroy(obj_Sodium);
-

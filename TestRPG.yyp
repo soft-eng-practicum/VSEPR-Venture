@@ -271,14 +271,6 @@
             }
         },
         {
-            "Key": "266c9a60-05e5-4621-a1cc-3937c8a9f165",
-            "Value": {
-                "id": "8b9e6491-f8af-496c-9669-899e0736a577",
-                "resourcePath": "objects\\obj_test_ele_2\\obj_test_ele_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "267ba3c4-5e84-425e-932e-b953009a19be",
             "Value": {
                 "id": "0a2509fb-8862-4933-a214-d1fca7077278",
@@ -331,6 +323,14 @@
             "Value": {
                 "id": "21b6572b-8ec1-4167-90ca-e6851c457c6b",
                 "resourcePath": "sprites\\spr_Carbon\\spr_Carbon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ed90f22-70ae-432d-834b-92ac99e7f9c7",
+            "Value": {
+                "id": "ca4b28c8-7524-4652-a355-adc9b78f0e9b",
+                "resourcePath": "sprites\\spr_rock1\\spr_rock1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -451,14 +451,6 @@
             "Value": {
                 "id": "d21d1c8f-6536-4f1d-9fc0-c51a6a5982bf",
                 "resourcePath": "objects\\obj_GateWood_TriagonalPlanar\\obj_GateWood_TriagonalPlanar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3a0fcf49-3405-4e05-9cf8-c2f106f8bab6",
-            "Value": {
-                "id": "f6f0727e-341d-4c7c-bc38-f5c9e20e0ae8",
-                "resourcePath": "objects\\obj_test_ele\\obj_test_ele.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -759,6 +751,14 @@
             }
         },
         {
+            "Key": "70481469-6453-4715-9526-40581c2a8424",
+            "Value": {
+                "id": "27904aa2-6f21-4f32-9152-533bb838fa2c",
+                "resourcePath": "objects\\obj_rock1\\obj_rock1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7074dea4-7c11-44b8-89bf-352f5e6eea75",
             "Value": {
                 "id": "4ba90b85-f71e-4586-98db-6cdf1fb0d316",
@@ -932,6 +932,14 @@
                 "id": "2525fa81-fe24-4cf0-b766-9c7715e8b63d",
                 "resourcePath": "rooms\\rm_grass_6\\rm_grass_6.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "971a54a2-31e0-4dcd-b9f3-f6804f62862c",
+            "Value": {
+                "id": "dbd452bb-5eda-47b7-9d4d-cb19ea5b928d",
+                "resourcePath": "sprites\\sprSignEasy\\sprSignEasy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

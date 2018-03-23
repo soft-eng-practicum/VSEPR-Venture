@@ -4,8 +4,6 @@
     "mvc": "1.1",
     "name": "03bbb150-6623-49d9-bf8f-5cbaf5b35f94",
     "children": [
-        "3a0fcf49-3405-4e05-9cf8-c2f106f8bab6",
-        "266c9a60-05e5-4621-a1cc-3937c8a9f165",
         "14566947-4697-40b5-930a-968ade3e8789",
         "d687bc69-ca3e-4bd5-bd6c-aab96765ec68",
         "a123f0d7-f142-44d0-aa67-a7ae7c8b645a",

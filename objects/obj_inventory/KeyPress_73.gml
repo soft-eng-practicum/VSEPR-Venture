@@ -12,7 +12,7 @@ if(!instance_exists(obj_GateUI))
 		}
 	}
 
-//Clean up created things
+	//Clean up created things
 	else
 	{
 		instance_destroy(obj_inventory_gui);	
