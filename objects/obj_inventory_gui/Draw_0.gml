@@ -33,7 +33,7 @@ for(i = 0; i < inventoryEndAt; ++i)
 draw_rectangle(bbox_left + textBorder, itemTopStart + ((itemSelected - scrolledAmount)* 10),
 bbox_right - textBorder, itemTopStart + ((itemSelected - scrolledAmount) * 10) + 10, true);
 
-draw_sprite(sprItemBox, 0, bbox_right + sprite_get_xoffset(sprItemBox), room_height - sprite_get_yoffset(sprItemBox));
+draw_sprite(sprItemBox, 0, bbox_right + sprite_get_xoffset(sprItemBox), camera_get_view_y(view_camera[0])  + 208);
 
 if(isEmpty)
 	draw_text_ext(bbox_right + 7, room_height - sprite_get_yoffset(sprItemBox) - 25, emptyMessage, 10, sprite_get_width(sprItemBox) - textBorder);
