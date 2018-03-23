@@ -19,4 +19,4 @@ instance_destroy(obj_Oxygen);
 instance_destroy(obj_Phosphorus);
 instance_destroy(obj_Silicon);
 instance_destroy(obj_Sulfur);
-instance_destroy(obj_Sodium);
+instance_destroy(obj_Sodium)
