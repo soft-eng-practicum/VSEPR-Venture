@@ -34,7 +34,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Aluminium")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Aluminium")));
+							}
 						}
 					}
 					
@@ -42,7 +45,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Beryllium"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Beryllium")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Beryllium")));
+							}
 						}
 					}
 					
@@ -50,7 +56,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Boron"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Boron")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Boron")));
+							}
 						}
 					}
 					
@@ -58,7 +67,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Carbon"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Carbon")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Carbon")));
+							}
 						}
 					}
 					
@@ -66,7 +78,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Lithium"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Lithium")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Lithium")));
+							}
 						}
 					}
 					
@@ -74,7 +89,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Magnesium"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Magnesium")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Magnesium")));
+							}
 						}
 					}
 					
@@ -82,7 +100,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Phosphorus"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Phosphorus")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Phosphorus")));
+							}
 						}
 					}
 					
@@ -90,7 +111,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Silicon"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Silicon")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Silicon")));
+							}
 						}
 					}
 					
@@ -98,7 +122,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sodium"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sodium")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sodium")));
+							}
 						}
 					}
 					
@@ -106,7 +133,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sulfur"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sulfur")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sulfur")));
+							}
 						}
 					}
 					
@@ -114,7 +144,11 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Argon"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Argon")));
+							
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Argon")));
+							}
 						}
 					}
 					
@@ -122,7 +156,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Chlorine"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Chlorine")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Chlorine")));
+							}
 						}
 					}
 					
@@ -130,7 +167,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Fluorine"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Fluorine")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Fluorine")));
+							}
 						}
 					}
 					
@@ -138,19 +178,22 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Helium"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Helium")));
+							
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Helium")));
+							}
 						}
 					}
+					
 					
 					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Hydrogen)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
 						{
-							var test = ypos1;
-							for(var a = 0; a < 5; a++) // GET amount of certain item in inventory
+							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, test, -1005, asset_get_index("obj_" + string("Hydrogen")));
-								test += 5;
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Hydrogen")));
 							}
 							
 						}
@@ -160,7 +203,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Neon"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Neon")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Neon")));
+							}
 						}
 					}
 					
@@ -168,15 +214,21 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Nitrogen"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Nitrogen")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Nitrogen")));
+							}
 						}
 					}
-					
+	
 					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Oxygen)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Oxygen"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Oxygen")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Oxygen")));
+							}
 						}
 					}
 					
@@ -184,7 +236,10 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Bromine"))))
 						{
-							instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Bromine")));
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Bromine")));
+							}
 						}
 					}
 				 }
@@ -202,160 +257,221 @@ for(i = 0; i < invLength; ++i)
 		{
 			for(j = 0; j < ds_grid_width(myItems); ++j)
 			{
-				 if(j == 3)//Draw Sprite
-				 {
-					draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 34, ypos2, 1.5, 1.5, 0, c_white, 1);
-				 }	
-				 
-				 if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Aluminium)
+				if(j == 3)//Draw Sprite
 				{
-					if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
-					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Aluminium")));
-					}
-				}
+					draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 70, ypos1, 1.5, 1.5, 0, c_white, 1);
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Beryllium)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Beryllium"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Aluminium)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Beryllium")));
+						if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Aluminium")));
+							}
+						}
 					}
-				}
-				
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Boron)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Boron"))))
-					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Boron")));
-					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Carbon)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Carbon"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Beryllium)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Carbon")));
+						if(!instance_exists(asset_get_index("obj_" + string("Beryllium"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Beryllium")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Lithium)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Lithium"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Boron)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Lithium")));
+						if(!instance_exists(asset_get_index("obj_" + string("Boron"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Boron")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Magnesium)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Magnesium"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Carbon)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Magnesium")));
+						if(!instance_exists(asset_get_index("obj_" + string("Carbon"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Carbon")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Phosphorus)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Phosphorus"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Lithium)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Phosphorus")));
+						if(!instance_exists(asset_get_index("obj_" + string("Lithium"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Lithium")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Silicon)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Silicon"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Magnesium)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Silicon")));
+						if(!instance_exists(asset_get_index("obj_" + string("Magnesium"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Magnesium")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sodium)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Sodium"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Phosphorus)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Sodium")));
+						if(!instance_exists(asset_get_index("obj_" + string("Phosphorus"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Phosphorus")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sulfur)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Sulfur"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Silicon)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Sulfur")));
+						if(!instance_exists(asset_get_index("obj_" + string("Silicon"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Silicon")));
+							}
+						}
 					}
-				}
-				
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Argon)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Argon"))))
-					{
-						instance_create_depth(bbbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Argon")));
-					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Chlorine)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Chlorine"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sodium)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Chlorine")));
+						if(!instance_exists(asset_get_index("obj_" + string("Sodium"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sodium")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Fluorine)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Fluorine"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sulfur)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Fluorine")));
+						if(!instance_exists(asset_get_index("obj_" + string("Sulfur"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sulfur")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Helium)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Helium"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Argon)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Helium")));
+						if(!instance_exists(asset_get_index("obj_" + string("Argon"))))
+						{
+							
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Argon")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Hydrogen)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Chlorine)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Hydrogen")));
+						if(!instance_exists(asset_get_index("obj_" + string("Chlorine"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Chlorine")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Neon)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Neon"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Fluorine)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Neon")));
+						if(!instance_exists(asset_get_index("obj_" + string("Fluorine"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Fluorine")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Nitrogen)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Nitrogen"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Helium)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Nitrogen")));
+						if(!instance_exists(asset_get_index("obj_" + string("Helium"))))
+						{
+							
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Helium")));
+							}
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Oxygen)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Oxygen"))))
+					
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Hydrogen)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Oxygen")));
+						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Hydrogen")));
+							}
+							
+						}
 					}
-				}
 					
-				if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Bromine)
-				{
-					if(!instance_exists(asset_get_index("obj_" + string("Bromine"))))
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Neon)
 					{
-						instance_create_depth(bbox_right - 34, ypos2, -1005, asset_get_index("obj_" + string("Bromine")));
+						if(!instance_exists(asset_get_index("obj_" + string("Neon"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Neon")));
+							}
+						}
+					}
+					
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Nitrogen)
+					{
+						if(!instance_exists(asset_get_index("obj_" + string("Nitrogen"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Nitrogen")));
+							}
+						}
+					}
+	
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Oxygen)
+					{
+						if(!instance_exists(asset_get_index("obj_" + string("Oxygen"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Oxygen")));
+							}
+						}
+					}
+					
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Bromine)
+					{
+						if(!instance_exists(asset_get_index("obj_" + string("Bromine"))))
+						{
+							for(var a = 0; a < 2; a++)
+							{
+								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Bromine")));
+							}
+						}
 					}
 				}
 			}

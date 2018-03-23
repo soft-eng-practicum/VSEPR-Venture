@@ -1,5 +1,5 @@
 myItemName = "Hydrogen";
-myItemAmount = 2;
+myItemAmount = 1;
 myItemDescription = "A Hydrogen Atom";
 myItemSprite = spr_Hydrogen;
 myItemScript = "";
