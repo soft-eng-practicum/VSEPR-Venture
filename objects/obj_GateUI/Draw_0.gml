@@ -9,11 +9,6 @@ draw_set_halign(fa_center);
 draw_set_font(font_bold);
 draw_text_color(bbox_left+135, bbox_top, "Bent", c_black, c_black, c_black, c_black, 1);
 
-// Implement multiple atoms? for loop
-// depend above on amount of items in inventory (get amount)
-// bigger atoms
-// idk
-
 
 invLength = inventoryEndAt;
 invFirstHalf = ceil(inventoryEndAt / 2);
