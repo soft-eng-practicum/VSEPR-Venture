@@ -3,10 +3,6 @@ draw_self();
 draw_set_colour(myColor);
 draw_set_font(font_inventory);
 
-draw_text(0, 0, floor((sprite_height - (textBorder * 3)) / 10));
-draw_text(0, 10, ds_grid_height(myItems));
-draw_text(0, 20, inventoryEndAt);
-
 draw_text(bbox_left + textBorder, bbox_top + textBorder, "Image");
 draw_text(bbox_left + 45, bbox_top + textBorder, "Name");
 draw_text(bbox_left + 78, bbox_top + textBorder, "Amount");
