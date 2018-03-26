@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+instance_activate_object(obj_player);
 instance_destroy();
 instance_destroy(obj_ExitButton);
 instance_destroy(obj_Aluminium);
