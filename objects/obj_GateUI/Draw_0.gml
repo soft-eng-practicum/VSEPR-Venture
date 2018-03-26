@@ -3,7 +3,7 @@
 draw_self();
 
 // Overlay testing
-
+instance_deactivate_object(obj_player);
 draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
 draw_set_halign(fa_center);
 draw_set_font(font_bold);
