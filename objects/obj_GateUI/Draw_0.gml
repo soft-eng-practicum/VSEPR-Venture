@@ -259,7 +259,7 @@ for(i = 0; i < invLength; ++i)
 			{
 				if(j == 3)//Draw Sprite
 				{
-					draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 70, ypos1, 1.5, 1.5, 0, c_white, 1);
+					draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 35, ypos2, 1.5, 1.5, 0, c_white, 1);
 					
 					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Aluminium)
 					{
@@ -267,7 +267,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Aluminium")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Aluminium")));
 							}
 						}
 					}
@@ -278,7 +278,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Beryllium")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Beryllium")));
 							}
 						}
 					}
@@ -289,7 +289,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Boron")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Boron")));
 							}
 						}
 					}
@@ -300,7 +300,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Carbon")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Carbon")));
 							}
 						}
 					}
@@ -311,7 +311,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Lithium")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Lithium")));
 							}
 						}
 					}
@@ -322,7 +322,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Magnesium")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Magnesium")));
 							}
 						}
 					}
@@ -333,7 +333,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Phosphorus")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Phosphorus")));
 							}
 						}
 					}
@@ -344,7 +344,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Silicon")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Silicon")));
 							}
 						}
 					}
@@ -355,7 +355,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sodium")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Sodium")));
 							}
 						}
 					}
@@ -366,7 +366,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sulfur")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Sulfur")));
 							}
 						}
 					}
@@ -378,7 +378,7 @@ for(i = 0; i < invLength; ++i)
 							
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Argon")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Argon")));
 							}
 						}
 					}
@@ -389,7 +389,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Chlorine")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Chlorine")));
 							}
 						}
 					}
@@ -400,7 +400,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Fluorine")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Fluorine")));
 							}
 						}
 					}
@@ -412,7 +412,7 @@ for(i = 0; i < invLength; ++i)
 							
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Helium")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Helium")));
 							}
 						}
 					}
@@ -424,7 +424,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Hydrogen")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Hydrogen")));
 							}
 							
 						}
@@ -436,7 +436,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Neon")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Neon")));
 							}
 						}
 					}
@@ -447,7 +447,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Nitrogen")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Nitrogen")));
 							}
 						}
 					}
@@ -458,7 +458,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Oxygen")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Oxygen")));
 							}
 						}
 					}
@@ -469,7 +469,7 @@ for(i = 0; i < invLength; ++i)
 						{
 							for(var a = 0; a < 2; a++)
 							{
-								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Bromine")));
+								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Bromine")));
 							}
 						}
 					}

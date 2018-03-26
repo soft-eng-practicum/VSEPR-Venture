@@ -18,7 +18,7 @@ if grabbed = true
 
 if mouse_check_button_pressed(mb_left) 
 {
-    var instance = top_instance_position(mouse_x, mouse_y, obj_Oxygen);
+    var instance = top_instance_position(mouse_x, mouse_y, obj_Neon);
     if instance_exists(instance) 
 	{
         instance.grabbed = true;
@@ -28,7 +28,7 @@ if mouse_check_button_pressed(mb_left)
 }
 if !mouse_check_button(mb_left) 
 {
-    with (obj_Oxygen) 
+    with (obj_Neon) 
 	{
         grabbed = false;
     }
