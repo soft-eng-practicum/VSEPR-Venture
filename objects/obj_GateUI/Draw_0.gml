@@ -4,6 +4,11 @@ draw_self();
 
 // Overlay testing
 instance_deactivate_object(obj_player);
+instance_destroy(obj_inventory_gui);
+instance_destroy(obj_button);
+instance_destroy(obj_order);
+
+
 draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
 draw_set_halign(fa_center);
 draw_set_font(font_bold);
