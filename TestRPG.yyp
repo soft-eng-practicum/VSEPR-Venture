@@ -575,14 +575,6 @@
             }
         },
         {
-            "Key": "4d8701d8-8716-4875-a757-d7e230f128e6",
-            "Value": {
-                "id": "323db366-039c-4713-9520-357ddcb28651",
-                "resourcePath": "objects\\obj_gate\\obj_gate.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5274e14d-7410-4961-a6f8-3070f2aad120",
             "Value": {
                 "id": "9add9180-5370-4a6e-ab3c-ce7097e5fd8a",
