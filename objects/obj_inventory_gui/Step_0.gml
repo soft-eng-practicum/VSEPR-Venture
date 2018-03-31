@@ -4,8 +4,11 @@ if(ds_grid_get(myItems, 0, 0) != 0)
 {
 	isEmpty = false;
 	inventoryEndAt = ds_grid_height(myItems);
+	
 	if(ds_grid_height(myItems) >= floor((sprite_height - (textBorder * 3)) / 10))
+	{
 		inventoryEndAt = floor((sprite_height - (textBorder * 3)) / 10);
+	}
 }
 
 if(ds_grid_get(myItems, 0, 0) == 0)

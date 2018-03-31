@@ -1,9 +1,9 @@
 /// @description Various alarms for button presses
 
-useButton = instance_create_depth(bbox_right + 25, camera_get_view_y(view_camera[0]) + 228, depth - 1, obj_button);
+useButton = instance_create_depth(bbox_right + 28, camera_get_view_y(view_camera[0]) + 228, depth - 1, obj_button);
 useButton.myText = "Use";
 
-trashButton = instance_create_depth(bbox_right + 75, camera_get_view_y(view_camera[0]) + 228, depth -1, obj_button);
+trashButton = instance_create_depth(bbox_right + 74, camera_get_view_y(view_camera[0]) + 228, depth -1, obj_button);
 trashButton.myText = "Trash";
 
 nameClick = instance_create_depth(sprite_get_xoffset(sprite_index) + 60, camera_get_view_y(view_camera[0]) + 156, depth - 1, obj_order);
