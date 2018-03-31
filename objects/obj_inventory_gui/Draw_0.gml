@@ -29,12 +29,12 @@ for(i = 0; i < inventoryEndAt; ++i)
 draw_rectangle(bbox_left + textBorder, itemTopStart + ((itemSelected - scrolledAmount)* 10),
 bbox_right - textBorder, itemTopStart + ((itemSelected - scrolledAmount) * 10) + 10, true);
 
-draw_sprite(sprItemBox, 0, bbox_right + sprite_get_xoffset(sprItemBox), camera_get_view_y(view_camera[0])  + 208);
+draw_sprite(sprItemBox, 0, camera_get_view_x(view_camera[0]) + 175, camera_get_view_y(view_camera[0])  + 208);
 
 if(isEmpty)
-	draw_text_ext(bbox_right + 7, room_height - sprite_get_yoffset(sprItemBox) - 25, emptyMessage, 10, sprite_get_width(sprItemBox) - textBorder);
+	draw_text_ext(camera_get_view_x(view_camera[0]) + 135, camera_get_view_y(view_camera[0]) + 180, emptyMessage, 10, sprite_get_width(sprItemBox) - textBorder);
 else
-	draw_text_ext(bbox_right + 7, room_height - sprite_get_yoffset(sprItemBox) - 25, ds_grid_get(myItems, 2, itemSelected), 10, sprite_get_width(sprItemBox) - textBorder);
+	draw_text_ext(camera_get_view_x(view_camera[0]) + 135, camera_get_view_y(view_camera[0]) + 180, ds_grid_get(myItems, 2, itemSelected), 10, sprite_get_width(sprItemBox) - textBorder);
 
 if(ds_grid_height(myItems) > floor((sprite_height - (textBorder *3 )) /32))
 {
