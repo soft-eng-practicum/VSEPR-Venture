@@ -22,3 +22,15 @@ instance_destroy(obj_Phosphorus);
 instance_destroy(obj_Silicon);
 instance_destroy(obj_Sulfur);
 instance_destroy(obj_Sodium)
+
+global.linearBoolean = false;
+global.bentBoolean = false;
+global.octahedronBoolean = false;
+global.pyramidalBoolean = false;
+global.seesawBoolean = false;
+global.squarePlanarBoolean = false;
+global.squarePyramidalBoolean = false;
+global.tetrahedronBoolean = false;
+global.trigonalBipyramidalBoolean = false;
+global.trigonalPlanarBoolean = false;
+global.tShapedBoolean = false;

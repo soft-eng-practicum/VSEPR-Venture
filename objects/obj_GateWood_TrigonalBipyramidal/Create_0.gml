@@ -1,3 +1,2 @@
 /// @description Initialize
-
-depth = -1003;
+depth = -y;

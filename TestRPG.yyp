@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "17f9ed56-02ba-4c82-94b6-63c24f748b8c",
-            "Value": {
-                "id": "eec08c95-3bb4-433b-b1b6-863a27cba904",
-                "resourcePath": "objects\\obj_Overlay_Linear\\obj_Overlay_Linear.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1834bd06-d585-4659-84a6-6c21966395ae",
             "Value": {
                 "id": "3a82038b-2650-4185-94fa-b8c166dd58db",
@@ -458,7 +450,7 @@
             "Key": "39f507e2-3350-42b8-8446-1afd2037382d",
             "Value": {
                 "id": "d21d1c8f-6536-4f1d-9fc0-c51a6a5982bf",
-                "resourcePath": "objects\\obj_GateWood_TriagonalPlanar\\obj_GateWood_TriagonalPlanar.yy",
+                "resourcePath": "objects\\obj_GateWood_TrigonalPlanar\\obj_GateWood_TrigonalPlanar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -642,7 +634,7 @@
             "Key": "58f94a74-7611-4bd7-93fa-3418cc5a09e3",
             "Value": {
                 "id": "ddaa124e-b342-4a72-a4ab-d7833bc27625",
-                "resourcePath": "sprites\\spr_GateWood_TriagonalBipyramidal\\spr_GateWood_TriagonalBipyramidal.yy",
+                "resourcePath": "sprites\\spr_GateWood_TrigonalBipyramidal\\spr_GateWood_TrigonalBipyramidal.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -690,7 +682,7 @@
             "Key": "66f37b0b-032d-4c9e-951c-b18e7e8b4bef",
             "Value": {
                 "id": "873d66aa-38b8-423e-a8db-18ef30f0449c",
-                "resourcePath": "objects\\obj_GateWood_TriagonalBipyramidal\\obj_GateWood_TriagonalBipyramidal.yy",
+                "resourcePath": "objects\\obj_GateWood_TrigonalBipyramidal\\obj_GateWood_TrigonalBipyramidal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -754,7 +746,7 @@
             "Key": "6ffda526-5867-44ad-b84f-b64cf21d39a2",
             "Value": {
                 "id": "99cdfc6d-908b-4e2e-b738-a8756d0387b2",
-                "resourcePath": "sprites\\spr_Overlay_TriagonalBipyramidal\\spr_Overlay_TriagonalBipyramidal.yy",
+                "resourcePath": "sprites\\spr_Overlay_TrigonalBipyramidal\\spr_Overlay_TrigonalBipyramidal.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -858,7 +850,7 @@
             "Key": "81e9d2b0-5539-4115-9c48-70fae8b9cad6",
             "Value": {
                 "id": "5e46bfee-bdd4-4ed0-b6b4-9ae05151e1ae",
-                "resourcePath": "sprites\\spr_GateWood_TriagonalPlanar\\spr_GateWood_TriagonalPlanar.yy",
+                "resourcePath": "sprites\\spr_GateWood_TrigonalPlanar\\spr_GateWood_TrigonalPlanar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -986,7 +978,7 @@
             "Key": "9cf58b41-311e-405b-88c2-1d2b508fae5f",
             "Value": {
                 "id": "ea046d63-38e6-44fc-bbbc-cc808fcb5431",
-                "resourcePath": "sprites\\spr_Overlay_TriagonalPlanar\\spr_Overlay_TriagonalPlanar.yy",
+                "resourcePath": "sprites\\spr_Overlay_TrigonalPlanar\\spr_Overlay_TrigonalPlanar.yy",
                 "resourceType": "GMSprite"
             }
         },

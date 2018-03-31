@@ -2,7 +2,7 @@
     "id": "39f507e2-3350-42b8-8446-1afd2037382d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_GateWood_TriagonalPlanar",
+    "name": "obj_GateWood_TrigonalPlanar",
     "eventList": [
         {
             "id": "8d7ad1a5-2695-4011-8993-599e3a98b555",

@@ -2,19 +2,104 @@
 // You can write your code in this editor
 draw_self();
 
-// Overlay testing
+// Overlay
 instance_deactivate_object(obj_player);
 instance_destroy(obj_inventory_gui);
 instance_destroy(obj_button);
 instance_destroy(obj_order);
 
+// Overlay pasting
+// NOTE: All global boolean variables are defined in rm_initialize creation code
+if(global.bentBoolean == true)
+{
+	draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Bent", c_black, c_black, c_black, c_black, 1);
+}
 
-draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
-draw_set_halign(fa_center);
-draw_set_font(font_bold);
-draw_text_color(bbox_left+135, bbox_top, "Bent", c_black, c_black, c_black, c_black, 1);
+if(global.linearBoolean == true)
+{
+	draw_sprite(spr_Overlay_Linear, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Linear", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.octahedronBoolean == true)
+{
+	draw_sprite(spr_Overlay_Octahedron, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Octahedral", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.pyramidalBoolean == true)
+{
+	draw_sprite(spr_Overlay_Pyramidal, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Pyramidal", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.seesawBoolean == true)
+{
+	draw_sprite(spr_Overlay_Seesaq, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Seesaw", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.squarePlanarBoolean == true)
+{
+	draw_sprite(spr_Overlay_SquarePlanar, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Square Planar", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.squarePyramidalBoolean == true)
+{
+	draw_sprite(spr_Overlay_SquarePyramidal, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Square Pyramidal", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.tetrahedronBoolean == true)
+{
+	draw_sprite(spr_Overlay_Tetrahedron, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Tetrahedral", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.trigonalBipyramidalBoolean == true)
+{
+	draw_sprite(spr_Overlay_TrigonalBipyramidal, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Trigonal Bipyramidal", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.trigonalPlanarBoolean == true)
+{
+	draw_sprite(spr_Overlay_TrigonalPlanar, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "Trigonal Planar", c_black, c_black, c_black, c_black, 1);
+}
+
+if(global.tShapedBoolean == true)
+{
+	draw_sprite(spr_Overlay_TShaped, 0, bbox_right - 180, bbox_top + 100);
+	draw_set_halign(fa_center);
+	draw_set_font(font_bold);
+	draw_text_color(bbox_left+135, bbox_top, "T Shaped", c_black, c_black, c_black, c_black, 1);
+}
 
 
+// Places atoms opun opening UI
 invLength = inventoryEndAt;
 invFirstHalf = ceil(inventoryEndAt / 2);
 
