@@ -11,6 +11,8 @@ emptyMessage = "You have no molecules!";
 
 globalvar itemSelected, scrolledAmount, inventoryEndAt; //We'll need this in several functions & other objects
 itemSelected = 0;//The currently selected item from the list
+global.amountClick = 0;
+global.nameClick = 0;
 
 inventoryOnScreen = 2;
 

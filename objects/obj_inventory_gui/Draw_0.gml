@@ -1,5 +1,11 @@
 /// @description draw inventory on screen
 draw_self();
+with(inventoryDisplay)
+		{
+			x = camera_get_view_x(view_camera[0]); //sprite_get_xoffset(sprite_index);
+			y = camera_get_view_y(view_camera[0]) + 142; //sprite_get_yoffset(sprite_index);
+		}
+
 draw_set_colour(myColor);
 draw_set_font(font_inventory);
 
@@ -8,6 +14,8 @@ draw_text(bbox_left + 45, bbox_top + textBorder, "Name");
 draw_text(bbox_left + 78, bbox_top + textBorder, "Amount");
 
 ///Sets bounds for inventory
+nameClick = "";
+amountClick = 0;
 itemLeftStart = bbox_left + 38;
 itemTopStart = bbox_top + 20;
 
@@ -40,3 +48,5 @@ if(ds_grid_height(myItems) > floor((sprite_height - (textBorder *3 )) /32))
 {
 	draw_sprite(sprScrollBar, 0, bbox_right, 10 + bbox_top + itemSelected * (sprite_height - textBorder) / ds_grid_height(myItems));;	
 }
+
+
