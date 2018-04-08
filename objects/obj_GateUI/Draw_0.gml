@@ -8,6 +8,12 @@ instance_destroy(obj_inventory_gui);
 instance_destroy(obj_button);
 instance_destroy(obj_order);
 
+// Confirm button
+if(!instance_exists(obj_buttonConfirm))
+{
+	instance_create_depth(200, 200, -2000, obj_buttonConfirm);
+}
+
 // Overlay pasting
 // NOTE: All global boolean variables are defined in rm_initialize creation code
 if(global.bentBoolean == true)
@@ -158,6 +164,8 @@ for(i = 0; i < invLength; ++i)
 							for(var a = 0; a < 2; a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Carbon")));
+								obj_Carbon.image_xscale = 1.5;
+								obj_Carbon.image_yscale = 1.5;
 							}
 						}
 					}

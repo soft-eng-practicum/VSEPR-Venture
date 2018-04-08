@@ -11,5 +11,8 @@ global.trigonalBipyramidalBoolean = false;
 global.trigonalPlanarBoolean = false;
 global.tShapedBoolean = false;
 
+// Defines booleans for levels
+global.dihydrogenMonoxide = false;
+
 // Start Room
 room_goto(rm_grass_0);

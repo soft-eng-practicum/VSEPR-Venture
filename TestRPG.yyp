@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "9a991510-c6e6-4755-87b1-4c062b264231",
+            "Value": {
+                "id": "53efc41a-8b1d-4ec2-9eff-42b8a1c17bf5",
+                "resourcePath": "objects\\obj_buttonConfirm\\obj_buttonConfirm.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9c4436d9-822c-44a4-baf9-6dfa50b39e9e",
             "Value": {
                 "id": "3be56e30-0657-4415-a6c0-f6893365e2bf",
@@ -1428,6 +1436,14 @@
                 "id": "446a907f-9668-4617-adc9-1a58dff34a79",
                 "resourcePath": "objects\\obj_Lithium\\obj_Lithium.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fae3b0c3-d11d-43dc-8d46-997eec1ef035",
+            "Value": {
+                "id": "ea85f795-6e3c-4747-b68e-fa5ef040b656",
+                "resourcePath": "sprites\\sprButtonConfirm\\sprButtonConfirm.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

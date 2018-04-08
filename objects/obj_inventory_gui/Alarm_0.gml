@@ -11,5 +11,3 @@ nameClick.myOrderedBy = 0;
 
 amountClick = instance_create_depth(bbox_right - 30, camera_get_view_y(view_camera[0]) + 156, depth - 1, obj_order);
 amountClick.myOrderedBy = 1;
-
-
