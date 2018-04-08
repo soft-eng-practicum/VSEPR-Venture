@@ -3,6 +3,7 @@
 
 instance_activate_object(obj_player);
 instance_destroy();
+instance_destroy(obj_buttonConfirm);
 instance_destroy(obj_ExitButton);
 instance_destroy(obj_Aluminium);
 instance_destroy(obj_Argon);

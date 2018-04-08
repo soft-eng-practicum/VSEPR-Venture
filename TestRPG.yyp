@@ -1343,6 +1343,14 @@
             }
         },
         {
+            "Key": "e94855a8-4462-4e9c-b7e3-c2afba12ba90",
+            "Value": {
+                "id": "ca6f7a88-3f9c-4365-84a5-1489ffd07f4c",
+                "resourcePath": "objects\\obj_Bromine\\obj_Bromine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f0f99991-9805-4d5a-b61e-e25be3c4c10d",
             "Value": {
                 "id": "17fae387-8fc6-4cbf-a36e-13b60127b4d2",

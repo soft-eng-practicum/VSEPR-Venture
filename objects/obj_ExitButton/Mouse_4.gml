@@ -4,6 +4,7 @@
 instance_activate_object(obj_player);
 instance_destroy(obj_GateUI);
 instance_destroy();
+instance_destroy(obj_buttonConfirm);
 instance_destroy(obj_Aluminium);
 instance_destroy(obj_Argon);
 instance_destroy(obj_Beryllium);
