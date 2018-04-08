@@ -1,6 +1,5 @@
 // Setting the window size
 
-
 global.MonitorW = display_get_width();
 global.MonitorH = display_get_height();
 

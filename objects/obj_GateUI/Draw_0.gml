@@ -128,7 +128,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Aluminium")));
 								obj_Aluminium.image_xscale = 1.5;
@@ -141,7 +141,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Beryllium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Beryllium")));
 								obj_Beryllium.image_xscale = 1.5;
@@ -154,7 +154,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Boron"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Boron")));
 								obj_Boron.image_xscale = 1.5;
@@ -167,7 +167,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Carbon"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Carbon")));
 								obj_Carbon.image_xscale = 1.5;
@@ -180,7 +180,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Lithium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Lithium")));
 								obj_Lithium.image_xscale = 1.5;
@@ -193,7 +193,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Magnesium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Magnesium")));
 								obj_Magnesium.image_xscale = 1.5;
@@ -206,7 +206,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Phosphorus"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Phosphorus")));
 								obj_Phosphorus.image_xscale = 1.5;
@@ -219,7 +219,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Silicon"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Silicon")));
 								obj_Silicon.image_xscale = 1.5;
@@ -232,7 +232,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sodium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sodium")));
 								obj_Sodium.image_xscale = 1.5;
@@ -245,7 +245,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sulfur"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Sulfur")));
 								obj_Sulfur.image_xscale = 1.5;
@@ -259,7 +259,7 @@ for(i = 0; i < invLength; ++i)
 						if(!instance_exists(asset_get_index("obj_" + string("Argon"))))
 						{
 							
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Argon")));
 								obj_Argon.image_xscale = 1.5;
@@ -272,7 +272,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Chlorine"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Chlorine")));
 								obj_Chlorine.image_xscale = 1.5;
@@ -285,7 +285,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Fluorine"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Fluorine")));
 								obj_Fluorine.image_xscale = 1.5;
@@ -299,7 +299,7 @@ for(i = 0; i < invLength; ++i)
 						if(!instance_exists(asset_get_index("obj_" + string("Helium"))))
 						{
 							
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Helium")));
 								obj_Helium.image_xscale = 1.5;
@@ -313,7 +313,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Hydrogen")));
 								obj_Hydrogen.image_xscale = 1.5;
@@ -327,7 +327,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Neon"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Neon")));
 								obj_Neon.image_xscale = 1.5;
@@ -340,7 +340,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Nitrogen"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Nitrogen")));
 								obj_Nitrogen.image_xscale = 1.5;
@@ -353,7 +353,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Oxygen"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Oxygen")));
 								obj_Oxygen.image_xscale = 1.5;
@@ -366,7 +366,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Bromine"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Bromine")));
 								obj_bro.image_xscale = 1.5;
@@ -397,7 +397,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Aluminium")));
 								obj_Aluminium.image_xscale = 1.5;
@@ -410,7 +410,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Beryllium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Beryllium")));
 								obj_Beryllium.image_xscale = 1.5;
@@ -423,7 +423,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Boron"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Boron")));
 								obj_Boron.image_xscale = 1.5;
@@ -436,7 +436,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Carbon"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Carbon")));
 								obj_Carbon.image_xscale = 1.5;
@@ -449,7 +449,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Lithium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Lithium")));
 								obj_Lithium.image_xscale = 1.5;
@@ -462,7 +462,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Magnesium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Magnesium")));
 								obj_Magnesium.image_xscale = 1.5;
@@ -475,7 +475,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Phosphorus"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Phosphorus")));
 								obj_Phosphorus.image_xscale = 1.5;
@@ -488,7 +488,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Silicon"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Silicon")));
 								obj_Silicon.image_xscale = 1.5;
@@ -501,7 +501,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sodium"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Sodium")));
 								obj_Sodium.image_xscale = 1.5;
@@ -514,7 +514,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sulfur"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Sulfur")));
 								obj_Sulfur.image_xscale = 1.5;
@@ -528,7 +528,7 @@ for(i = 0; i < invLength; ++i)
 						if(!instance_exists(asset_get_index("obj_" + string("Argon"))))
 						{
 							
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Argon")));
 								obj_Argon.image_xscale = 1.5;
@@ -541,7 +541,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Chlorine"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Chlorine")));
 								obj_Chlorine.image_xscale = 1.5;
@@ -554,7 +554,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Fluorine"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Fluorine")));
 								obj_Fluorine.image_xscale = 1.5;
@@ -568,7 +568,7 @@ for(i = 0; i < invLength; ++i)
 						if(!instance_exists(asset_get_index("obj_" + string("Helium"))))
 						{
 							
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Helium")));
 								obj_Helium.image_xscale = 1.5;
@@ -582,7 +582,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Hydrogen")));
 								obj_Hydrogen.image_xscale = 1.5;
@@ -596,7 +596,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Neon"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Neon")));
 								obj_Neon.image_xscale = 1.5;
@@ -609,7 +609,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Nitrogen"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Nitrogen")));
 								obj_Nitrogen.image_xscale = 1.5;
@@ -622,7 +622,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Oxygen"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Oxygen")));
 								obj_Oxygen.image_xscale = 1.5;
@@ -635,7 +635,7 @@ for(i = 0; i < invLength; ++i)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Bromine"))))
 						{
-							for(var a = 0; a < 2; a++)
+							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 35, ypos2, -1005, asset_get_index("obj_" + string("Bromine")));
 								obj_Bromine.image_xscale = 1.5;

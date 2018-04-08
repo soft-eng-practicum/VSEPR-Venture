@@ -1,6 +1,9 @@
 /// @description Insert description here
 
-if(global.dihydrogenMonoxide == true and obj_Carbon.x > 0)
+if(global.dihydrogenMonoxide == true)
 {
-	instance_destroy(obj_Carbon);
+	if(obj_Carbon.x > 100 and obj_Carbon.y > 100)
+	{
+		instance_destroy(obj_Carbon);
+	}
 }
