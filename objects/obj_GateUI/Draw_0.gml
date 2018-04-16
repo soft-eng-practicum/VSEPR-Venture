@@ -14,6 +14,10 @@ if(!instance_exists(obj_buttonConfirm))
 	instance_create_depth(115, 190, -1004, obj_buttonConfirm);
 }
 
+// Coordinate Testing
+draw_text_color(bbox_left + 20, bbox_top, mouse_x, c_black, c_black, c_black, c_black, 1);
+draw_text_color(bbox_left + 60, bbox_top, mouse_y, c_black, c_black, c_black, c_black, 1);
+
 // Overlay pasting
 // NOTE: All global boolean variables are defined in rm_initialize creation code
 if(global.bentBoolean == true)

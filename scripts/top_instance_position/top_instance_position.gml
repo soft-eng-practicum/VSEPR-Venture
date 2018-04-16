@@ -18,7 +18,8 @@ var top_instance = instance;
 while instance_exists(instance) {
 	ds_list_add(instance_list, instance);
 	instance_deactivate_object(instance);
-	if instance.depth < top_instance.depth {
+	if instance.depth < top_instance.depth 
+	{
 		top_instance = instance;
 	}
 	instance = instance_position(xx, yy, object);
