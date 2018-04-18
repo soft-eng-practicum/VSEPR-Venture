@@ -1,6 +1,6 @@
 /// Initialize 
 target = rm_grass_0;
-xx = 160;
+xx = 216;
 yy = 180;
 
 trashItem();

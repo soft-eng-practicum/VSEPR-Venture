@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02964af0-f03b-4301-89a3-adca271e8107",
+            "Value": {
+                "id": "32b9e0ad-b2df-4775-8a43-5b1d3e9e22e6",
+                "resourcePath": "tilesets\\ts_dungeon\\ts_dungeon.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "02fd0034-84ec-488c-9491-5ba27b7683c7",
             "Value": {
                 "id": "b369ba57-af61-4643-9359-9bdd8d4d10ee",
@@ -615,6 +623,14 @@
             }
         },
         {
+            "Key": "5757a31d-2556-4049-b28b-83c3a80ca8a0",
+            "Value": {
+                "id": "f7485347-44cf-48ed-87fc-cfe8253eddef",
+                "resourcePath": "rooms\\rm_dungeon_0\\rm_dungeon_0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "58c90485-e22e-4c11-96fe-b46828d7a3e6",
             "Value": {
                 "id": "99ecde18-78e4-423e-b246-0988daeb5d8f",
@@ -700,6 +716,14 @@
                 "id": "47e8c9cd-ad59-47a8-b9c1-f154a247f28a",
                 "resourcePath": "sprites\\sprFantasyInventory\\sprFantasyInventory.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69e7fbcb-8dea-43c0-9882-2bbd9109d650",
+            "Value": {
+                "id": "3cc09736-d5ad-47c5-b0f2-0b455ff8d148",
+                "resourcePath": "rooms\\rm_dungeon_parent\\rm_dungeon_parent.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -803,6 +827,14 @@
             "Value": {
                 "id": "c06e7abe-2157-4e63-b495-08c6c2e58aaf",
                 "resourcePath": "views\\77e3415f-a744-4162-9f9d-f3423530f3ef.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7851380e-b931-4ac3-9bfb-01530526f4c8",
+            "Value": {
+                "id": "a03e68c5-0812-403d-b010-80e91c773a28",
+                "resourcePath": "views\\69e7fbcb-8dea-43c0-9882-2bbd9109d650-room.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1364,6 +1396,14 @@
                 "id": "ca6f7a88-3f9c-4365-84a5-1489ffd07f4c",
                 "resourcePath": "objects\\obj_Bromine\\obj_Bromine.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e98f5bbe-2e9f-4c1f-8ad2-07dab904d7ce",
+            "Value": {
+                "id": "055f3b80-dbaf-4bd5-b2b4-f1e4df0c7491",
+                "resourcePath": "sprites\\spr_dungeon_tile\\spr_dungeon_tile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
