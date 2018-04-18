@@ -1,4 +1,4 @@
 /// Initialize 
 target = rm_grass_5;
-xx = 48;
-yy = 168;
+xx = 156;
+yy = 216;
