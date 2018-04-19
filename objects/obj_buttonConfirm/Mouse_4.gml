@@ -11,12 +11,21 @@ if(global.dihydrogenMonoxide == true)
 			{
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Hydrogen);
-			
-				room_goto(rm_grass_2);
-
 				instance_activate_object(obj_player);
-				obj_player.x = 180;
-				obj_player.y = 180;
+				target = rm_grass_2;
+				xx = 55;
+				yy = 196;
+				if(active == 0)
+				{
+					
+					fadeout(target, c_black, 0.05, xx, yy);
+					active = 1;
+				}
+
+
+				
+				//obj_player.x = 180;
+				//obj_player.y = 180;
 				
 				global.dihydrogenMonoxide = false;
 				global.bentBoolean = false;
