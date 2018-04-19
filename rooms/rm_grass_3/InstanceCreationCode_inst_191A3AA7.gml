@@ -1,1 +1,1 @@
-message[0] = "Please create Sulfate.";
+message[0] = "Please create Sulfate";
