@@ -11,7 +11,7 @@ instance_destroy(obj_order);
 // Confirm button
 if(!instance_exists(obj_buttonConfirm))
 {
-	instance_create_depth(115, 190, -1004, obj_buttonConfirm);
+	instance_create_depth(160, 190, -1004, obj_buttonConfirm);
 }
 
 // Coordinate Testing

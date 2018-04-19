@@ -19,6 +19,7 @@ if(global.dihydrogenMonoxide == true)
 				obj_player.y = 180;
 				
 				global.dihydrogenMonoxide = false;
+				global.bentBoolean = false;
 			}
 		}
 	}
