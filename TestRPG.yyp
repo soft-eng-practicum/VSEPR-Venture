@@ -463,14 +463,6 @@
             }
         },
         {
-            "Key": "36962698-0667-4c72-a206-2ae791e82f6d",
-            "Value": {
-                "id": "e3a93bab-ee0a-49ce-8598-e7965a8e2779",
-                "resourcePath": "rooms\\rm_grass_1\\rm_grass_1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "37dde495-e0fa-4fa9-8a58-6e4360a035a8",
             "Value": {
                 "id": "414800f4-eeab-4cc4-8992-16df2a3a7faf",
@@ -1642,7 +1634,10 @@
         "086e690f-bcc1-4aa2-9696-f4bdda02ee5d",
         "7074dea4-7c11-44b8-89bf-352f5e6eea75",
         "d79ca7a8-4a02-4a83-beb5-7c1fcaacbfe9",
-        "58c90485-e22e-4c11-96fe-b46828d7a3e6"
+        "58c90485-e22e-4c11-96fe-b46828d7a3e6",
+        "a5675cf1-d582-4d3f-87ce-8998e7eaecfb",
+        "67badfb1-ff71-4280-9b9f-7101dc61c76f",
+        "2fdc988a-9827-4e45-ac8e-d46b9a9b9092"
     ],
     "tutorial": ""
 }
