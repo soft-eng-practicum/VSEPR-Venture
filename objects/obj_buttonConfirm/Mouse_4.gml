@@ -12,7 +12,10 @@ if(global.dihydrogenMonoxide == true)
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Hydrogen);
 <<<<<<< HEAD
+<<<<<<< HEAD
 				instance_activate_object(obj_player);
+=======
+>>>>>>> parent of 51a4f1b... merge commit
 =======
 >>>>>>> parent of 51a4f1b... merge commit
 				
@@ -27,6 +30,7 @@ if(global.dihydrogenMonoxide == true)
 				}
 				
 				global.dihydrogenMonoxide = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 				global.bentBoolean = false;
 			}
@@ -60,6 +64,8 @@ if(global.carbonDioxide == true)
 				
 				global.carbonDioxide = false;
 				global.linearBoolean = false;
+=======
+>>>>>>> parent of 51a4f1b... merge commit
 =======
 >>>>>>> parent of 51a4f1b... merge commit
 			}
