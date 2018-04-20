@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "2fdc988a-9827-4e45-ac8e-d46b9a9b9092",
+            "Value": {
+                "id": "debc5c14-ac52-4081-a369-629cf8328a7b",
+                "resourcePath": "scripts\\RoomCreationCode13\\RoomCreationCode13.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "308fd78c-95ba-4dba-bd4e-dd3035ec577d",
             "Value": {
                 "id": "80e44fdd-ed07-4c11-b46c-7429b7e93041",
@@ -476,14 +484,6 @@
                 "id": "b6c4be2a-a2b5-44d2-8c1c-020c4be74316",
                 "resourcePath": "sprites\\spr_Neon\\spr_Neon.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "36962698-0667-4c72-a206-2ae791e82f6d",
-            "Value": {
-                "id": "e3a93bab-ee0a-49ce-8598-e7965a8e2779",
-                "resourcePath": "rooms\\rm_grass_1\\rm_grass_1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -756,6 +756,14 @@
                 "id": "e88f0ab3-64e8-48ee-8aec-e7b38a2e5c9c",
                 "resourcePath": "views\\679e79b2-99d6-4e16-8677-063c1f3d98a1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "67badfb1-ff71-4280-9b9f-7101dc61c76f",
+            "Value": {
+                "id": "9af79c9c-9bf1-4e26-932a-3e19554baf93",
+                "resourcePath": "scripts\\InstanceCreationCode_inst_2E4839C7\\InstanceCreationCode_inst_2E4839C7.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1172,6 +1180,14 @@
                 "id": "45d549b0-fb52-45c1-ab5d-76fdb7acf5cd",
                 "resourcePath": "sprites\\spr_player_down\\spr_player_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5675cf1-d582-4d3f-87ce-8998e7eaecfb",
+            "Value": {
+                "id": "48748b57-c879-4ba8-ad56-97a755d75028",
+                "resourcePath": "scripts\\RoomCreationCode\\RoomCreationCode.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1658,7 +1674,10 @@
         "086e690f-bcc1-4aa2-9696-f4bdda02ee5d",
         "7074dea4-7c11-44b8-89bf-352f5e6eea75",
         "d79ca7a8-4a02-4a83-beb5-7c1fcaacbfe9",
-        "58c90485-e22e-4c11-96fe-b46828d7a3e6"
+        "58c90485-e22e-4c11-96fe-b46828d7a3e6",
+        "a5675cf1-d582-4d3f-87ce-8998e7eaecfb",
+        "67badfb1-ff71-4280-9b9f-7101dc61c76f",
+        "2fdc988a-9827-4e45-ac8e-d46b9a9b9092"
     ],
     "tutorial": ""
 }

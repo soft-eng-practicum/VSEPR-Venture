@@ -13,7 +13,7 @@ global.tShapedBoolean = false;
 
 // Defines booleans for levels
 global.dihydrogenMonoxide = false;
-global.carbonDioxide = false;
 
 // Start Room
 room_goto(rm_grass_0);
+instance_create_depth(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]) - 240, depth - 1000, obj_inventory_gui);

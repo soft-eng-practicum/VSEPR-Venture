@@ -13,7 +13,6 @@ global.tShapedBoolean = false;
 
 // Defines booleans for levels
 global.dihydrogenMonoxide = false;
-global.carbonDioxide = false;
 
 // Start Room
 room_goto(rm_grass_0);

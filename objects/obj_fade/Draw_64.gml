@@ -7,6 +7,7 @@ if (room != target)
 	image_alpha += fade_speed;
 	if(image_alpha == 1) 
 	{
+		instance_activate_object(obj_player);
 		obj_player.x = xx;
 		obj_player.y = yy;
 		room_goto(target);
