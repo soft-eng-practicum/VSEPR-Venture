@@ -11,13 +11,12 @@ if(global.dihydrogenMonoxide == true)
 			{
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Hydrogen);
-
 				instance_activate_object(obj_player);
-
 				
 				target = rm_grass_2;
 				xx = 55;
 				yy = 196;
+				
 				if(active == 0)
 				{
 					
@@ -26,7 +25,6 @@ if(global.dihydrogenMonoxide == true)
 				}
 				
 				global.dihydrogenMonoxide = false;
-
 				global.bentBoolean = false;
 			}
 		}
@@ -59,7 +57,6 @@ if(global.carbonDioxide == true)
 				
 				global.carbonDioxide = false;
 				global.linearBoolean = false;
-
 			}
 		}
 	}
