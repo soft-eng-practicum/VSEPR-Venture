@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "147840da-0d51-4426-8e14-4c300dbb7a35",
+            "Value": {
+                "id": "4fa666fd-6638-4378-bf2e-4d83d872cf2b",
+                "resourcePath": "sprites\\spr_GateStone_TShaped\\spr_GateStone_TShaped.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15fd36ed-e955-4b97-ba87-84e41bad3f82",
             "Value": {
                 "id": "682f10f9-02da-4ef1-ae25-04ae38877aa1",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "3b67f9f6-9988-43c0-a87b-3079e0867686",
+            "Value": {
+                "id": "f7500d19-0417-4797-9c21-e47d7cd65529",
+                "resourcePath": "sprites\\spr_GateStone_TrigonalBipyramidal\\spr_GateStone_TrigonalBipyramidal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3bdf0b6c-8fbb-475c-b070-f9cfeb3b6a37",
             "Value": {
                 "id": "a46b4f54-ab3d-4d6c-a770-9e6144b27be3",
@@ -775,6 +791,14 @@
             }
         },
         {
+            "Key": "68833b71-54e8-4f90-8aaf-e725b81bd897",
+            "Value": {
+                "id": "d1b7d41e-31ea-4487-8bb4-c3fc50d18a2f",
+                "resourcePath": "sprites\\spr_GateStone_Tetrahedron\\spr_GateStone_Tetrahedron.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69041712-d8b4-4ef1-bfa1-b91104ac5a29",
             "Value": {
                 "id": "47e8c9cd-ad59-47a8-b9c1-f154a247f28a",
@@ -999,6 +1023,14 @@
             }
         },
         {
+            "Key": "88d7f657-2633-457d-9010-9f87d57615f0",
+            "Value": {
+                "id": "b658982f-15a0-4011-a6cf-ed09167c754a",
+                "resourcePath": "sprites\\spr_GateStone_Pyramidal\\spr_GateStone_Pyramidal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8bb49d13-ac5a-4563-80e8-13c14bed5415",
             "Value": {
                 "id": "11ed9401-8b97-455c-a572-1a9ba615ac9b",
@@ -1124,6 +1156,14 @@
                 "id": "9c72e0bc-8370-4948-8f2c-1a2c2e93441e",
                 "resourcePath": "objects\\obj_Sodium\\obj_Sodium.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9ef34967-9e21-4da9-8134-b85ee1155c62",
+            "Value": {
+                "id": "0f978e09-1cef-490e-9cf1-a333c26c1975",
+                "resourcePath": "sprites\\spr_GateStone_TrigonalPlanar\\spr_GateStone_TrigonalPlanar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1263,6 +1303,14 @@
             }
         },
         {
+            "Key": "b0bfd55f-0d83-498c-934d-b4ae71c9912d",
+            "Value": {
+                "id": "2be845b4-34b6-459f-af9d-0dc78d82b0c3",
+                "resourcePath": "sprites\\spr_GateStone_Bent\\spr_GateStone_Bent.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b3063ee3-f372-42d6-af37-90541511c91c",
             "Value": {
                 "id": "a2f619ac-853d-4c14-9737-e37abfda04c4",
@@ -1327,6 +1375,14 @@
             }
         },
         {
+            "Key": "b8205190-ae7e-4ce5-bc4f-380ef11945e7",
+            "Value": {
+                "id": "58885ff2-8dec-4037-a4db-71dac2369886",
+                "resourcePath": "sprites\\spr_GateStone_SquarePlanar\\spr_GateStone_SquarePlanar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb23d7d4-497d-4155-a4bd-ed5e5921d76c",
             "Value": {
                 "id": "69831613-4997-4ac9-9169-a8245ced26b9",
@@ -1375,6 +1431,14 @@
             }
         },
         {
+            "Key": "c18eba63-f2a1-460f-a774-3ecff7d3df62",
+            "Value": {
+                "id": "782f997f-ba07-4322-8668-2ea7f765342e",
+                "resourcePath": "rooms\\rm_grass_1\\rm_grass_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c2b6ca02-cf4a-4572-b433-0d102005b935",
             "Value": {
                 "id": "48403b4a-cd32-4bb9-894f-535b161e5772",
@@ -1387,6 +1451,14 @@
             "Value": {
                 "id": "aa755ade-dd2a-49bf-bc4d-25489e0daea8",
                 "resourcePath": "sprites\\spr_Overlay_Linear\\spr_Overlay_Linear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c4d83758-0be8-4227-b35d-5ff6d4c60825",
+            "Value": {
+                "id": "096a4356-7d0d-44cb-a05d-57e6dc25021e",
+                "resourcePath": "sprites\\spr_GateStone_Seesaw\\spr_GateStone_Seesaw.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1420,6 +1492,14 @@
                 "id": "f82e057b-b28f-419d-9921-1c7362cce21a",
                 "resourcePath": "objects\\obj_Phosphorus\\obj_Phosphorus.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d637cca4-8449-43e7-a117-9046c2eddfba",
+            "Value": {
+                "id": "f1757d7d-ead7-4d8b-badb-5d48350c56a8",
+                "resourcePath": "views\\d637cca4-8449-43e7-a117-9046c2eddfba.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1471,6 +1551,14 @@
             }
         },
         {
+            "Key": "deb35f92-fc70-4bcb-95e0-10b37d7d9688",
+            "Value": {
+                "id": "d1bdf19f-3370-4aaa-a34d-50764824c4f4",
+                "resourcePath": "sprites\\spr_GateStone_Octahedron\\spr_GateStone_Octahedron.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "deedef85-3ead-4506-8fdb-0b3130b38abc",
             "Value": {
                 "id": "a6d4e477-ed83-4925-8339-937a6d206e48",
@@ -1515,6 +1603,22 @@
             "Value": {
                 "id": "a18c0232-340c-4bad-903a-6be8f799c08d",
                 "resourcePath": "sprites\\spr_shineLiquid\\spr_shineLiquid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e8428106-a3ad-4eb5-90b0-d1c08afb7c85",
+            "Value": {
+                "id": "8040ec18-6135-4944-a237-04f0a95f89c0",
+                "resourcePath": "sprites\\spr_GateStone_SquarePyramidal\\spr_GateStone_SquarePyramidal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e8832fce-2870-4fc8-8cb8-3f09e1e01aab",
+            "Value": {
+                "id": "1e4697da-0f77-46c6-9f9b-ebc54ee610c7",
+                "resourcePath": "sprites\\spr_GateStone_Linear\\spr_GateStone_Linear.yy",
                 "resourceType": "GMSprite"
             }
         },

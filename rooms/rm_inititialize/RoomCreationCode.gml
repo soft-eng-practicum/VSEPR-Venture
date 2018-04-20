@@ -16,4 +16,4 @@ global.dihydrogenMonoxide = false;
 global.carbonDioxide = false;
 
 // Start Room
-room_goto(rm_grass_0);
+room_goto(rm_main_room);

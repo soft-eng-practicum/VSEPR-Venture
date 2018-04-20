@@ -1,4 +1,4 @@
 /// Initialize 
-target = rm_dungeon_0;
-xx = 208;
-yy = 296;
+target = rm_main_room;
+xx = 80;
+yy = 32;
