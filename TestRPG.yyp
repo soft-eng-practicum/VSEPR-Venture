@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "28d1c523-c51e-475e-9587-bf874e9fbbd2",
+            "Value": {
+                "id": "58acdf51-20ee-4cbc-8b05-2220043899de",
+                "resourcePath": "rooms\\rm_dungeon_5\\rm_dungeon_5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2964933b-7db7-41a3-9e4d-9881883a45af",
             "Value": {
                 "id": "1926f459-4324-43cb-b1f2-e07d02df5de4",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "33a030b6-8dd0-4a10-a8ec-d8b8ef9f5514",
+            "Value": {
+                "id": "3dfd9e9a-f303-4a66-b541-7cab15ef1f8e",
+                "resourcePath": "rooms\\rm_dungeon_1\\rm_dungeon_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "33e75280-0508-4b93-8a49-f5d827189484",
             "Value": {
                 "id": "72789a73-4e88-4786-88c5-4cabc18859d9",
@@ -436,6 +452,14 @@
                 "id": "90b05775-9f8f-4678-a553-5ac517a528e6",
                 "resourcePath": "scripts\\scrollUp\\scrollUp.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "34d98f50-45ed-4117-8a94-ce7c52cff245",
+            "Value": {
+                "id": "96987003-202b-4c1f-8326-e6b010e5d1fa",
+                "resourcePath": "rooms\\rm_dungeon_4\\rm_dungeon_4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -895,6 +919,14 @@
             }
         },
         {
+            "Key": "7cc0da22-9bf4-4537-9d31-0897856e7996",
+            "Value": {
+                "id": "ff137617-b238-413d-ab98-8158895cba73",
+                "resourcePath": "rooms\\rm_dungeon_3\\rm_dungeon_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7dedd376-3dfa-4e73-9f66-34c231e16b16",
             "Value": {
                 "id": "ed35c4cc-9aca-4f57-9aad-fe6c4174e1ef",
@@ -1180,6 +1212,14 @@
                 "id": "0b3d4ecb-37c9-47bc-a375-3b4c5b032486",
                 "resourcePath": "sprites\\spr_GateWood_TShaped\\spr_GateWood_TShaped.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aabc5995-ec1d-4b0b-8255-483ab9553a35",
+            "Value": {
+                "id": "94e88a7b-f262-4b4e-8106-65f379b87003",
+                "resourcePath": "rooms\\rm_dungeon_2\\rm_dungeon_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
