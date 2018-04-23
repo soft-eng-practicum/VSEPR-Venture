@@ -2,8 +2,8 @@
 {
     "name": "rm_dungeon_3",
     "id": "7cc0da22-9bf4-4537-9d31-0897856e7996",
-    "creationCodeFile": "",
-    "inheritCode": true,
+    "creationCodeFile": "RoomCreationCode.gml",
+    "inheritCode": false,
     "inheritCreationOrder": true,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [

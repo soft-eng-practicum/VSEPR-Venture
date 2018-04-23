@@ -2,8 +2,8 @@
 {
     "name": "rm_grass_5",
     "id": "3b27e46b-135f-42d6-acf4-cfcb90894a13",
-    "creationCodeFile": "",
-    "inheritCode": true,
+    "creationCodeFile": "RoomCreationCode.gml",
+    "inheritCode": false,
     "inheritCreationOrder": true,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [

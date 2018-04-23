@@ -7,7 +7,7 @@ myItems = playerInventory;//Shorter DS grid name
 myColor = c_black;//Alter display color
 //If the inventory is empty.
 isEmpty = false;
-emptyMessage = "You have no molecules!";
+emptyMessage = "You have no atoms!";
 
 globalvar itemSelected, scrolledAmount, inventoryEndAt; //We'll need this in several functions & other objects
 itemSelected = 0;//The currently selected item from the list

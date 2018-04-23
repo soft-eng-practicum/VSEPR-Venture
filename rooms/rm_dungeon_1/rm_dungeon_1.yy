@@ -2,8 +2,8 @@
 {
     "name": "rm_dungeon_1",
     "id": "33a030b6-8dd0-4a10-a8ec-d8b8ef9f5514",
-    "creationCodeFile": "",
-    "inheritCode": true,
+    "creationCodeFile": "RoomCreationCode.gml",
+    "inheritCode": false,
     "inheritCreationOrder": true,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -529,7 +529,7 @@
     "roomSettings":     {
         "id": "1b503c5e-15ca-45cf-8022-c7970010fcfe",
         "Height": 320,
-        "inheritRoomSettings": true,
+        "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
