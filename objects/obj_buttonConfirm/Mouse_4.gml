@@ -2,8 +2,6 @@
 
 if(global.dihydrogenMonoxide == true)
 {
-	
-	
 	if(instance_exists(obj_Oxygen) and instance_exists(obj_Hydrogen))
 	{
 		if(obj_Oxygen.x > 95 and obj_Oxygen.x < 130 and obj_Oxygen.y > 105 and obj_Oxygen.y < 140)
