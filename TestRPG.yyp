@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "75459c9b-bd47-4fe3-8c56-9898c741f936",
+            "Value": {
+                "id": "9b0471ec-0f4c-4e9d-bada-47c773838d7b",
+                "resourcePath": "sounds\\chris_zabriskie_readersdoyouread\\chris_zabriskie_readersdoyouread.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "3dddeed9-49eb-49b5-9173-59a54c01d05a",
@@ -1083,6 +1091,14 @@
             "Value": {
                 "id": "b658982f-15a0-4011-a6cf-ed09167c754a",
                 "resourcePath": "sprites\\spr_GateStone_Pyramidal\\spr_GateStone_Pyramidal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8998b494-6f85-422d-96cb-b248e9cc86d1",
+            "Value": {
+                "id": "8cfaa3b1-b8c5-463f-ac7a-78317bd14b5d",
+                "resourcePath": "sprites\\sprSettingsButton\\sprSettingsButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1684,6 +1700,14 @@
                 "id": "37b9cb40-79b0-4669-89d9-dcb5d5e313e7",
                 "resourcePath": "sprites\\spr_player_left2\\spr_player_left2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3a3453c-2e54-4163-b14f-afc02a8be868",
+            "Value": {
+                "id": "abd56b15-a4b4-4d7e-80ba-4d2a1ea8e077",
+                "resourcePath": "objects\\obj_settingsButton\\obj_settingsButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
