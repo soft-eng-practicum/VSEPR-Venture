@@ -3,7 +3,7 @@
 
 instance_destroy(obj_title);
 instance_destroy();
-instance_destroy(obj_settingsButton);
+instance_activate_object(obj_settingsButton);
 
 textbox("Welcome to VSEPR VENTURE! The VSEPR Theory learning game! Press SPACEBAR to continue.", 
 	"SPACEBAR will be used to interact with objects.",
