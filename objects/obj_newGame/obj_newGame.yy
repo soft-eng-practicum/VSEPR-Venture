@@ -1,38 +1,38 @@
 {
-    "id": "2c666fc0-4802-4b69-8473-07f52b0fbc87",
+    "id": "9b50529b-56e0-4ade-96d0-caae5be83bd1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_title",
+    "name": "obj_newGame",
     "eventList": [
         {
-            "id": "43a8e486-e0f5-46d4-962f-00595de2d513",
+            "id": "f5270953-b1e5-4574-b422-077f03f37070",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2c666fc0-4802-4b69-8473-07f52b0fbc87"
+            "m_owner": "9b50529b-56e0-4ade-96d0-caae5be83bd1"
         },
         {
-            "id": "c539d068-f1c0-4110-a611-08d9a3ff7a35",
+            "id": "750acf60-7b70-4507-bf68-f842f7afe74d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "2c666fc0-4802-4b69-8473-07f52b0fbc87"
+            "m_owner": "9b50529b-56e0-4ade-96d0-caae5be83bd1"
         },
         {
-            "id": "eeb43747-c1f1-46cf-ada2-1b9e71a33fdf",
+            "id": "0264e7a4-5e2e-4c1f-b9bb-53fdeed75510",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "2c666fc0-4802-4b69-8473-07f52b0fbc87"
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "9b50529b-56e0-4ade-96d0-caae5be83bd1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "e23f8772-e8d5-4d53-9219-72f84834bc28",
+    "spriteId": "11ee566d-b80d-4b40-b62c-98d6178222f9",
     "visible": true
 }

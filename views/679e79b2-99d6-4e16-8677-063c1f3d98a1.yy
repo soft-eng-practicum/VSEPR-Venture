@@ -6,7 +6,6 @@
     "children": [
         "980bf156-74a0-487e-8e78-fdb48bd8ea0d",
         "6115c45e-4dea-4b3d-a3dc-ca602693cef1",
-        "ee6babc1-5790-49bd-b0f9-a80f20d68f77",
         "02964af0-f03b-4301-89a3-adca271e8107"
     ],
     "filterType": "GMTileSet",
