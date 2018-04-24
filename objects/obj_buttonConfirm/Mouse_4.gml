@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-if(global.dihydrogenMonoxide == true)
+if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 {
 	if(instance_exists(obj_Oxygen) and instance_exists(obj_Hydrogen))
 	{

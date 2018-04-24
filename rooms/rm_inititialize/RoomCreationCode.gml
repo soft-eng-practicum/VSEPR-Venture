@@ -37,3 +37,4 @@ global.sulfate = false;
 
 // Start Room
 room_goto(rm_main_room);
+audio_play_sound(chris_zabriskie_readersdoyouread ,1000, true);
