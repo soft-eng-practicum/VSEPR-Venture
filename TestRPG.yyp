@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "2c666fc0-4802-4b69-8473-07f52b0fbc87",
+            "Value": {
+                "id": "6c7545a6-3561-4194-ba69-5b9507a5e4dc",
+                "resourcePath": "objects\\obj_title\\obj_title.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2de53d7b-547c-4144-a789-50091b218d53",
             "Value": {
                 "id": "2606703d-4078-41bb-a8b0-e2bd0ca4997b",
@@ -1244,6 +1252,14 @@
                 "id": "85c4c8ca-2e20-49ce-82d5-55250a55f6ba",
                 "resourcePath": "objects\\obj_Beryllium\\obj_Beryllium.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a1dd0481-08f5-4544-8b8c-030d262dcff2",
+            "Value": {
+                "id": "a63a1ee9-17cb-448d-9735-4e48159722a5",
+                "resourcePath": "scripts\\RoomCreationCode14\\RoomCreationCode14.yy",
+                "resourceType": "GMScript"
             }
         },
         {

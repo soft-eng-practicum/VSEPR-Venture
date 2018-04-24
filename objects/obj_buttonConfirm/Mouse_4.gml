@@ -4,6 +4,8 @@ if(global.dihydrogenMonoxide == true)
 {
 	if(instance_exists(obj_Oxygen) and instance_exists(obj_Hydrogen))
 	{
+		if(instance_exists(obj_GateWood_Bent))
+		{
 		if(obj_Oxygen.x > 95 and obj_Oxygen.x < 130 and obj_Oxygen.y > 105 and obj_Oxygen.y < 140)
 		{
 			if(obj_Hydrogen.x > 45 and obj_Hydrogen.x < 80 and obj_Hydrogen.y > 130 and obj_Hydrogen.y < 165
@@ -27,6 +29,7 @@ if(global.dihydrogenMonoxide == true)
 				global.dihydrogenMonoxide = false;
 				global.bentBoolean = false;
 			}
+		}
 		}
 	}
 }
