@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "7d696038-a876-4342-a3d4-dbefcfed37d1",
+            "Value": {
+                "id": "9d95dde5-8e9c-4bda-a0bc-272725f1e6ff",
+                "resourcePath": "objects\\obj_backButton\\obj_backButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7dedd376-3dfa-4e73-9f66-34c231e16b16",
             "Value": {
                 "id": "ed35c4cc-9aca-4f57-9aad-fe6c4174e1ef",
