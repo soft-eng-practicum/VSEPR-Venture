@@ -3,6 +3,9 @@
 
 instance_destroy(obj_title);
 instance_destroy();
+instance_destroy(obj_menuCredits);
+instance_destroy(obj_menuSettings);
+
 instance_activate_object(obj_settingsButton);
 
 textbox("Welcome to VSEPR VENTURE! The VSEPR Theory learning game! Press SPACEBAR to continue.", 
