@@ -36,5 +36,5 @@ global.carbonDioxide = false;
 global.sulfate = false;
 
 // Start Room
-room_goto(rm_grass_0);
+room_goto(rm_grass_parent);
 audio_play_sound(chris_zabriskie_readersdoyouread ,1000, true);
