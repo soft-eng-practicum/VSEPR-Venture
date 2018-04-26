@@ -78,7 +78,7 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				instance_destroy(obj_Chlorine);
 				instance_activate_object(obj_player);
 				
-				target = rm_grass_4;
+				target = rm_grass_3;
 				xx = 160;
 				yy = 210;
 				
