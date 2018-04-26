@@ -33,6 +33,7 @@ global.tShapedBoolean = false;
 // Defines booleans for levels
 global.dihydrogenMonoxide = false;
 global.carbonDioxide = false;
+global.berylliumChloride = false;
 global.sulfate = false;
 
 // Start Room

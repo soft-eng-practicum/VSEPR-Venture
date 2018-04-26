@@ -34,7 +34,7 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 	}
 }
 
-if(global.carbonDioxide == true)
+else if(global.carbonDioxide == true and global.linearBoolean == true)
 {
 	if(instance_exists(obj_Oxygen) and instance_exists(obj_Carbon))
 	{
@@ -47,9 +47,9 @@ if(global.carbonDioxide == true)
 				instance_destroy(obj_Carbon);
 				instance_activate_object(obj_player);
 				
-				target = rm_grass_3;
-				xx = 285;
-				yy = 215;
+				target = rm_grass_1;
+				xx = 180;
+				yy = 190;
 				
 				if(active == 0)
 				{
@@ -65,7 +65,38 @@ if(global.carbonDioxide == true)
 	}
 }
 
-if(global.sulfate == true)
+else if(global.berylliumChloride == true and global.linearBoolean == true)
+{
+	if(instance_exists(obj_Beryllium) and instance_exists(obj_Chlorine))
+	{
+		if(obj_Beryllium.x > 95 and obj_Beryllium.x < 130 and obj_Beryllium.y > 105 and obj_Beryllium.y < 140)
+		{
+			if(obj_Chlorine.x > 45 and obj_Chlorine.x < 80 and obj_Chlorine.y > 105 and obj_Chlorine.y < 140
+				or obj_Chlorine.x > 145 and obj_Chlorine.x < 180 and obj_Chlorine.y > 105 and obj_Chlorine.y < 140)
+			{
+				instance_destroy(obj_Beryllium);
+				instance_destroy(obj_Chlorine);
+				instance_activate_object(obj_player);
+				
+				target = rm_grass_4;
+				xx = 160;
+				yy = 210;
+				
+				if(active == 0)
+				{
+					
+					fadeout(target, c_black, 0.05, xx, yy);
+					active = 1;
+				}
+				
+				global.berylliumChloride = false;
+				global.linearBoolean = false;
+			}
+		}
+	}
+}
+
+else if(global.sulfate == true and global.tetrahedronBoolean == true)
 {
     if(instance_exists(obj_Oxygen) and instance_exists(obj_Sulfur))
     {
@@ -97,3 +128,8 @@ if(global.sulfate == true)
         }
     }
 }
+
+//else
+//{
+//	instance_create_depth(200, 200, -2000, obj_tryAgain);
+//}
