@@ -79,8 +79,8 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				instance_activate_object(obj_player);
 				
 				target = rm_grass_3;
-				xx = 160;
-				yy = 210;
+				xx = 290;
+				yy = 220;
 				
 				if(active == 0)
 				{
