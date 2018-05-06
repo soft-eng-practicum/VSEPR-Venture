@@ -373,8 +373,8 @@ for(i = 0; i < invLength; ++i)
 							for(var a = 0; a < ds_grid_get(myItems, 1, i + scrolledAmount); a++)
 							{
 								instance_create_depth(bbox_right - 70, ypos1, -1005, asset_get_index("obj_" + string("Bromine")));
-								obj_bro.image_xscale = 1.5;
-								obj_Carbon.image_yscale = 1.5;
+								obj_Bromine.image_xscale = 1.5;
+								obj_Bromine.image_yscale = 1.5;
 							}
 						}
 					}
