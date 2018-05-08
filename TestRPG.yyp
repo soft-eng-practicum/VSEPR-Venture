@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "5075a067-4368-4c02-a4d8-7abd7f4fc586",
+            "Value": {
+                "id": "0133cc5b-9376-461d-b184-21b78a91b19c",
+                "resourcePath": "objects\\obj_warpTesterino\\obj_warpTesterino.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5274e14d-7410-4961-a6f8-3070f2aad120",
             "Value": {
                 "id": "9add9180-5370-4a6e-ab3c-ce7097e5fd8a",
