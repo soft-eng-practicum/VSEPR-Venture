@@ -1,0 +1,1 @@
+message[0] = "This is a test room for future implementations.";

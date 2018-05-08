@@ -21,8 +21,9 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 				
 				if(active == 0)
 				{
-					
-					fadeout(target, c_black, 0.05, xx, yy);
+					room_goto(target);
+					obj_player.x = xx;  
+					obj_player.y = yy;
 					active = 1;
 				}
 				
@@ -53,8 +54,9 @@ else if(global.carbonDioxide == true and global.linearBoolean == true)
 				
 				if(active == 0)
 				{
-					
-					fadeout(target, c_black, 0.05, xx, yy);
+					room_goto(target);
+					obj_player.x = xx;  
+					obj_player.y = yy;
 					active = 1;
 				}
 				
@@ -84,8 +86,9 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				
 				if(active == 0)
 				{
-					
-					fadeout(target, c_black, 0.05, xx, yy);
+					room_goto(target);
+					obj_player.x = xx;  
+					obj_player.y = yy;
 					active = 1;
 				}
 				
@@ -117,8 +120,9 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 
                 if(active == 0)
                 {
-                    
-                    fadeout(target, c_black, 0.05, xx, yy);
+                    room_goto(target);
+					obj_player.x = xx;  
+					obj_player.y = yy;
                     active = 1;
                 }
                 
@@ -128,8 +132,3 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
         }
     }
 }
-
-//else
-//{
-//	instance_create_depth(200, 200, -2000, obj_tryAgain);
-//}

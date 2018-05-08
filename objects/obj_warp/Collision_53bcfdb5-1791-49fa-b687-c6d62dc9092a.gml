@@ -2,6 +2,8 @@
 
 if(active == 0)
 {
-	fadeout(target, c_black, 0.05, xx, yy);
+	room_goto(target);
+	obj_player.x = xx;  
+	obj_player.y = yy;
 	active = 1;
 }
