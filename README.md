@@ -1,14 +1,11 @@
 # TEAM ENIGMA PROJECT README
 
-**Team Name:** Enigma
-
 **Project Name:** VSEPR Venture
 
 **Repository Location:** https://github.com/soft-eng-practicum/enigma
 
-**Progress Tracking Tool:** JIRA, http://itec-gunay.duckdns.org:8080/secure/RapidBoard.jspa?rapidView=26&projectKey=ENIGMA
-
-**Communication Tools:** Discord, Slack
+**Description:** VSEPR Venture is a chemistry-based game with a 2D RPG feel to it. The game revolves around the VSEPR Theory and provides users with a unique way to practice what they've learned in their chemistry classes. 
+This project was created using GameMaker Studio 2 and is written in GameMakers proprietary programming language called GameMaker Language (GML).
 
 ***
 
