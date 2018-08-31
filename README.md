@@ -20,3 +20,14 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 * ***Jason Yu***
   1. Testing Lead
   2. UI/UX Design
+  
+
+***  
+  
+*Build 1.0.1*
+
+**Members:**
+- Kaiser Smith
+- Grace Ongchangco
+- Jeremiah Anderson
+- Lindsey Wade
