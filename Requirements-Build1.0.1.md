@@ -20,6 +20,7 @@
   - Should only be implemented in the first couple levels to give the player a reference on what needs to be done (Sort of like a tutorial      on VSEPR -- quick refresher of fundamentals)
   - Leaves to push the player to use the game as a learning tool rather than a testing tool
 - Roughly 6 levels and then the games goes into a "Test Mode", increasing greatly in diffculty to let the player test their knowledge of     the VSEPR Theory.
+    - Possibility of the test being a "Boss" battle.
 - Add names of the structures to the UI when solving so the player has the name to reference
 - General bug fixes
 - If possible, Complete the "Hard Difficulty" level
@@ -35,3 +36,4 @@
 **Non-functional Requirements:**
 - Update all User Interface within the game
 - Export to Desktop and Web to expand use of the game
+- Complete requirements by the due date.
