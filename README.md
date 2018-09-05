@@ -31,9 +31,16 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 ** Communication: Discord
 
 **Members:**
+<<<<<<< HEAD
 1. Kaiser Smith
 2. Grace Ongchangco
 3. Jeremiah Anderson
 4. Lindsey Wade :sparkles:
 	* Testing Lead
 	* Documentation Lead
+=======
+- Kaiser Smith- Team Manager and Lead Programmer
+- Grace Ongchangco- UI Design and Data modeler
+- Jeremiah Anderson- Client Liason and Code Architect
+- Lindsey Wade- Testing Lead and Documentation lead
+>>>>>>> 4465313fa0a61352bf6f9ff70457ed478efd1782
