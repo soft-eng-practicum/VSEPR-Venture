@@ -30,6 +30,8 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 
 **Communication:** Discord
 
+**Progress Tracking:** https://trello.com/thegamedevs4
+
 **Members:**
 
 1. Kaiser Smith
