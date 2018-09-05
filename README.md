@@ -24,11 +24,11 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 
 ***  
   
-##Build 1.0.1
+## Build 1.0.1
 
-** Repository Location: https://github.com/soft-eng-practicum/VSEPR-Venture
+**Repository Location: https://github.com/soft-eng-practicum/VSEPR-Venture
 
-** Communication: Discord
+**Communication: Discord
 
 **Members:**
 <<<<<<< HEAD
@@ -38,9 +38,8 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 4. Lindsey Wade :sparkles:
 	* Testing Lead
 	* Documentation Lead
-=======
+
 - Kaiser Smith- Team Manager and Lead Programmer
 - Grace Ongchangco- UI Design and Data modeler
 - Jeremiah Anderson- Client Liason and Code Architect
-- Lindsey Wade- Testing Lead and Documentation lead
->>>>>>> 4465313fa0a61352bf6f9ff70457ed478efd1782
+
