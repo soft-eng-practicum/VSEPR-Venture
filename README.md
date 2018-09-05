@@ -26,12 +26,12 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
   
 ## Build 1.0.1
 
-**Repository Location: https://github.com/soft-eng-practicum/VSEPR-Venture
+**Repository Location:** https://github.com/soft-eng-practicum/VSEPR-Venture
 
-**Communication: Discord
+**Communication:** Discord
 
 **Members:**
-<<<<<<< HEAD
+
 1. Kaiser Smith
 2. Grace Ongchangco
 3. Jeremiah Anderson
