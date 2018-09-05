@@ -27,7 +27,7 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 *Build 1.0.1*
 
 **Members:**
-- Kaiser Smith
-- Grace Ongchangco
-- Jeremiah Anderson
-- Lindsey Wade
+- Kaiser Smith- Team Manager and Lead Programmer
+- Grace Ongchangco- UI Design and Data modeler
+- Jeremiah Anderson- Client Liason and Code Architect
+- Lindsey Wade- Testing Lead and Documentation lead
