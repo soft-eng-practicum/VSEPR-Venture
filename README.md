@@ -4,7 +4,7 @@
 
 **Repository Location:** https://github.com/soft-eng-practicum/enigma
 
-**Description:** VSEPR Venture is a chemistry-based game with a 2D RPG feel to it. The game revolves around the VSEPR Theory and provides users with a unique way to practice what they've learned in their chemistry classes. 
+**Description:** VSEPR Venture is a chemistry-based game with a 2D RPG feel to it. The game revolves around the VSEPR Theory and provides users with a unique way to practice what they've learned in their chemistry classes.
 This project was created using GameMaker Studio 2 and is written in GameMakers proprietary programming language called GameMaker Language (GML).
 
 ***
@@ -20,10 +20,10 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 * ***Jason Yu***
   1. Testing Lead
   2. UI/UX Design
-  
+
 
 ***  
-  
+
 ## Build 1.0.1
 
 **Repository Location:** https://github.com/soft-eng-practicum/VSEPR-Venture
@@ -35,13 +35,14 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 **Members:**
 
 1. Kaiser Smith
-2. Grace Ongchangco
+  * Team Manager
+  * Lead Programmer
+2. Grace Ongchangco :rabbit:
+  * UI/UX Design
+  * Data Modeler
 3. Jeremiah Anderson
+  * Client Liaison
+  * Code Architect
 4. Lindsey Wade :sparkles:
 	* Testing Lead
 	* Documentation Lead
-
-- Kaiser Smith- Team Manager and Lead Programmer
-- Grace Ongchangco- UI Design and Data modeler
-- Jeremiah Anderson- Client Liason and Code Architect
-
