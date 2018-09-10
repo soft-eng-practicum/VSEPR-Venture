@@ -25,6 +25,7 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 ***  
 
 ## Build 1.0.1
+**Team Name** The Game Devs
 
 **Repository Location:** https://github.com/soft-eng-practicum/VSEPR-Venture
 
@@ -34,15 +35,15 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 
 **Members:**
 
-1. Kaiser Smith
+1. **Kaiser Smith**
   * Team Manager
   * Lead Programmer
-2. Grace Ongchangco :rabbit:
+2. **Grace Ongchangco** :rabbit:
   * UI/UX Design
   * Data Modeler
-3. Jeremiah Anderson
+3. **Jeremiah Anderson** :hankey:
   * Client Liaison
   * Code Architect
-4. Lindsey Wade :sparkles:
-	* Testing Lead
-	* Documentation Lead
+4. **Lindsey Wade** :sparkles:
+  * Testing Lead
+  * Documentation Lead
