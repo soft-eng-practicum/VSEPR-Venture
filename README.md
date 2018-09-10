@@ -36,15 +36,15 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 
 **Members:**
 
-1. **Kaiser Smith**
+* ***Kaiser Smith***
   * Team Manager
   * Lead Programmer
-2. **Grace Ongchangco** :rabbit:
+* ***Grace Ongchangco*** :rabbit:
   * UI/UX Design
   * Data Modeler
-3. **Jeremiah Anderson** :hankey:
+* ***Jeremiah Anderson*** :hankey:
   * Client Liaison
   * Code Architect
-4. **Lindsey Wade** :sparkles:
+* ***Lindsey Wade*** :sparkles:
   * Testing Lead
   * Documentation Lead
