@@ -132,3 +132,34 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
         }
     }
 }
+else if(global.sulfurTetraflouride == true and global.tetrahedronBoolean == true)
+{
+	if(instance_exists(obj_Beryllium) and instance_exists(obj_Chlorine))
+	{
+		if(obj_Beryllium.x > 95 and obj_Beryllium.x < 130 and obj_Beryllium.y > 105 and obj_Beryllium.y < 140)
+		{
+			if(obj_Chlorine.x > 45 and obj_Chlorine.x < 80 and obj_Chlorine.y > 105 and obj_Chlorine.y < 140
+				or obj_Chlorine.x > 145 and obj_Chlorine.x < 180 and obj_Chlorine.y > 105 and obj_Chlorine.y < 140)
+			{
+				instance_destroy(obj_Beryllium);
+				instance_destroy(obj_Chlorine);
+				instance_activate_object(obj_player);
+				
+				target = rm_grass_5;
+				xx = 290;
+				yy = 220;
+				
+				if(active == 0)
+				{
+					room_goto(target);
+					obj_player.x = xx;  
+					obj_player.y = yy;
+					active = 1;
+				}
+				
+				global.berylliumChloride = false;
+				global.linearBoolean = false;
+			}
+		}
+	}
+}
