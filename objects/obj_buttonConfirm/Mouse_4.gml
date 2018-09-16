@@ -116,7 +116,7 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 
                 target = rm_grass_4;
                 xx = 160;
-                yy = 220;
+                yy = 187;
                 
                 if(active == 0)
                 {
