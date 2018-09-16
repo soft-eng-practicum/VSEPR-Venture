@@ -34,7 +34,7 @@ global.tShapedBoolean = false;
 global.dihydrogenMonoxide = false;
 global.carbonDioxide = false;
 global.sulfate = false;
-global.sulferTetraflouride = false;
+global.sulfurTetraflouride = false;
 
 // Start Room
 room_goto(rm_main_room);

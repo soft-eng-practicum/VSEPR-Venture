@@ -132,17 +132,17 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
         }
     }
 }
-else if(global.sulfurTetraflouride == true and global.tetrahedronBoolean == true)
+else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 {
-	if(instance_exists(obj_Beryllium) and instance_exists(obj_Chlorine))
+	if(instance_exists(obj_Sulfur) and instance_exists(obj_Fluorine))
 	{
-		if(obj_Beryllium.x > 95 and obj_Beryllium.x < 130 and obj_Beryllium.y > 105 and obj_Beryllium.y < 140)
+		if(obj_Sulfur.x > 100 and obj_Sulfur.x < 130 and obj_Sulfur.y > 105 and obj_Sulfur.y < 140)
 		{
-			if(obj_Chlorine.x > 45 and obj_Chlorine.x < 80 and obj_Chlorine.y > 105 and obj_Chlorine.y < 140
-				or obj_Chlorine.x > 145 and obj_Chlorine.x < 180 and obj_Chlorine.y > 105 and obj_Chlorine.y < 140)
+			if(obj_Fluorine.x > 45 and obj_Fluorine.x < 80 and obj_Fluorine.y > 105 and obj_Fluorine.y < 140
+				or obj_Fluorine.x > 145 and obj_Fluorine.x < 180 and obj_Chlorine.y > 105 and obj_Fluorine.y < 140)
 			{
-				instance_destroy(obj_Beryllium);
-				instance_destroy(obj_Chlorine);
+				instance_destroy(obj_Sulfur);
+				instance_destroy(obj_Fluorine);
 				instance_activate_object(obj_player);
 				
 				target = rm_grass_5;
@@ -157,8 +157,8 @@ else if(global.sulfurTetraflouride == true and global.tetrahedronBoolean == true
 					active = 1;
 				}
 				
-				global.berylliumChloride = false;
-				global.linearBoolean = false;
+				global.sulfurTetraflouride = false;
+				global.seesawBoolean = false;
 			}
 		}
 	}
