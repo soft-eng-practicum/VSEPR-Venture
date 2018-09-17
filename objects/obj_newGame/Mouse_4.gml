@@ -8,6 +8,10 @@ instance_destroy(obj_menuSettings);
 
 instance_activate_object(obj_settingsButton);
 
+
+//MAKE THIS A WIZARD SAYING THIS. CREATE A WIZARD OBJECT AND INSERT THIS TEXT INTO IT
+//THEN, CALL THE WIZARD HERE.
+
 textbox("Welcome to VSEPR VENTURE! The VSEPR Theory learning game! Press SPACEBAR to continue.", 
 	"SPACEBAR will be used to interact with objects.",
 	"Use ARROW KEYS to move the character around.",
