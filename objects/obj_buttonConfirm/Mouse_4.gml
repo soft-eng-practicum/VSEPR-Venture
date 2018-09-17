@@ -116,7 +116,7 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 
                 target = rm_grass_4;
                 xx = 160;
-                yy = 220;
+                yy = 187;
                 
                 if(active == 0)
                 {
@@ -131,4 +131,35 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
             }
         }
     }
+}
+else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
+{
+	if(instance_exists(obj_Sulfur) and instance_exists(obj_Fluorine))
+	{
+		if(obj_Sulfur.x > 100 and obj_Sulfur.x < 130 and obj_Sulfur.y > 105 and obj_Sulfur.y < 140)
+		{
+			if(obj_Fluorine.x > 45 and obj_Fluorine.x < 80 and obj_Fluorine.y > 105 and obj_Fluorine.y < 140
+				or obj_Fluorine.x > 145 and obj_Fluorine.x < 180 and obj_Chlorine.y > 105 and obj_Fluorine.y < 140)
+			{
+				instance_destroy(obj_Sulfur);
+				instance_destroy(obj_Fluorine);
+				instance_activate_object(obj_player);
+				
+				target = rm_grass_5;
+				xx = 290;
+				yy = 220;
+				
+				if(active == 0)
+				{
+					room_goto(target);
+					obj_player.x = xx;  
+					obj_player.y = yy;
+					active = 1;
+				}
+				
+				global.sulfurTetraflouride = false;
+				global.seesawBoolean = false;
+			}
+		}
+	}
 }
