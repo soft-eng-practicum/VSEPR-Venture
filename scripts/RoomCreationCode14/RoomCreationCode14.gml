@@ -36,5 +36,6 @@ global.carbonDioxide = false;
 global.sulfate = false;
 global.sulfurTetraflouride = false;
 
+
 // Start Room
 room_goto(rm_main_room);

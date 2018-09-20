@@ -146,8 +146,8 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 				instance_activate_object(obj_player);
 				
 				target = rm_grass_5;
-				xx = 290;
-				yy = 220;
+				xx = 200;
+				yy = 200;
 				
 				if(active == 0)
 				{

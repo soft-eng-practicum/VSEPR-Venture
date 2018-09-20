@@ -10,4 +10,5 @@ while(distance_to_object(obj_player) < 4) && (actionKey) && (!instance_exists(ob
 	}
 	
 	global.seesawBoolean = true;
+	global.sulfate = true;
 }
