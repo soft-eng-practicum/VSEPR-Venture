@@ -32,7 +32,7 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 
 **Communication:** Discord
 
-**Progress Tracking:** https://trello.com/thegamedevs4
+**Progress Tracking:** http://itec-gunay.duckdns.org:8080/secure/RapidBoard.jspa?projectKey=GAD&rapidView=51&view=planning.nodetail
 
 **Members:**
 
