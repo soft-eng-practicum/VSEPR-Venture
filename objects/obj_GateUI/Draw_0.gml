@@ -66,7 +66,13 @@ if(global.pyramidalBoolean == true)
 
 if(global.seesawBoolean == true)
 {
-	draw_sprite(spr_Overlay_Seesaq, 0, bbox_right - 180, bbox_top + 100);
+	if (room == rm_grass_4) {
+		draw_sprite(spr_ui_seesaw_1, 0, bbox_right - 180, bbox_top + 100);	
+	}
+	else {
+		draw_sprite(spr_Overlay_Seesaq, 0, bbox_right - 180, bbox_top + 100);
+	}
+	
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);
 	draw_text_color(bbox_left+135, bbox_top, "Seesaw", c_black, c_black, c_black, c_black, 1);
