@@ -21,7 +21,12 @@ draw_text_color(bbox_left + 60, bbox_top, mouse_y, c_black, c_black, c_black, c_
 // NOTE: All global boolean variables are defined in rm_initialize creation code
 if(global.bentBoolean == true)
 {
-	draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
+	if (room == rm_grass_0) {
+		draw_sprite(spr_ui_bent_1, 0, bbox_right - 180, bbox_top + 100);
+	}
+	else {
+		draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
+	}
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);
 	draw_text_color(bbox_left+135, bbox_top, "Bent", c_black, c_black, c_black, c_black, 1);
@@ -32,7 +37,7 @@ if(global.linearBoolean == true)
 	if (room == rm_grass_2) {
 		draw_sprite(spr_ui_linear_1, 0, bbox_right - 180, bbox_top + 100);
 	}
-	else if (romm == rm_grass_3) {
+	else if (room == rm_grass_1) {
 		draw_sprite(spr_ui_linear_2, 0, bbox_right - 180, bbox_top + 100);
 	}
 	else {
@@ -85,7 +90,12 @@ if(global.squarePyramidalBoolean == true)
 
 if(global.tetrahedronBoolean == true)
 {
-	draw_sprite(spr_Overlay_Tetrahedron, 0, bbox_right - 180, bbox_top + 100);
+	if (room == rm_grass_3) {
+		draw_sprite(spr_ui_tetrahedral_1, 0, bbox_right - 180, bbox_top + 100);		
+	}
+	else {
+		draw_sprite(spr_Overlay_Tetrahedron, 0, bbox_right - 180, bbox_top + 100);
+	}
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);
 	draw_text_color(bbox_left+135, bbox_top, "Tetrahedral", c_black, c_black, c_black, c_black, 1);
