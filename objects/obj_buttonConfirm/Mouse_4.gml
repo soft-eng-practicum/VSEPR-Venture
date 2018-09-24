@@ -1,4 +1,11 @@
-/// @description Insert description here
+/// @description Insert description here 
+var arr;
+arr[0] = rm_grass_1;
+arr[1] = rm_grass_2;
+arr[2] = rm_grass_3;
+arr[3] = rm_grass_4;
+arr[4] = rm_grass_5;
+
 
 if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 {
@@ -15,7 +22,7 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 				instance_destroy(obj_Hydrogen);
 				instance_activate_object(obj_player);
 				
-				target = rm_grass_2;
+				target = arr[irandom(3)];
 				xx = 55;
 				yy = 196;
 				
@@ -48,7 +55,7 @@ else if(global.carbonDioxide == true and global.linearBoolean == true)
 				instance_destroy(obj_Carbon);
 				instance_activate_object(obj_player);
 				
-				target = rm_grass_1;
+				target = arr[irandom(3)];
 				xx = 180;
 				yy = 190;
 				
@@ -80,7 +87,7 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				instance_destroy(obj_Chlorine);
 				instance_activate_object(obj_player);
 				
-				target = rm_grass_3;
+				target = arr[irandom(3)];
 				xx = 290;
 				yy = 220;
 				
@@ -114,7 +121,7 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 instance_destroy(obj_Sulfur);
                 instance_activate_object(obj_player);
                 
-                target = rm_grass_4;
+                target = arr[irandom(3)];
                 xx = 160;
                 yy = 187;
                 
@@ -145,7 +152,7 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 				instance_destroy(obj_Fluorine);
 				instance_activate_object(obj_player);
 				
-				target = rm_grass_5;
+				target = arr[irandom(3)];
 				xx = 200;
 				yy = 200;
 				
