@@ -1287,6 +1287,14 @@
             }
         },
         {
+            "Key": "9825991a-da28-47c1-8818-9dce548554be",
+            "Value": {
+                "id": "1b7c6472-5ab0-43ac-962d-5100cdf786c7",
+                "resourcePath": "rooms\\rm_grass_6\\rm_grass_6.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "983237a4-8cdd-4c60-8235-afe811d9a1ce",
             "Value": {
                 "id": "c3e03cf1-326c-42a5-b2db-dab63839204d",
