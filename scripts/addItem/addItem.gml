@@ -37,5 +37,4 @@ ds_grid_set(gridToAddTo, 2, newItemSpot, newItemDescription);
 ds_grid_set(gridToAddTo, 3, newItemSpot, newItemSprite);
 ds_grid_set(gridToAddTo, 4, newItemSpot, newItemScript);
 
-return true
-
+return true;
