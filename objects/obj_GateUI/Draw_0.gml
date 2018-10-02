@@ -10,7 +10,7 @@ instance_destroy(obj_order);
 // Confirm button
 if(!instance_exists(obj_buttonConfirm))
 {
-	instance_create_depth(160, 190, -1004, obj_buttonConfirm);
+	instance_create_depth(160, 190, -1005, obj_buttonConfirm);
 }
 
 // Coordinate Testing
@@ -19,8 +19,7 @@ draw_text_color(bbox_left + 60, bbox_top, mouse_y, c_black, c_black, c_black, c_
 
 // Overlay pasting
 // NOTE: All global boolean variables are defined in rm_initialize creation code
-if(global.bentBoolean == true)
-{
+if(global.bentBoolean == true) {
 	if (room == rm_grass_0) {
 		draw_sprite(spr_ui_bent_1, 0, bbox_right - 180, bbox_top + 100);
 	}
@@ -29,11 +28,10 @@ if(global.bentBoolean == true)
 	}
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);
-	draw_text_color(bbox_left+135, bbox_top, "Bent", c_black, c_black, c_black, c_black, 1);
+	draw_text_color(bbox_left + 135, bbox_top, "Bent", c_black, c_black, c_black, c_black, 1);
 }
 
-if(global.linearBoolean == true)
-{
+if(global.linearBoolean == true) {
 	if (room == rm_grass_2) {
 		draw_sprite(spr_ui_linear_1, 0, bbox_right - 180, bbox_top + 100);
 	}

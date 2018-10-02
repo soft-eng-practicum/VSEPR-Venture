@@ -23,8 +23,15 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 				instance_activate_object(obj_player);
 				
 				target = arr[irandom(3)];
-				xx = 55;
-				yy = 196;
+				
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
+				}
+				else {
+					xx = 55;
+					yy = 196;
+				}
 				
 				if(active == 0)
 				{
@@ -44,8 +51,8 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 
 else if(global.carbonDioxide == true and global.linearBoolean == true)
 {
-	if(instance_exists(obj_Oxygen) and instance_exists(obj_Carbon))
-	{
+	if(instance_exists(obj_Oxygen) and instance_exists(obj_Carbon)) {
+		
 		if(obj_Carbon.x > 95 and obj_Carbon.x < 130 and obj_Carbon.y > 105 and obj_Carbon.y < 140)
 		{
 			if(obj_Oxygen.x > 45 and obj_Oxygen.x < 80 and obj_Oxygen.y > 105 and obj_Oxygen.y < 140
@@ -88,8 +95,14 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				instance_activate_object(obj_player);
 				
 				target = arr[irandom(3)];
-				xx = 290;
-				yy = 220;
+				if (target == rm_grass_4) {
+					xx = 200;
+					yy = 200;
+				}
+				else {
+					xx = 290;
+					yy = 220;
+				}
 				
 				if(active == 0)
 				{
@@ -122,9 +135,14 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 instance_activate_object(obj_player);
                 
                 target = arr[irandom(3)];
-                xx = 160;
-                yy = 187;
-                
+				if (target == rm_grass_4) {
+					xx = 200;
+					yy = 200;
+				}
+                else {
+					xx = 160;
+					yy = 187;
+				}
                 if(active == 0)
                 {
                     room_goto(target);
@@ -141,20 +159,26 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
 }
 else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 {
-	if(instance_exists(obj_Sulfur) and instance_exists(obj_Fluorine))
-	{
-		if(obj_Sulfur.x > 100 and obj_Sulfur.x < 130 and obj_Sulfur.y > 105 and obj_Sulfur.y < 140)
-		{
+	if(instance_exists(obj_Sulfur) and instance_exists(obj_Fluorine)) {
+		
+		if(obj_Sulfur.x >= 97 and obj_Sulfur.x <= 130 and obj_Sulfur.y >= 105 and obj_Sulfur.y <= 140) {
+			
 			if(obj_Fluorine.x > 45 and obj_Fluorine.x < 80 and obj_Fluorine.y > 105 and obj_Fluorine.y < 140
-				or obj_Fluorine.x > 145 and obj_Fluorine.x < 180 and obj_Sulfur.y > 105 and obj_Sulfur.y < 140)
+				or obj_Fluorine.x > 145 and obj_Fluorine.x < 180 and obj_Fluorine.y > 105 and obj_Fluorine.y < 140)
 			{
 				instance_destroy(obj_Sulfur);
 				instance_destroy(obj_Fluorine);
 				instance_activate_object(obj_player);
 				
 				target = arr[irandom(3)];
-				xx = 200;
-				yy = 200;
+				if (target == rm_grass_2) {
+					xx = 55;
+					yy = 200;
+				}
+				else {
+					xx = 200;
+					yy = 200;
+				}
 				
 				if(active == 0)
 				{
