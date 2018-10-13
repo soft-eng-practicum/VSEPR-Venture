@@ -8,7 +8,7 @@
         "391d10c0-5b04-471e-92dc-f0abf754f3aa"
     ],
     "filterType": "GMObject",
-    "folderName": "Clean Coding. Don't Touch.",
+    "folderName": "Clean Coding.",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
