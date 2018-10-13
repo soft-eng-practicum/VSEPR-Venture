@@ -37,7 +37,7 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
 **Members:**
 
 * ***Kaiser Smith***
-  * Team Manager
+  * Testing Lead
   * Lead Programmer
 * ***Grace Ongchangco*** :rabbit:
   * UI/UX Design
@@ -46,5 +46,5 @@ This project was created using GameMaker Studio 2 and is written in GameMakers p
   * Client Liaison
   * Code Architect
 * ***Lindsey Wade*** :sparkles:
-  * Testing Lead
+  * Team Manager
   * Documentation Lead
