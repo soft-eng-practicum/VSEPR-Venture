@@ -1,30 +1,32 @@
-/// @description Draw Sprite
+/// @description Draw Sprite / Animations
 
 // Animation is nine frames long
 var anim_length = 9;
-var frame_width = 16;
-var frame_height = 26;
-var anim_speed = 12;
+var frame_size = 30;
+var anim_speed = 10;
 
-//---------- POSITION ANIMATION
+//----------POSITION ANIMATION
+
 // Moving Left
-if (moveX < 0) y_frame = 3;
+if (moveX < 0) { y_frame = 2; }
+
 // Moving Right
-else if (moveX > 0) y_frame = 2;
+else if (moveX > 0) { y_frame = 1; }
+
 //Moving Up
-else if (moveY > 0) x_frame = 5;
+else if (moveY < 0) { y_frame = 4; }
+
 //Moving Down
-else if (moveY < 0) x_frame = 4;
+else if (moveY > 0) { y_frame = 3; }
 
 else { x_frame = 0; }
 
-// Draw part of a sprite at given position.
-draw_sprite_part(spr_mBase, 0, floor(x_frame) * frame_width, y_frame, frame_width, frame_height, x, y);
+var xx = x - x_offset;
+var yy = y - y_offset;
 
-//---------- INCEREMENT FRAME FOR ANIMATION
-if (x_frame < anim_length - 1) {
-	x_frame += anim_speed / 60;
-} 
-else {
-	x_frame = 1;
-}
+// Draw part of a sprite at given position.
+draw_sprite_part(mPlayer_base, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
+
+//----------INCEREMENT FRAME FOR ANIMATION
+if (x_frame < anim_length - 1) { x_frame += anim_speed / 60; }
+else { x_frame = 1; }
