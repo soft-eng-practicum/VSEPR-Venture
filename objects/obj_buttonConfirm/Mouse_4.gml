@@ -21,6 +21,7 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Hydrogen);
 				instance_activate_object(obj_player);
+				instance_activate_object(oPlayer);
 				
 				target = arr[irandom(3)];
 				
@@ -38,6 +39,8 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 					room_goto(target);
 					obj_player.x = xx;  
 					obj_player.y = yy;
+					oPlayer.x = xx;  
+					oPlayer.y = yy;
 					active = 1;
 				}
 				
@@ -61,6 +64,7 @@ else if(global.carbonDioxide == true and global.linearBoolean == true)
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Carbon);
 				instance_activate_object(obj_player);
+				instance_activate_object(oPlayer);
 				
 				target = arr[irandom(3)];
 				xx = 180;

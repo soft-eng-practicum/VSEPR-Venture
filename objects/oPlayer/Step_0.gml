@@ -46,6 +46,21 @@ if (moveY != 0) {
 	}
 }
 
+//----------OBJECTS
+var inst = instance_place(x, y, oTransition);
+
+if (inst != noone) {
+	// Goes to rm_grass_0
+	with(oGame) {
+		if (!doTransition) {
+			room_goto(inst.targetRoom);
+			spawnX = inst.targetX;
+			spawnY = inst.targetY;
+			doTransition = true;
+		}
+	}
+}
+
 //----------APPLY MOVEMENT
 x += moveX;
 y += moveY;

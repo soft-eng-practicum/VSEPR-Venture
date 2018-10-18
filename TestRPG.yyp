@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "348a67f2-0520-4344-a67d-5f95c77359c1",
+            "Value": {
+                "id": "d3c57f9f-da63-46db-94e2-f062f34453b3",
+                "resourcePath": "objects\\oGame\\oGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34d98f50-45ed-4117-8a94-ce7c52cff245",
             "Value": {
                 "id": "96987003-202b-4c1f-8326-e6b010e5d1fa",
@@ -1724,6 +1732,14 @@
                 "id": "782f997f-ba07-4322-8668-2ea7f765342e",
                 "resourcePath": "rooms\\rm_grass_1\\rm_grass_1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c19e4dd7-d834-4552-a8c5-1d6c6218e47a",
+            "Value": {
+                "id": "09958e6f-4d08-4acf-8372-60f08d2114e6",
+                "resourcePath": "objects\\oTransition\\oTransition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
