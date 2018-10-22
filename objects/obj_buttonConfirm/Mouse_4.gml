@@ -29,18 +29,32 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 					xx = 285;
 					yy = 215;
 				}
-				else {
-					xx = 55;
-					yy = 196;
+				else if (target == rm_grass_0){
+					xx = 98;
+					yy = 180;
 				}
+				else if (target == rm_grass_1){
+					xx = 182;
+					yy = 199;
+				}
+				else if (target == rm_grass_2){
+					xx = 54;
+					yy = 208;
+				}
+				else if (target == rm_grass_4){
+					xx = 153;
+					yy = 189;
+				}
+				else{}
+				
 				
 				if(active == 0)
 				{
 					room_goto(target);
 					obj_player.x = xx;  
 					obj_player.y = yy;
-					oPlayer.x = xx;  
-					oPlayer.y = yy;
+					//oPlayer.x = xx;  
+					//oPlayer.y = yy;
 					active = 1;
 				}
 				
@@ -67,8 +81,27 @@ else if(global.carbonDioxide == true and global.linearBoolean == true)
 				instance_activate_object(oPlayer);
 				
 				target = arr[irandom(3)];
-				xx = 180;
-				yy = 190;
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
+				}
+				else if (target == rm_grass_0){
+					xx = 98;
+					yy = 180;
+				}
+				else if (target == rm_grass_1){
+					xx = 182;
+					yy = 199;
+				}
+				else if (target == rm_grass_2){
+					xx = 54;
+					yy = 208;
+				}
+				else if (target == rm_grass_4){
+					xx = 153;
+					yy = 189;
+				}
+				else{}
 				
 				if(active == 0)
 				{
@@ -99,14 +132,27 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				instance_activate_object(obj_player);
 				
 				target = arr[irandom(3)];
-				if (target == rm_grass_4) {
-					xx = 200;
-					yy = 200;
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
 				}
-				else {
-					xx = 290;
-					yy = 220;
+				else if (target == rm_grass_0){
+					xx = 98;
+					yy = 180;
 				}
+				else if (target == rm_grass_1){
+					xx = 182;
+					yy = 199;
+				}
+				else if (target == rm_grass_2){
+					xx = 54;
+					yy = 208;
+				}
+				else if (target == rm_grass_4){
+					xx = 153;
+					yy = 189;
+				}
+				else{}
 				
 				if(active == 0)
 				{
@@ -139,14 +185,27 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 instance_activate_object(obj_player);
                 
                 target = arr[irandom(3)];
-				if (target == rm_grass_4) {
-					xx = 200;
-					yy = 200;
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
 				}
-                else {
-					xx = 160;
-					yy = 187;
+				else if (target == rm_grass_0){
+					xx = 98;
+					yy = 180;
 				}
+				else if (target == rm_grass_1){
+					xx = 182;
+					yy = 199;
+				}
+				else if (target == rm_grass_2){
+					xx = 54;
+					yy = 208;
+				}
+				else if (target == rm_grass_4){
+					xx = 153;
+					yy = 189;
+				}
+				else{}
                 if(active == 0)
                 {
                     room_goto(target);
@@ -175,14 +234,27 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 				instance_activate_object(obj_player);
 				
 				target = arr[irandom(3)];
-				if (target == rm_grass_2) {
-					xx = 55;
-					yy = 200;
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
 				}
-				else {
-					xx = 200;
-					yy = 200;
+				else if (target == rm_grass_0){
+					xx = 98;
+					yy = 180;
 				}
+				else if (target == rm_grass_1){
+					xx = 182;
+					yy = 199;
+				}
+				else if (target == rm_grass_2){
+					xx = 54;
+					yy = 208;
+				}
+				else if (target == rm_grass_4){
+					xx = 153;
+					yy = 189;
+				}
+				else{}
 				
 				if(active == 0)
 				{
