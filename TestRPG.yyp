@@ -975,6 +975,14 @@
             }
         },
         {
+            "Key": "639fc9d4-fcb9-48e1-b8a6-4c94f5b98896",
+            "Value": {
+                "id": "b463f82a-8750-4090-ae2a-9c938dd5ed82",
+                "resourcePath": "views\\639fc9d4-fcb9-48e1-b8a6-4c94f5b98896.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "646b4051-65d1-4faa-8ae4-06d982c77cb3",
             "Value": {
                 "id": "52fc103e-1a64-4d11-86c5-022394653968",
@@ -1036,6 +1044,14 @@
                 "id": "3cc09736-d5ad-47c5-b0f2-0b455ff8d148",
                 "resourcePath": "rooms\\rm_dungeon_parent\\rm_dungeon_parent.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6a22c61e-b211-4097-a207-1519317db4c0",
+            "Value": {
+                "id": "7a23656b-ce30-4c44-a0af-0f9734ece061",
+                "resourcePath": "objects\\object74\\object74.yy",
+                "resourceType": "GMObject"
             }
         },
         {
