@@ -1,4 +1,4 @@
-/// @description Transition Fading
+/// @description Draw area
 
 //---------- HANDLE FADE / ROOM TRANSITION
 if (doTransition) {
