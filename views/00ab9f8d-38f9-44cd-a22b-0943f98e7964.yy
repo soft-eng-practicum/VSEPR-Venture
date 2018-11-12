@@ -9,7 +9,7 @@
         "1303b1b0-1df5-4437-b44c-b8fbd1e9907c"
     ],
     "filterType": "GMSprite",
-    "folderName": "Break Everything",
+    "folderName": "2018",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

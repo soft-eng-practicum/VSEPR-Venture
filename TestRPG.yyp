@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "4698f306-ff00-4dca-989b-c5d9d32bdfd0",
+            "Value": {
+                "id": "3775e024-efe0-40d0-8f6e-31ea3423512c",
+                "resourcePath": "objects\\oItem\\oItem.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "497e351a-89f0-4a97-8e90-c74d5b2033a6",
             "Value": {
                 "id": "d90df50e-57d3-4753-8796-d37a9800243b",
@@ -2111,6 +2119,14 @@
             }
         },
         {
+            "Key": "e7db94f2-6ab8-4d72-8c5e-6075cb471f84",
+            "Value": {
+                "id": "dd973492-ddb3-49b1-9adf-e7f481fe073a",
+                "resourcePath": "objects\\oInventory\\oInventory.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e8428106-a3ad-4eb5-90b0-d1c08afb7c85",
             "Value": {
                 "id": "8040ec18-6135-4944-a237-04f0a95f89c0",
@@ -2210,7 +2226,7 @@
             "Key": "f3d2ef92-4e56-4008-a694-a091b8586795",
             "Value": {
                 "id": "82566d50-c009-4f7c-b418-4c60ca4972d7",
-                "resourcePath": "rooms\\rm_inititialize\\rm_inititialize.yy",
+                "resourcePath": "rooms\\rm_0\\rm_0.yy",
                 "resourceType": "GMRoom"
             }
         },
