@@ -9,7 +9,8 @@
         "391d10c0-5b04-471e-92dc-f0abf754f3aa",
         "348a67f2-0520-4344-a67d-5f95c77359c1",
         "e7db94f2-6ab8-4d72-8c5e-6075cb471f84",
-        "4698f306-ff00-4dca-989b-c5d9d32bdfd0"
+        "4698f306-ff00-4dca-989b-c5d9d32bdfd0",
+        "5f2f544b-80eb-4943-b4ca-483535679f4d"
     ],
     "filterType": "GMObject",
     "folderName": "UI Stuff",

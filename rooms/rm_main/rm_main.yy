@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_main_room",
+    "name": "rm_main",
     "id": "2964933b-7db7-41a3-9e4d-9881883a45af",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

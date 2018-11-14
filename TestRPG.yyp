@@ -394,7 +394,7 @@
             "Key": "2964933b-7db7-41a3-9e4d-9881883a45af",
             "Value": {
                 "id": "1926f459-4324-43cb-b1f2-e07d02df5de4",
-                "resourcePath": "rooms\\rm_main_room\\rm_main_room.yy",
+                "resourcePath": "rooms\\rm_main\\rm_main.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -879,6 +879,14 @@
             }
         },
         {
+            "Key": "53ef0a8f-16ad-45bd-9ea2-ac99cd3016cb",
+            "Value": {
+                "id": "d181fd86-2f10-4462-bfb5-b3cc82f65707",
+                "resourcePath": "sprites\\spr_inventory_ui\\spr_inventory_ui.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "550891e3-7c64-4bac-8572-7716bc27a01e",
             "Value": {
                 "id": "379935e6-2b0a-4589-b198-0b30498529e9",
@@ -964,6 +972,14 @@
                 "id": "543d745b-2e3f-4ce3-bf7e-4828ca6a5007",
                 "resourcePath": "sprites\\spr_Silicon\\spr_Silicon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f2f544b-80eb-4943-b4ca-483535679f4d",
+            "Value": {
+                "id": "8bc09c62-93a5-4b4d-b174-9c59c31a1476",
+                "resourcePath": "objects\\parDepth\\parDepth.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1543,14 +1559,6 @@
             }
         },
         {
-            "Key": "a29d8b37-f600-41a8-ba5a-aa36ea161053",
-            "Value": {
-                "id": "c6cf8bfb-054f-4f2d-9d89-8d4db43c27b0",
-                "resourcePath": "sprites\\spr_player_down1\\spr_player_down1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a4556ee8-d53a-462b-ace4-0eb0b5ac76c7",
             "Value": {
                 "id": "6c7c4a10-8ffa-46f7-824a-d9ea5d547692",
@@ -1652,14 +1660,6 @@
                 "id": "94e88a7b-f262-4b4e-8106-65f379b87003",
                 "resourcePath": "rooms\\rm_dungeon_2\\rm_dungeon_2.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "ab117892-baf4-4a78-a810-af64644b4e19",
-            "Value": {
-                "id": "5d492746-8423-4eb2-8281-570a04e2987d",
-                "resourcePath": "views\\ab117892-baf4-4a78-a810-af64644b4e19.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -2172,6 +2172,14 @@
                 "id": "30099613-bfd3-4709-badf-04bc9a1677d4",
                 "resourcePath": "objects\\obj_GateDungeon_SquarePlanar\\obj_GateDungeon_SquarePlanar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eaf50907-132e-4570-b99a-c99e10b7a120",
+            "Value": {
+                "id": "138e4d4c-1838-4a4c-b57f-30bcf84b8e5e",
+                "resourcePath": "sprites\\spr_atoms\\spr_atoms.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
