@@ -495,14 +495,6 @@
             }
         },
         {
-            "Key": "32e1020c-005f-4ccf-b59c-da43275db584",
-            "Value": {
-                "id": "b038c26a-e039-4467-872e-cdbda3ba9c01",
-                "resourcePath": "objects\\obj_signDungeon\\obj_signDungeon.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3323caa3-6162-4d68-8489-095a929bd854",
             "Value": {
                 "id": "f31ec5a8-6a1e-4735-8dce-a7d61a243d4c",
@@ -1031,14 +1023,6 @@
             }
         },
         {
-            "Key": "67badfb1-ff71-4280-9b9f-7101dc61c76f",
-            "Value": {
-                "id": "9af79c9c-9bf1-4e26-932a-3e19554baf93",
-                "resourcePath": "scripts\\InstanceCreationCode_inst_2E4839C7\\InstanceCreationCode_inst_2E4839C7.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6828b8bc-028e-468e-bf32-0ad95b738864",
             "Value": {
                 "id": "c5574daf-8afd-4074-b8c0-eccea7b349d7",
@@ -1074,7 +1058,7 @@
             "Key": "6a22c61e-b211-4097-a207-1519317db4c0",
             "Value": {
                 "id": "7a23656b-ce30-4c44-a0af-0f9734ece061",
-                "resourcePath": "objects\\object74\\object74.yy",
+                "resourcePath": "objects\\oTesting\\oTesting.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2340,7 +2324,6 @@
         "d79ca7a8-4a02-4a83-beb5-7c1fcaacbfe9",
         "58c90485-e22e-4c11-96fe-b46828d7a3e6",
         "a5675cf1-d582-4d3f-87ce-8998e7eaecfb",
-        "67badfb1-ff71-4280-9b9f-7101dc61c76f",
         "2fdc988a-9827-4e45-ac8e-d46b9a9b9092",
         "a1dd0481-08f5-4544-8b8c-030d262dcff2",
         "d377ac5c-fbf8-40c4-be53-80e54de21afc",

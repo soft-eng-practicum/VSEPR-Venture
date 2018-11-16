@@ -38,4 +38,4 @@ global.sulfurTetraflouride = false;
 
 
 // Start Room
-room_goto(rm_main_room);
+room_goto(rm_main);
