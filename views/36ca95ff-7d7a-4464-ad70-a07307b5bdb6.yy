@@ -10,7 +10,7 @@
         "348a67f2-0520-4344-a67d-5f95c77359c1"
     ],
     "filterType": "GMObject",
-    "folderName": "Clean Coding.",
+    "folderName": "uiStuff",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

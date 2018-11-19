@@ -1,79 +1,58 @@
-/// move_state
+/// @description movement / collision
 
-// Get direction
-dir = point_direction(0, 0, xaxis, yaxis);
-
-//Get length
-if(xaxis == 0) && (yaxis == 0)
-{
-	len = 0;	
+//----------ALTER SPEED
+if (input_walk or input_run) {
+	spd = abs((input_walk * w_spd) - (input_run * r_spd));	
 }
-else
-{
-	len = spd;	
-	get_face();
-}
+else { spd = n_spd; }
 
-// Get speed variables
-hspd = lengthdir_x(len, dir);
-vspd = lengthdir_y(len, dir);
+//----------RESET MOVEMENT VARIABLES
+moveX = 0;
+moveY = 0;
 
-// Horizontal Collisions
-if(place_meeting(x + hspd, y, obj_wall))
-{
-	while(!place_meeting(x + sign(hspd), y, obj_wall))
-	{
-		x += sign(hspd);	
+//----------INTENDED MOVEMENT
+moveY = (input_down - input_up) * spd;
+if (moveY == 0) { moveX = (input_right - input_left) * spd; }
+
+//----------COLLISION CHECKER
+
+/** Horizontal */
+if (moveX != 0) {
+	if (place_meeting(x + moveX, y, oCollision)) {
+		repeat(abs(moveX)) {
+			if (!place_meeting(x + sign(moveX), y, oCollision)) { x += sign(moveX); }
+			else { break; }
+		}
+		moveX = 0;
 	}
-	hspd = 0;
 }
 
-x += hspd;
-
-// Vertical Collisions
-if(place_meeting(x, y + vspd, obj_wall))
-{
-	while(!place_meeting(x, y + sign(vspd), obj_wall))
-	{
-		y += sign(vspd);	
+/** Vertical */
+if (moveY != 0) {
+	if (place_meeting(x, y + moveY, oCollision)) {
+		repeat(abs(moveY)) {
+			if (!place_meeting(x, y + sign(moveY), oCollision)) { y += sign(moveY); }
+			else { break; }
+		}
+		moveY = 0;
 	}
-	vspd = 0;
 }
 
-y += vspd;
+//----------OBJECTS
+var inst = instance_place(x, y, oTransition);
 
-// Sprites
-image_speed = 0.5;
-if(len == 0)
-{
-	image_index = 0;	
+if (inst != noone) {
+	// Goes to rm_grass_0
+	with(oGame) {
+		if (!doTransition) {
+			room_goto(inst.targetRoom);
+			spawnX = inst.targetX;
+			spawnY = inst.targetY;
+			doTransition = true;
+		}
+	}
 }
 
-// Get direction
-switch(face)
-{
-	case 0:
-		sprite_index = RIGHT;
-		break;
-	case 1:
-		sprite_index = UPRIGHT;
-		break;
-	case 2:
-		sprite_index = UP;
-		break;
-	case 3:
-		sprite_index = UPLEFT;
-		break;
-	case 4:
-		sprite_index = LEFT;
-		break;
-	case 5:
-		sprite_index = DOWNLEFT;
-		break;
-	case 6:
-		sprite_index = DOWN;
-		break;
-	case 7:
-		sprite_index = DOWNRIGHT;
-		break;
-}
+//----------APPLY MOVEMENT
+x += moveX;
+y += moveY;
