@@ -1,4 +1,4 @@
-/// @description SHow Text
+/// @description Show Text
 get_input();
 if(distance_to_object(obj_player) < 8) && (action_key) && (!instance_exists(obj_textbox))
 {

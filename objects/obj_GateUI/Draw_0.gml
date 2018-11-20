@@ -3,7 +3,6 @@ draw_self();
 
 // Overlay
 instance_deactivate_object(obj_player);
-instance_deactivate_object(oPlayer);
 instance_destroy(obj_inventory_gui);
 instance_destroy(obj_button);
 instance_destroy(obj_order);
