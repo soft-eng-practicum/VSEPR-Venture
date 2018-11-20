@@ -1,6 +1,6 @@
 /// @description SHow Text
 get_input();
-if(distance_to_object(obj_player) < 8) && (actionKey) && (!instance_exists(obj_textbox))
+if(distance_to_object(obj_player) < 8) && (action_key) && (!instance_exists(obj_textbox))
 {
 	var box = instance_create_depth(x, y, 0, obj_textbox);
 	

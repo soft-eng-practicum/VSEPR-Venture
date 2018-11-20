@@ -6,8 +6,7 @@
     "children": [
         "61a4250f-6a8a-4a63-bf7c-cb1847b0de84",
         "391d10c0-5b04-471e-92dc-f0abf754f3aa",
-        "c19e4dd7-d834-4552-a8c5-1d6c6218e47a",
-        "348a67f2-0520-4344-a67d-5f95c77359c1"
+        "c19e4dd7-d834-4552-a8c5-1d6c6218e47a"
     ],
     "filterType": "GMObject",
     "folderName": "Clean Coding.",

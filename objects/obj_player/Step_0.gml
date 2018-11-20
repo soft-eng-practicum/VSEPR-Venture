@@ -8,5 +8,5 @@ if(!instance_exists(obj_fade) && (!instance_exists(obj_textbox)))
 }
 else 
 {
-	image_index = 0;	
+	mask_index = 0;	
 }

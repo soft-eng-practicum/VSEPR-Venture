@@ -12,7 +12,7 @@ if(characters < message_length)
 }
 else // once we have finished adding the characters
 {
-	if(actionKey)
+	if(action_key)
 	{
 		//check if there are more messages
 		if(message_current < message_end) // start next message
