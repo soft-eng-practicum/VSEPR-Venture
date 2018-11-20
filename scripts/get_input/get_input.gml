@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /// @Desc get_input() for player movement
+=======
+/// @description get_input() for player movement
+>>>>>>> 2fb68f06a4e2fc0c20805e2bd8caaf8689113fbc
 input_left		=	max(keyboard_check(vk_left), keyboard_check(ord("A")), 0);
 input_right		=	max(keyboard_check(vk_right), keyboard_check(ord("D")), 0);
 input_up		=	max(keyboard_check(vk_up), keyboard_check(ord("W")), 0);

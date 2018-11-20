@@ -12,7 +12,11 @@ if(characters < message_length)
 }
 else // once we have finished adding the characters
 {
+<<<<<<< HEAD
 	if(action_key)
+=======
+	if(actionHold)
+>>>>>>> 2fb68f06a4e2fc0c20805e2bd8caaf8689113fbc
 	{
 		//check if there are more messages
 		if(message_current < message_end) // start next message

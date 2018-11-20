@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 /// @description Draw Sprite / Animations
+=======
+/// @desc Draw Player & Shadow
+
+/** Old Player
+draw_sprite(spr_player_shadow, image_index, x, y);
+draw_self();
+*/
+>>>>>>> 2fb68f06a4e2fc0c20805e2bd8caaf8689113fbc
 
 // Animation is nine frames long
 var anim_length = 9;
@@ -11,6 +20,10 @@ else { x_frame = 1; }
 
 
 //----------POSITION ANIMATION
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fb68f06a4e2fc0c20805e2bd8caaf8689113fbc
 // Moving Left
 if (moveX < 0) { y_frame = 2; }
 
