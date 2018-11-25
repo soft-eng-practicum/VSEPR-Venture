@@ -1,5 +1,8 @@
 /// move_state
 
+if (input_walk or input_run) { spd = abs((input_walk * w_spd) - (input_run * r_spd)); }
+else { spd = n_spd; }
+
 // Get direction
 dir = point_direction(0, 0, xaxis, yaxis);
 

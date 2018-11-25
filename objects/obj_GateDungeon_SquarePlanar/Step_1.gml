@@ -1,6 +1,6 @@
 /// @description Show UI
 get_input();
-while(distance_to_object(obj_player) < 4) && (actionKey) && (!instance_exists(obj_GateUI))
+while(distance_to_object(obj_player) < 4) && (action_key) && (!instance_exists(obj_GateUI))
 {
 	gateDisplay = instance_create_depth(0, 0, depth - y, obj_GateUI);
 	with(gateDisplay)

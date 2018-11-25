@@ -1,7 +1,12 @@
-/// @desc Initialize
-spd = 2;
+/// @description Initialize
+n_spd = 2;
+w_spd = 1;
+r_spd = 5;
+spd = n_spd;
+
 hspd = 0;
 vspd = 0;
+
 len = 0;
 dir = 0;
 
