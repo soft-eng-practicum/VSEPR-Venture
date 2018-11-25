@@ -1,1 +1,1 @@
-message[0] = "Easy Difficulty Levels";
+message[0] = "Begin by going to the next room.";

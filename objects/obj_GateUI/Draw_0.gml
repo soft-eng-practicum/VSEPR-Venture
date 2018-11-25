@@ -150,7 +150,7 @@ for(i = 0; i < invLength; ++i)
 				 {
 					draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 70, ypos1, 1.5, 1.5, 0, c_white, 0.3);
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Aluminium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_aluminium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
 						{
@@ -163,7 +163,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Beryllium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_beryllium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Beryllium"))))
 						{
@@ -176,7 +176,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Boron)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_boron)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Boron"))))
 						{
@@ -189,7 +189,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Carbon)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_carbon)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Carbon"))))
 						{
@@ -202,7 +202,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Lithium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_lithium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Lithium"))))
 						{
@@ -215,7 +215,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Magnesium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_magnesium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Magnesium"))))
 						{
@@ -228,7 +228,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Phosphorus)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_phosphorus)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Phosphorus"))))
 						{
@@ -241,7 +241,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Silicon)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_silicon)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Silicon"))))
 						{
@@ -254,7 +254,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sodium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_sodium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sodium"))))
 						{
@@ -267,7 +267,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sulfur)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_sulfur)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sulfur"))))
 						{
@@ -280,7 +280,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Argon)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_argon)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Argon"))))
 						{
@@ -294,7 +294,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Chlorine)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_chlorine)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Chlorine"))))
 						{
@@ -307,7 +307,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Fluorine)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_fluorine)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Fluorine"))))
 						{
@@ -320,7 +320,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Helium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_helium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Helium"))))
 						{
@@ -335,7 +335,7 @@ for(i = 0; i < invLength; ++i)
 					}
 					
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Hydrogen)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_hydrogen)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
 						{
@@ -419,7 +419,7 @@ for(i = 0; i < invLength; ++i)
 				{
 					draw_sprite_ext(ds_grid_get(myItems, j, i + scrolledAmount), 0, bbox_right - 35, ypos2, 1.5, 1.5, 0, c_white, 0.3);
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Aluminium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_aluminium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Aluminium"))))
 						{
@@ -432,7 +432,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Beryllium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_beryllium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Beryllium"))))
 						{
@@ -445,7 +445,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Boron)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_boron)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Boron"))))
 						{
@@ -458,7 +458,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Carbon)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_carbon)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Carbon"))))
 						{
@@ -471,7 +471,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Lithium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_lithium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Lithium"))))
 						{
@@ -484,7 +484,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Magnesium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_magnesium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Magnesium"))))
 						{
@@ -497,7 +497,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Phosphorus)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_phosphorus)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Phosphorus"))))
 						{
@@ -510,7 +510,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Silicon)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_silicon)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Silicon"))))
 						{
@@ -523,7 +523,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sodium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_sodium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sodium"))))
 						{
@@ -536,7 +536,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Sulfur)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_sulfur)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Sulfur"))))
 						{
@@ -549,7 +549,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Argon)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_argon)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Argon"))))
 						{
@@ -563,7 +563,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Chlorine)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_chlorine)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Chlorine"))))
 						{
@@ -576,7 +576,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Fluorine)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_fluorine)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Fluorine"))))
 						{
@@ -589,7 +589,7 @@ for(i = 0; i < invLength; ++i)
 						}
 					}
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Helium)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_helium)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Helium"))))
 						{
@@ -604,7 +604,7 @@ for(i = 0; i < invLength; ++i)
 					}
 					
 					
-					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_Hydrogen)
+					if(ds_grid_get(myItems, j, i + scrolledAmount) == spr_hydrogen)
 					{
 						if(!instance_exists(asset_get_index("obj_" + string("Hydrogen"))))
 						{

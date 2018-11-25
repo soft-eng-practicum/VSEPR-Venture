@@ -2,38 +2,38 @@
     "id": "2e293600-8035-42aa-a988-ce16fd5c1ca9",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Hydrogen",
+    "name": "spr_hydrogen",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 21,
-    "bbox_left": 3,
+    "bbox_bottom": 22,
+    "bbox_left": 2,
     "bbox_right": 22,
-    "bbox_top": 3,
+    "bbox_top": 2,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "f725df69-4d97-452a-bbbb-a95e5a043d14",
+            "id": "fb247c6f-bd6a-4613-9461-f57a2c70a73f",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "2e293600-8035-42aa-a988-ce16fd5c1ca9",
             "compositeImage": {
-                "id": "c4c7d396-0452-4b9c-8a47-fe0f7bde5f92",
+                "id": "c7843d44-6a08-4289-8608-4ff9a059c9b5",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "f725df69-4d97-452a-bbbb-a95e5a043d14",
+                "FrameId": "fb247c6f-bd6a-4613-9461-f57a2c70a73f",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "bd55360c-1fed-436d-9f43-be6f25ac7614",
+                    "id": "52ff8100-7818-4702-b775-21f5a5ac24ef",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "f725df69-4d97-452a-bbbb-a95e5a043d14",
-                    "LayerId": "8f3f08b9-62f2-40b1-bc0c-192f4134ff8e"
+                    "FrameId": "fb247c6f-bd6a-4613-9461-f57a2c70a73f",
+                    "LayerId": "2b832878-c4c8-4d83-9580-95df311facfd"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 24,
     "layers": [
         {
-            "id": "8f3f08b9-62f2-40b1-bc0c-192f4134ff8e",
+            "id": "2b832878-c4c8-4d83-9580-95df311facfd",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "2e293600-8035-42aa-a988-ce16fd5c1ca9",

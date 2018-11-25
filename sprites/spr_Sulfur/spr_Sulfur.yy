@@ -2,38 +2,38 @@
     "id": "bb23d7d4-497d-4155-a4bd-ed5e5921d76c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Sulfur",
+    "name": "spr_sulfur",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 21,
-    "bbox_left": 2,
-    "bbox_right": 21,
-    "bbox_top": 2,
+    "bbox_bottom": 22,
+    "bbox_left": 1,
+    "bbox_right": 22,
+    "bbox_top": 1,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "be5cfdb9-34c4-4a95-81a1-6ed608edd8b5",
+            "id": "57ec1f0f-cf4d-4369-9698-8c558c46d6bc",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "bb23d7d4-497d-4155-a4bd-ed5e5921d76c",
             "compositeImage": {
-                "id": "39a1c8ab-0252-42a3-b777-c8d99816f24c",
+                "id": "18463a55-0cb1-4f91-bba1-c83243143052",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "be5cfdb9-34c4-4a95-81a1-6ed608edd8b5",
+                "FrameId": "57ec1f0f-cf4d-4369-9698-8c558c46d6bc",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "99e7a09b-216a-4f48-9728-a4e2679fe859",
+                    "id": "3d1f1a87-1935-4ad3-97ce-83382f422f63",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "be5cfdb9-34c4-4a95-81a1-6ed608edd8b5",
-                    "LayerId": "39f7f5a7-17a5-4828-9fe9-77fa247174b4"
+                    "FrameId": "57ec1f0f-cf4d-4369-9698-8c558c46d6bc",
+                    "LayerId": "8a4be4a8-c5f4-4823-bb6e-f24264b2736c"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 24,
     "layers": [
         {
-            "id": "39f7f5a7-17a5-4828-9fe9-77fa247174b4",
+            "id": "8a4be4a8-c5f4-4823-bb6e-f24264b2736c",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "bb23d7d4-497d-4155-a4bd-ed5e5921d76c",
