@@ -15,12 +15,3 @@ state = move_state;
 
 // Sprite Variables
 face = 0;
-
-#macro RIGHT y_frame = 1;
-#macro DOWNRIGHT y_frame = 3;
-#macro DOWN y_frame =  3;
-#macro DOWNLEFT spr_player_downleft;
-#macro LEFT y_frame = 2;
-#macro UPLEFT spr_player_upleft;
-#macro UP y_frame = 4;
-#macro UPRIGHT spr_player_upright;

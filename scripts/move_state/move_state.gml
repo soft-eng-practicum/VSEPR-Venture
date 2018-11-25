@@ -46,5 +46,10 @@ if (moveY != 0) {
 	}
 }
 
+//----------OBJECTS
+var inst = instance_place(x, y, obj_fade);
+
+
+
 x += moveX;
 y += moveY;
