@@ -8,8 +8,9 @@ input_run		=	keyboard_check(vk_shift);
 
 action_key = keyboard_check_pressed(vk_space);
 
-xaxis = (input_right - input_left);
-yaxis = (input_down - input_up);
+// Reset movement variable
+moveX = 0;
+moveY = 0;
 
 // Gamepad Input
 if (gamepad_is_connected(0)) 
@@ -20,6 +21,6 @@ if (gamepad_is_connected(0))
 	input_down = gamepad_button_check(0, gp_padd);
 	input_up = gamepad_button_check(0, gp_padu);
 	
-	xaxis = max(gamepad_axis_value(0, gp_axislh), gamepad_axis_value(0, gp_axisrh), input_right - input_left, 0);
-	yaxis = max(gamepad_axis_value(0, gp_axislv), gamepad_axis_value(0, gp_axisrv), input_down - input_up, 0);
+	moveX = max(gamepad_axis_value(0, gp_axislh), gamepad_axis_value(0, gp_axisrh), input_right - input_left, 0);
+	moveY = max(gamepad_axis_value(0, gp_axislv), gamepad_axis_value(0, gp_axisrv), input_down - input_up, 0);
 }

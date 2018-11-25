@@ -4,12 +4,21 @@
     "mvc": "1.0",
     "name": "obj_game",
     "eventList": [
-        
+        {
+            "id": "dca01d4d-3711-4020-b812-84c6923d588f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b87b5a02-5f25-4d9c-a017-e6b1ac6dfac4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

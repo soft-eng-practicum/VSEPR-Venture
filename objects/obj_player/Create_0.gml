@@ -4,22 +4,23 @@ w_spd = 1;
 r_spd = 5;
 spd = n_spd;
 
-hspd = 0;
-vspd = 0;
+x_frame = 1;
+y_frame = 0;
 
-len = 0;
-dir = 0;
+x_offset = sprite_get_xoffset(mask_index);
+y_offset = sprite_get_yoffset(mask_index);
+
 
 state = move_state;
 
 // Sprite Variables
 face = 0;
 
-#macro RIGHT spr_player_right;
-#macro DOWNRIGHT spr_player_downright;
-#macro DOWN spr_player_down;
+#macro RIGHT y_frame = 1;
+#macro DOWNRIGHT y_frame = 3;
+#macro DOWN y_frame =  3;
 #macro DOWNLEFT spr_player_downleft;
-#macro LEFT spr_player_left;
+#macro LEFT y_frame = 2;
 #macro UPLEFT spr_player_upleft;
-#macro UP spr_player_up;
+#macro UP y_frame = 4;
 #macro UPRIGHT spr_player_upright;
