@@ -7,7 +7,7 @@
         "d2268283-38ea-4a61-8e55-4652a24b3d82"
     ],
     "filterType": "GMSprite",
-    "folderName": "Seesaw",
+    "folderName": "seesaw",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

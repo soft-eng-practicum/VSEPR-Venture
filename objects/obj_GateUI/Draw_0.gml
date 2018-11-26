@@ -3,7 +3,6 @@ draw_self();
 
 // Overlay
 instance_deactivate_object(obj_player);
-instance_deactivate_object(oPlayer);
 instance_destroy(obj_inventory_gui);
 instance_destroy(obj_button);
 instance_destroy(obj_order);
@@ -25,7 +24,7 @@ if(global.bentBoolean == true) {
 		draw_sprite(spr_ui_bent_1, 0, bbox_right - 180, bbox_top + 100);
 	}
 	else {
-		draw_sprite(spr_Overlay_Bent, 0, bbox_right - 180, bbox_top + 100);
+		draw_sprite(spr_ui_bent_3, 0, bbox_right - 180, bbox_top + 100);
 	}
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);

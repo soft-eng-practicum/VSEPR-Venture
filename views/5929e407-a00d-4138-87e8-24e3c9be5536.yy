@@ -8,7 +8,7 @@
         "cb64972b-5a4d-494d-a6f6-95da603d7b0f"
     ],
     "filterType": "GMSprite",
-    "folderName": "Linear",
+    "folderName": "linear",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

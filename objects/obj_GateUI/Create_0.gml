@@ -19,3 +19,5 @@ if(ds_grid_get(myItems, 0, 0) == 0) { //Checks to see if inventory is initially 
 scrolledAmount = 0;//How far down the list we've looked
 
 alarm[0] = 1;//See alarm for details
+
+image_speed = 0;

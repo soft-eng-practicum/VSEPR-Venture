@@ -6,24 +6,20 @@ arr[2] = rm_grass_2;
 arr[3] = rm_grass_3;
 arr[4] = rm_grass_4;
 
-
-
-
-
 if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 {
 	if(instance_exists(obj_Oxygen) and instance_exists(obj_Hydrogen))
 	{
-		if(instance_exists(obj_GateWood_Bent))
-		{
-		if(obj_Oxygen.x > 95 and obj_Oxygen.x < 130 and obj_Oxygen.y > 105 and obj_Oxygen.y < 140)
-		{
-			if(obj_Hydrogen.x > 45 and obj_Hydrogen.x < 80 and obj_Hydrogen.y > 130 and obj_Hydrogen.y < 165
-				or obj_Hydrogen.x > 145 and obj_Hydrogen.x < 180 and obj_Hydrogen.y > 130 and obj_Hydrogen.y < 165)
+		if(instance_exists(obj_GateWood_Bent)) {
+		
+			if(obj_Oxygen.x > 95 and obj_Oxygen.x < 130 and obj_Oxygen.y > 105 and obj_Oxygen.y < 140)
 			{
-				instance_destroy(obj_Oxygen);
-				instance_destroy(obj_Hydrogen);
-				instance_activate_object(obj_player);
+				if(obj_Hydrogen.x > 45 and obj_Hydrogen.x < 80 and obj_Hydrogen.y > 130 and obj_Hydrogen.y < 165
+					or obj_Hydrogen.x > 145 and obj_Hydrogen.x < 180 and obj_Hydrogen.y > 130 and obj_Hydrogen.y < 165)
+				{
+					instance_destroy(obj_Oxygen);
+					instance_destroy(obj_Hydrogen);
+					instance_activate_object(obj_player);
 				
 				target = arr[irandom(4)];
 				if (target == rm_grass_0) {
@@ -185,7 +181,6 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 instance_destroy(obj_Oxygen);
                 instance_destroy(obj_Sulfur);
                 instance_activate_object(obj_player);
-				instance_activate_object(oPlayer);
                 
                 target = arr[irandom(4)];
 				if (target == rm_grass_0) {
@@ -235,7 +230,6 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 				instance_destroy(obj_Sulfur);
 				instance_destroy(obj_Fluorine);
 				instance_activate_object(obj_player);
-				instance_activate_object(oPlayer);
 				
 				target = arr[irandom(4)];
 				if (target == rm_grass_0) {

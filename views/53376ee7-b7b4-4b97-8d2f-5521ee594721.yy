@@ -7,7 +7,7 @@
         "3cd4b879-700c-4623-8754-eded2ae6786f"
     ],
     "filterType": "GMSprite",
-    "folderName": "Tetrahedral",
+    "folderName": "tetrahedral",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
