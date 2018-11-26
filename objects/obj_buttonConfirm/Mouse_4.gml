@@ -6,6 +6,7 @@ arr[2] = rm_grass_2;
 arr[3] = rm_grass_3;
 arr[4] = rm_grass_4;
 
+
 if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 {
 	if(instance_exists(obj_Oxygen) and instance_exists(obj_Hydrogen))
@@ -21,7 +22,8 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 					instance_destroy(obj_Hydrogen);
 					instance_activate_object(obj_player);
 				
-				target = arr[irandom(4)];
+				target = arr[irandom(4)];				
+				
 				if (target == rm_grass_0) {
 					xx = 142;
 					yy = 195;

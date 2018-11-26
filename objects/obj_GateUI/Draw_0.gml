@@ -39,7 +39,7 @@ if(global.linearBoolean == true) {
 		draw_sprite(spr_ui_linear_2, 0, bbox_right - 180, bbox_top + 100);
 	}
 	else {
-		draw_sprite(spr_Overlay_Linear, 0, bbox_right - 180, bbox_top + 100);	
+		draw_sprite(spr_ui_linear_1, 0, bbox_right - 180, bbox_top + 100);	
 	}
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);
