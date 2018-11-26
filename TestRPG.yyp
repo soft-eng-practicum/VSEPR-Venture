@@ -1359,6 +1359,14 @@
             }
         },
         {
+            "Key": "8da082e8-4340-4aa5-bb02-fe533b7778f4",
+            "Value": {
+                "id": "48563882-cbbf-4d6f-a396-912ce9f76bc3",
+                "resourcePath": "objects\\obj_wizard\\obj_wizard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f548e8f-37a3-4127-a900-0f3e455742a5",
             "Value": {
                 "id": "d3f9e060-8039-4bbc-b709-6566d74add7c",
@@ -1948,6 +1956,14 @@
                 "id": "21bcb0ae-37c8-47ef-8e42-59383d7264c5",
                 "resourcePath": "scripts\/assert_not_equal\/assert_not_equal.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d0d68013-7f10-492c-b07f-e9f48005c4e4",
+            "Value": {
+                "id": "1e4e537c-ae15-486a-a38d-4ae9f4833020",
+                "resourcePath": "sprites\\Wizard\\Wizard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
