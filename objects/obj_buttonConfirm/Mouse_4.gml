@@ -1,10 +1,10 @@
 /// @description Insert description here 
 var arr;
-arr[0] = rm_grass_1;
-arr[1] = rm_grass_2;
-arr[2] = rm_grass_3;
-arr[3] = rm_grass_4;
-arr[4] = rm_grass_5;
+arr[0] = rm_grass_0;
+arr[1] = rm_grass_1;
+arr[2] = rm_grass_2;
+arr[3] = rm_grass_3;
+arr[4] = rm_grass_4;
 
 
 if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
@@ -22,24 +22,29 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 				instance_destroy(obj_Hydrogen);
 				instance_activate_object(obj_player);
 				
-				target = arr[irandom(3)];
+				target = arr[irandom(4)];
 				if (target == rm_grass_0) {
-					xx = 285;
-					yy = 215;
+					xx = 142;
+					yy = 195;
 				}
 				if (target == rm_grass_1) {
-					xx = 250;
-					yy = 215;
+					xx = 165;
+					yy = 172;
 				}
 				if (target == rm_grass_2) {
-					xx = 285;
-					yy = 215;
+					xx = 54;
+					yy = 194;
 				}
 				
 				if (target == rm_grass_3) {
-					xx = 285;
-					yy = 215;
+					xx = 287;
+					yy = 216;
 				}
+				if (target == rm_grass_4) {
+					xx = 183;
+					yy = 202;
+				}
+				
 				//else {
 					//xx = 55;
 					//yy = 196;
@@ -75,32 +80,36 @@ else if(global.carbonDioxide == true and global.linearBoolean == true)
 				instance_activate_object(obj_player);
 				
 				
-				target = arr[irandom(3)];
+				target = arr[irandom(4)];
 				if (target == rm_grass_0) {
-					xx = 285;
-					yy = 215;
+					xx = 142;
+					yy = 195;
 				}
 				if (target == rm_grass_1) {
-					xx = 250;
-					yy = 215;
+					xx = 165;
+					yy = 172;
 				}
 				if (target == rm_grass_2) {
-					xx = 285;
-					yy = 215;
+					xx = 54;
+					yy = 194;
 				}
 				
 				if (target == rm_grass_3) {
-					xx = 285;
-					yy = 215;
+					xx = 287;
+					yy = 216;
+				}
+				if (target == rm_grass_4) {
+					xx = 183;
+					yy = 202;
 				}
 				
-				if(active == 0)
-				{
+				//if(active == 0)
+				//{
 					room_goto(target);
 					obj_player.x = xx;  
 					obj_player.y = yy;
 					active = 1;
-				}
+				//}
 				
 				global.carbonDioxide = false;
 				global.linearBoolean = false;
@@ -122,23 +131,27 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				instance_destroy(obj_Chlorine);
 				instance_activate_object(obj_player);
 				
-				target = arr[irandom(3)];
+				target = arr[irandom(4)];
 				if (target == rm_grass_0) {
-					xx = 285;
-					yy = 215;
+					xx = 142;
+					yy = 195;
 				}
 				if (target == rm_grass_1) {
-					xx = 250;
-					yy = 215;
+					xx = 165;
+					yy = 172;
 				}
 				if (target == rm_grass_2) {
-					xx = 285;
-					yy = 215;
+					xx = 54;
+					yy = 194;
 				}
 				
 				if (target == rm_grass_3) {
-					xx = 285;
-					yy = 215;
+					xx = 287;
+					yy = 216;
+				}
+				if (target == rm_grass_4) {
+					xx = 183;
+					yy = 202;
 				}
 				//if(active == 0)
 				//{
@@ -171,23 +184,27 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 instance_activate_object(obj_player);
 				instance_activate_object(oPlayer);
                 
-                target = arr[irandom(3)];
+                target = arr[irandom(4)];
 				if (target == rm_grass_0) {
-					xx = 285;
-					yy = 215;
+					xx = 142;
+					yy = 195;
 				}
 				if (target == rm_grass_1) {
-					xx = 250;
-					yy = 215;
+					xx = 165;
+					yy = 172;
 				}
 				if (target == rm_grass_2) {
-					xx = 285;
-					yy = 215;
+					xx = 54;
+					yy = 194;
 				}
 				
 				if (target == rm_grass_3) {
-					xx = 285;
-					yy = 215;
+					xx = 287;
+					yy = 216;
+				}
+				if (target == rm_grass_4) {
+					xx = 183;
+					yy = 202;
 				}
                 //if(active == 0)
                 //{
@@ -217,23 +234,27 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 				instance_activate_object(obj_player);
 				instance_activate_object(oPlayer);
 				
-				target = arr[irandom(3)];
+				target = arr[irandom(4)];
 				if (target == rm_grass_0) {
-					xx = 285;
-					yy = 215;
+					xx = 142;
+					yy = 195;
 				}
 				if (target == rm_grass_1) {
-					xx = 250;
-					yy = 215;
+					xx = 165;
+					yy = 172;
 				}
 				if (target == rm_grass_2) {
-					xx = 285;
-					yy = 215;
+					xx = 54;
+					yy = 194;
 				}
 				
 				if (target == rm_grass_3) {
-					xx = 285;
-					yy = 215;
+					xx = 287;
+					yy = 216;
+				}
+				if (target == rm_grass_4) {
+					xx = 183;
+					yy = 202;
 				}
 				//if(active == 0)
 				//{
