@@ -21,28 +21,37 @@ if(global.dihydrogenMonoxide == true and global.bentBoolean == true)
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Hydrogen);
 				instance_activate_object(obj_player);
-				instance_activate_object(oPlayer);
 				
 				target = arr[irandom(3)];
+				if (target == rm_grass_0) {
+					xx = 285;
+					yy = 215;
+				}
+				if (target == rm_grass_1) {
+					xx = 250;
+					yy = 215;
+				}
+				if (target == rm_grass_2) {
+					xx = 285;
+					yy = 215;
+				}
 				
 				if (target == rm_grass_3) {
 					xx = 285;
 					yy = 215;
 				}
-				else {
-					xx = 55;
-					yy = 196;
-				}
+				//else {
+					//xx = 55;
+					//yy = 196;
+				//}
 				
-				if(active == 0)
-				{
+				//if(active == 0)
+				//{
 					room_goto(target);
 					obj_player.x = xx;  
 					obj_player.y = yy;
-					//oPlayer.x = xx;  
-					//oPlayer.y = yy;
 					active = 1;
-				}
+				//}
 				
 				global.dihydrogenMonoxide = false;
 				global.bentBoolean = false;
@@ -64,11 +73,26 @@ else if(global.carbonDioxide == true and global.linearBoolean == true)
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Carbon);
 				instance_activate_object(obj_player);
-				instance_activate_object(oPlayer);
+				
 				
 				target = arr[irandom(3)];
-				xx = 180;
-				yy = 190;
+				if (target == rm_grass_0) {
+					xx = 285;
+					yy = 215;
+				}
+				if (target == rm_grass_1) {
+					xx = 250;
+					yy = 215;
+				}
+				if (target == rm_grass_2) {
+					xx = 285;
+					yy = 215;
+				}
+				
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
+				}
 				
 				if(active == 0)
 				{
@@ -99,22 +123,30 @@ else if(global.berylliumChloride == true and global.linearBoolean == true)
 				instance_activate_object(obj_player);
 				
 				target = arr[irandom(3)];
-				if (target == rm_grass_4) {
-					xx = 200;
-					yy = 200;
+				if (target == rm_grass_0) {
+					xx = 285;
+					yy = 215;
 				}
-				else {
-					xx = 290;
-					yy = 220;
+				if (target == rm_grass_1) {
+					xx = 250;
+					yy = 215;
+				}
+				if (target == rm_grass_2) {
+					xx = 285;
+					yy = 215;
 				}
 				
-				if(active == 0)
-				{
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
+				}
+				//if(active == 0)
+				//{
 					room_goto(target);
 					obj_player.x = xx;  
 					obj_player.y = yy;
 					active = 1;
-				}
+				//}
 				
 				global.berylliumChloride = false;
 				global.linearBoolean = false;
@@ -137,23 +169,33 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
                 instance_destroy(obj_Oxygen);
                 instance_destroy(obj_Sulfur);
                 instance_activate_object(obj_player);
+				instance_activate_object(oPlayer);
                 
                 target = arr[irandom(3)];
-				if (target == rm_grass_4) {
-					xx = 200;
-					yy = 200;
+				if (target == rm_grass_0) {
+					xx = 285;
+					yy = 215;
 				}
-                else {
-					xx = 160;
-					yy = 187;
+				if (target == rm_grass_1) {
+					xx = 250;
+					yy = 215;
 				}
-                if(active == 0)
-                {
+				if (target == rm_grass_2) {
+					xx = 285;
+					yy = 215;
+				}
+				
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
+				}
+                //if(active == 0)
+                //{
                     room_goto(target);
 					obj_player.x = xx;  
 					obj_player.y = yy;
                     active = 1;
-                }
+                //}
                 
                 global.sulfate = false;
                 global.tetrahedronBoolean = false;
@@ -173,24 +215,33 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true)
 				instance_destroy(obj_Sulfur);
 				instance_destroy(obj_Fluorine);
 				instance_activate_object(obj_player);
+				instance_activate_object(oPlayer);
 				
 				target = arr[irandom(3)];
-				if (target == rm_grass_2) {
-					xx = 55;
-					yy = 200;
+				if (target == rm_grass_0) {
+					xx = 285;
+					yy = 215;
 				}
-				else {
-					xx = 200;
-					yy = 200;
+				if (target == rm_grass_1) {
+					xx = 250;
+					yy = 215;
+				}
+				if (target == rm_grass_2) {
+					xx = 285;
+					yy = 215;
 				}
 				
-				if(active == 0)
-				{
+				if (target == rm_grass_3) {
+					xx = 285;
+					yy = 215;
+				}
+				//if(active == 0)
+				//{
 					room_goto(target);
 					obj_player.x = xx;  
 					obj_player.y = yy;
 					active = 1;
-				}
+				//}
 				
 				global.sulfurTetraflouride = false;
 				global.seesawBoolean = false;
