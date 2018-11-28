@@ -17,9 +17,15 @@ if (global.dihydrogenMonoxide == true and global.bentBoolean == true) {
 					instance_destroy(obj_Oxygen);
 					instance_destroy(obj_Hydrogen);
 					instance_activate_object(obj_player);	
-				
+					
 					if (active == 0) {
 						room_goto(rm_next);
+						
+						var clear_items = 0; repeat(playerInventoryWidth) {
+							trashItem();
+							clear_items += 1;
+						}
+						
 						if (rm_next == rm_grass_1) {
 							xx = 165;
 							yy = 172;
@@ -61,9 +67,14 @@ else if(global.carbonDioxide == true and global.linearBoolean == true) {
 				instance_destroy(obj_Oxygen);
 				instance_destroy(obj_Carbon);
 				instance_activate_object(obj_player);
-				
+
 				if (active == 0) {
 					room_goto(rm_next);
+					
+					var clear_items = 0; repeat(playerInventoryWidth) {
+						trashItem();
+						clear_items += 1;
+					}
 					
 					if (rm_next == rm_grass_1) {
 						xx = 165;
@@ -108,6 +119,11 @@ else if (global.berylliumChloride == true and global.linearBoolean == true) {
 				
 				if(active == 0) {
 					room_goto(rm_next);
+					
+					var clear_items = 0; repeat(playerInventoryWidth) {
+						trashItem();
+						clear_items += 1;
+					}
 					
 					if (rm_next == rm_grass_1) {
 						xx = 165;
@@ -157,6 +173,11 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
 				if(active == 0) {
                     room_goto(rm_next);
 					
+					var clear_items = 0; repeat(playerInventoryWidth) {
+						trashItem();
+						clear_items += 1;
+					}
+					
 					if (rm_next == rm_grass_1) {
 						xx = 165;
 						yy = 172;
@@ -199,6 +220,11 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true) {
 				
 				if (active == 0) {
 					room_goto(rm_next);
+					
+					var clear_items = 0; repeat(playerInventoryWidth) {
+						trashItem();
+						clear_items += 1;
+					}
 					
 					if (rm_next == rm_grass_1) {
 						xx = 165;

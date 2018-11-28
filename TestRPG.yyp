@@ -1071,14 +1071,6 @@
             }
         },
         {
-            "Key": "67badfb1-ff71-4280-9b9f-7101dc61c76f",
-            "Value": {
-                "id": "9af79c9c-9bf1-4e26-932a-3e19554baf93",
-                "resourcePath": "scripts\/InstanceCreationCode_inst_2E4839C7\/InstanceCreationCode_inst_2E4839C7.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6828b8bc-028e-468e-bf32-0ad95b738864",
             "Value": {
                 "id": "c5574daf-8afd-4074-b8c0-eccea7b349d7",
@@ -2412,7 +2404,6 @@
         "d79ca7a8-4a02-4a83-beb5-7c1fcaacbfe9",
         "58c90485-e22e-4c11-96fe-b46828d7a3e6",
         "a5675cf1-d582-4d3f-87ce-8998e7eaecfb",
-        "67badfb1-ff71-4280-9b9f-7101dc61c76f",
         "2fdc988a-9827-4e45-ac8e-d46b9a9b9092",
         "a1dd0481-08f5-4544-8b8c-030d262dcff2",
         "d377ac5c-fbf8-40c4-be53-80e54de21afc",

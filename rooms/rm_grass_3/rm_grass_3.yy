@@ -7,7 +7,6 @@
     "inheritCreationOrder": true,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "ee69d329-cfe7-4c4a-af08-50e970204e27",
         "f1b104db-eaf8-46ba-bbc2-7362f1a87c51",
         "def3ad75-1849-4c00-989f-414882219626",
         "9091cedb-af5d-4a98-a6d2-e777133612d0",
@@ -153,7 +152,6 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_7ECE3492","id": "ee69d329-cfe7-4c4a-af08-50e970204e27","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_7ECE3492.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7ECE3492","objId": "03f506f3-0727-46ac-8ac5-1b9d714f622f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 272,"y": 240},
 {"name": "inst_74CC3951","id": "f1b104db-eaf8-46ba-bbc2-7362f1a87c51","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_74CC3951","objId": "6b912aee-9b3b-4a59-b601-5b67a23ef7bf","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 16,"y": 32},
 {"name": "inst_88C95F7","id": "def3ad75-1849-4c00-989f-414882219626","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_88C95F7","objId": "6b912aee-9b3b-4a59-b601-5b67a23ef7bf","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 16,"y": 48},
 {"name": "inst_7F7C9E17","id": "9091cedb-af5d-4a98-a6d2-e777133612d0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7F7C9E17","objId": "6b912aee-9b3b-4a59-b601-5b67a23ef7bf","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 16,"y": 64},
@@ -334,7 +332,7 @@
                     2147483648,2147483648,2147483648,32,2147483648,2147483648,2147483648,9,45,46,2147483648,2147483648,33,45,46,2147483648,20,2147483648,2147483648,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,20,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,20,2147483648,2147483648,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,34,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,23,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,36,37,37,38
                 ]
             },
             "tilesetId": "980bf156-74a0-487e-8e78-fdb48bd8ea0d",
@@ -383,7 +381,7 @@
                     2147483648,2147483648,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,0,
                     2147483648,2147483648,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,0,
                     2147483648,2147483648,12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,11,10,0,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,8,10,0,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,12,14,0,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,8,10,0
                 ]
             },

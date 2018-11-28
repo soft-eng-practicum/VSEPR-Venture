@@ -43,9 +43,4 @@ else
 		if(itemSelected> 0)
 			--itemSelected;
 	}
-	
-	
 }
-
-
-
