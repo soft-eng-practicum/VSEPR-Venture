@@ -10,4 +10,5 @@ while(distance_to_object(obj_player) < 4) && (action_key) && (!instance_exists(o
 	}
 	
 	global.tetrahedronBoolean = true;
+	global.sulfurTetraflouride = true;
 }

@@ -2,6 +2,14 @@
 var rm_num	= irandom_range(1, 4);
 var rm_next = asset_get_index("rm_grass_" + string(rm_num));
 
+if (rm_next) {
+	var clear_items = 0; 
+	repeat(playerInventoryWidth) {
+		trashItem();
+		clear_items += 1;
+	}
+}
+
 // Game start room --- rm_0 --- Tutorial room.
 if (global.dihydrogenMonoxide == true and global.bentBoolean == true) {
 	
@@ -71,11 +79,6 @@ else if(global.carbonDioxide == true and global.linearBoolean == true) {
 				if (active == 0) {
 					room_goto(rm_next);
 					
-					var clear_items = 0; repeat(playerInventoryWidth) {
-						trashItem();
-						clear_items += 1;
-					}
-					
 					if (rm_next == rm_grass_1) {
 						xx = 165;
 						yy = 172;
@@ -119,11 +122,6 @@ else if (global.berylliumChloride == true and global.linearBoolean == true) {
 				
 				if(active == 0) {
 					room_goto(rm_next);
-					
-					var clear_items = 0; repeat(playerInventoryWidth) {
-						trashItem();
-						clear_items += 1;
-					}
 					
 					if (rm_next == rm_grass_1) {
 						xx = 165;
@@ -173,11 +171,6 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
 				if(active == 0) {
                     room_goto(rm_next);
 					
-					var clear_items = 0; repeat(playerInventoryWidth) {
-						trashItem();
-						clear_items += 1;
-					}
-					
 					if (rm_next == rm_grass_1) {
 						xx = 165;
 						yy = 172;
@@ -193,8 +186,8 @@ else if(global.sulfate == true and global.tetrahedronBoolean == true)
 						yy = 216;
 					}
 					if (rm_next == rm_grass_4) {
-						xx = 183;
-						yy = 202;
+						xx = 180;
+						yy = 170;
 					}
 					
 					obj_player.x = xx;  
@@ -220,11 +213,6 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true) {
 				
 				if (active == 0) {
 					room_goto(rm_next);
-					
-					var clear_items = 0; repeat(playerInventoryWidth) {
-						trashItem();
-						clear_items += 1;
-					}
 					
 					if (rm_next == rm_grass_1) {
 						xx = 165;
@@ -254,4 +242,10 @@ else if(global.sulfurTetraflouride == true and global.seesawBoolean == true) {
 			}
 		}
 	}
+}
+else if (global.ammonia == true && global.trigonalPlanarBoolean == true) {
+	active = 0;
+}
+else {
+	active = 0;
 }

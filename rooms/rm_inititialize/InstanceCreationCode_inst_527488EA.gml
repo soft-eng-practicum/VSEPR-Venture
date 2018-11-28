@@ -15,7 +15,11 @@ global.tShapedBoolean = false;
 global.dihydrogenMonoxide = false;
 global.carbonDioxide = false;
 global.berylliumChloride = false;
+global.sulfurTetraflouride = false;
 global.sulfate = false;
+global.hydrogen_cyanide = false;
+global.ammonia = false;
+global.boron_hydride = false;
 
 // Start Room
 room_goto(rm_main_room);

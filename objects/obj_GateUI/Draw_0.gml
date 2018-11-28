@@ -56,7 +56,7 @@ if(global.octahedronBoolean == true)
 
 if(global.pyramidalBoolean == true)
 {
-	draw_sprite(spr_Overlay_Pyramidal, 0, bbox_right - 180, bbox_top + 100);
+	draw_sprite(spr_ui_trigonal_pyramidal_1, 0, bbox_right - 180, bbox_top + 100);
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);
 	draw_text_color(bbox_left+135, bbox_top, "Pyramidal", c_black, c_black, c_black, c_black, 1);
@@ -115,7 +115,7 @@ if(global.trigonalBipyramidalBoolean == true)
 
 if(global.trigonalPlanarBoolean == true)
 {
-	draw_sprite(spr_Overlay_TrigonalPlanar, 0, bbox_right - 180, bbox_top + 100);
+	draw_sprite(spr_ui_trigonal_planar_1, 0, bbox_right - 180, bbox_top + 100);
 	draw_set_halign(fa_center);
 	draw_set_font(font_bold);
 	draw_text_color(bbox_left+135, bbox_top, "Trigonal Planar", c_black, c_black, c_black, c_black, 1);
